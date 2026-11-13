@@ -1,0 +1,127 @@
+crime|suç|B1|n|suc|Crime fell while fear of crime rose.|commit a crime
+offender|suçlu, fail|C1|n|suc|Most young offenders never return to court.|a first-time offender
+theft|hırsızlık|B2|n|suc|Bicycle theft is rarely investigated.|identity theft
+burglary|ev soygunu|B2|n|suc|Burglary rates dropped when street lights improved.|commit a burglary
+fraud|dolandırıcılık|B2|n|suc|Online fraud targets the elderly first.|commit fraud
+bribery|rüşvet|C1|n|suc|Bribery was so common that nobody called it a crime.|bribery and corruption
+smuggling|kaçakçılık|C1|n|suc|Smuggling follows every closed border.|drug smuggling
+trafficking|insan/uyuşturucu ticareti|C1|n|suc|Human trafficking hides behind job advertisements.|human trafficking
+vandalism|vandalizm|B2|n|suc|Vandalism of the monument shocked the town.|an act of vandalism
+arson|kundaklama|C1|n|suc|The warehouse fire was treated as arson.|an arson attack
+assault|saldırı|C1|n,v|suc|He was charged with assault outside the stadium.|a violent assault
+suspect|şüpheli, şüphelenmek|B2|n,v|suc|The suspect was released without charge.|the main suspect
+arrest|tutuklama, tutuklamak|B2|n,v|suc|The arrest was filmed by a passer-by.|make an arrest
+custody|gözaltı|C1|n|suc|He spent two nights in custody.|in police custody
+interrogate|sorgulamak|C1|v|suc|Officers interrogated him for nine hours.|interrogate a suspect
+trial|yargılama, duruşma|B2|n|suc|The trial was closed to the press.|a fair trial
+jury|jüri|B2|n|suc|The jury took four days to decide.|trial by jury
+convict|mahkûm etmek|C1|v|suc|The court convicted him on weak evidence.|convict sb of a crime
+acquit|beraat ettirmek|C1|v|suc|The judges acquitted all three defendants.|acquit sb of a charge
+sentence a criminal|ceza vermek|C1|phr|suc|Courts sentence a criminal, but society decides what follows.|sentence a criminal to prison
+imprisonment|hapis|C1|n|suc|Life imprisonment replaced the death penalty.|life imprisonment
+parole|şartlı tahliye|C1|n|suc|He was released on parole after six years.|on parole
+rehabilitation|ıslah, rehabilitasyon|C1|n|suc|Rehabilitation costs less than a second prison term.|rehabilitation of offenders
+deterrent|caydırıcı|C1|n,adj|suc|Certainty of arrest is a better deterrent than harsh sentences.|act as a deterrent
+reoffend|yeniden suç işlemek|C1|v|suc|Prisoners with a job waiting rarely reoffend.|likely to reoffend
+juvenile delinquency|çocuk suçluluğu|C1|n|suc|Juvenile delinquency follows closed youth clubs.|a rise in juvenile delinquency
+death penalty|idam cezası|B2|n|suc|The death penalty was abolished in 2004.|abolish the death penalty
+witness|tanık, tanık olmak|B2|n,v|suc|The only witness changed her story twice.|a key witness
+alibi|mazeret, başka yerde olduğunun kanıtı|C1|n|suc|His alibi collapsed under one phone record.|have an alibi
+forensic|adli|C1|adj|suc|Forensic evidence linked the car to the scene.|forensic evidence
+law enforcement|kolluk kuvvetleri|C1|n|suc|Law enforcement cannot replace social policy.|law enforcement agencies
+United Nations|Birleşmiş Milletler|B1|n|ulu|The United Nations was built to prevent a third war.|a United Nations resolution
+treaty|antlaşma|B2|n|ulu|The treaty redrew the map of the region.|sign a treaty
+alliance|ittifak|B2|n|ulu|The alliance held because the threat was shared.|form an alliance
+summit|zirve|B2|n|ulu|The summit ended without a joint statement.|hold a summit
+ambassador|büyükelçi|B2|n|ulu|The ambassador was recalled within hours.|recall an ambassador
+embassy|büyükelçilik|B2|n|ulu|Crowds gathered outside the embassy.|outside the embassy
+sanction|yaptırım, yaptırım uygulamak|C1|n,v|ulu|Sanctions hurt the population before the regime.|impose sanctions
+embargo|ambargo|C1|n|ulu|The arms embargo was ignored by three neighbours.|lift an embargo
+negotiation|müzakere|B2|n|ulu|Negotiation is war continued by quieter means.|enter into negotiations
+bilateral|ikili|C1|adj|ulu|Bilateral talks resumed after a six-year silence.|bilateral relations
+multilateral|çok taraflı|C1|adj|ulu|Climate needs a multilateral answer.|a multilateral agreement
+superpower|süper güç|B2|n|ulu|A superpower is judged by its restraint.|a global superpower
+balance of power|güç dengesi|C1|n|ulu|The balance of power shifted eastwards.|shift the balance of power
+deterrence|caydırıcılık|C1|n|ulu|Nuclear deterrence rests on a threat nobody wants to carry out.|nuclear deterrence
+soft power|yumuşak güç|C1|n|ulu|Television series are a form of soft power.|exercise soft power
+foreign aid|dış yardım|B2|n|ulu|Foreign aid often returns to the donor as contracts.|cut foreign aid
+intervention|müdahale|C1|n|ulu|The intervention ended one war and began another.|military intervention
+neutrality|tarafsızlık|C1|n|ulu|Neutrality was a strategy, not a principle.|maintain neutrality
+ratify|onaylamak|C1|v|ulu|Parliament refused to ratify the agreement.|ratify a treaty
+ceasefire talks|ateşkes görüşmeleri|C1|n|ulu|Ceasefire talks collapsed over a single village.|ceasefire talks
+hegemony|hegemonya|C2|n|ulu|Naval hegemony once decided the fate of empires.|regional hegemony
+proxy war|vekâlet savaşı|C1|n|ulu|The conflict became a proxy war between larger powers.|fight a proxy war
+national interest|ulusal çıkar|B2|n|ulu|Every state calls its ambition the national interest.|in the national interest
+mediate|arabuluculuk etmek|C1|v|ulu|A neutral country offered to mediate.|mediate between the sides
+career|kariyer|B1|n|kar|A career now means several jobs in several fields.|pursue a career
+profession|meslek|B1|n|kar|Teaching is a profession that society underpays.|the legal profession
+vocation|meslek aşkı, çağrı|C1|n|kar|Medicine was a vocation long before it was a business.|a sense of vocation
+apprenticeship|çıraklık|C1|n|kar|An apprenticeship pays while it teaches.|serve an apprenticeship
+internship|staj|B2|n|kar|An unpaid internship favours those who can afford it.|do an internship
+curriculum vitae|özgeçmiş|B2|n|kar|A curriculum vitae lists successes and hides the route.|update a curriculum vitae
+applicant|başvuran|B2|n|kar|Each post attracts four hundred applicants.|a job applicant
+interviewer|mülakatı yapan kişi|B2|n|kar|The interviewer decided in the first minute.|impress the interviewer
+recruit|işe almak, yeni eleman|C1|v,n|kar|Firms recruit from the same five universities.|recruit new staff
+promotion|terfi|B2|n|kar|Promotion came to those who stayed late.|get a promotion
+entrepreneur|girişimci|B2|n|kar|An entrepreneur sells a solution before it exists.|a young entrepreneur
+start-up|yeni girişim|B2|n|kar|Nine start-ups in ten close within three years.|a tech start-up
+freelance|serbest çalışan|B2|adj,v|kar|She went freelance to choose her own clients.|a freelance journalist
+networking|ilişki ağı kurma|B2|n|kar|Networking opens doors that grades cannot.|a networking event
+mentor|akıl hocası|C1|n,v|kar|A good mentor asks more than she tells.|act as a mentor
+transferable|aktarılabilir|C1|adj|kar|Debating gives students transferable skills.|transferable skills
+aptitude|yetenek, yatkınlık|C1|n|kar|The test measures aptitude, not knowledge.|an aptitude for languages
+ambition|hırs, hedef|B2|n|kar|Ambition without a plan is only a wish.|achieve an ambition
+work-life balance|iş-yaşam dengesi|B2|n|kar|Work-life balance is the first victim of promotion.|a healthy work-life balance
+burnout|tükenmişlik|C1|n|kar|Burnout is presented as a personal failure.|suffer from burnout
+gap year|ara yıl|B2|n|kar|A gap year teaches what a classroom cannot.|take a gap year
+qualification|yeterlilik, diploma|B2|n|kar|The job requires no formal qualifications.|a professional qualification
+headhunt|yetenek avlamak|C2|v|kar|Rival firms tried to headhunt the whole team.|be headhunted
+climb the ladder|basamakları tırmanmak|C1|idm|kar|She climbed the ladder without stepping on anyone.|climb the career ladder
+dead-end job|geleceği olmayan iş|C1|n|kar|He left a dead-end job to retrain as a nurse.|stuck in a dead-end job
+poverty|yoksulluk|B1|n|yok|Poverty is expensive for those who live in it.|live in poverty
+deprivation|yoksunluk|C1|n|yok|Childhood deprivation shows in adult health.|social deprivation
+homelessness|evsizlik|B2|n|yok|Homelessness grew beside empty luxury flats.|tackle homelessness
+welfare|sosyal yardım, refah|B2|n|yok|Welfare prevents a bad month becoming a ruined life.|the welfare state
+benefit payment|yardım ödemesi|C1|n|yok|A delayed benefit payment means an empty fridge.|a benefit payment
+food bank|gıda bankası|B2|n|yok|Teachers now queue at the food bank.|rely on a food bank
+breadline|açlık sınırı|C2|n|yok|Millions of pensioners live on the breadline.|on the breadline
+slum|gecekondu mahallesi|B2|n|yok|The slum stood a mile from the financial district.|a city slum
+malnutrition|yetersiz beslenme|C1|n|yok|Malnutrition stunts a child for life.|suffer from malnutrition
+destitute|muhtaç, yoksul|C1|adj|yok|The war left thousands destitute.|leave sb destitute
+affluent|varlıklı|C1|adj|yok|Affluent districts have twice as many parks.|an affluent suburb
+underprivileged|imkânı kısıtlı|C1|adj|yok|The scheme funds underprivileged pupils.|underprivileged children
+wealth gap|servet uçurumu|C1|n|yok|The wealth gap is wider than the income gap.|a widening wealth gap
+social mobility|sosyal hareketlilik|C1|n|yok|Social mobility stalls where schools are unequal.|improve social mobility
+minimum wage|asgari ücret|B2|n|yok|The minimum wage no longer covers a single room.|raise the minimum wage
+living wage|geçim ücreti|C1|n|yok|A living wage is cheaper than welfare.|pay a living wage
+safety net|güvenlik ağı|C1|n|yok|The safety net has holes large enough for families.|a social safety net
+vicious circle|kısır döngü|C1|n|yok|Debt and low pay form a vicious circle.|trapped in a vicious circle
+make ends meet|iki yakasını bir araya getirmek|B2|idm|yok|Two salaries barely make ends meet.|struggle to make ends meet
+hand-to-mouth|günü gününe|C1|adj|yok|A hand-to-mouth existence leaves no room for plans.|a hand-to-mouth existence
+charity|hayır kurumu, yardım|B1|n|yok|Charity cannot do the work of a just tax system.|give to charity
+hardship|sıkıntı, zorluk|B2|n|yok|Economic hardship pushed families abroad.|suffer hardship
+disadvantaged|dezavantajlı|B2|adj|yok|Disadvantaged pupils lost most during the closures.|a disadvantaged background
+household|hane|B2|n|ail|One household in three has a single adult.|a single-parent household
+sibling|kardeş|B2|n|ail|Siblings share a childhood but not a memory of it.|sibling rivalry
+spouse|eş|C1|n|ail|A spouse's income decided the visa.|a surviving spouse
+in-laws|eşin ailesi|B2|n|ail|Holidays are divided between two sets of in-laws.|get on with the in-laws
+extended family|geniş aile|B2|n|ail|The extended family once did the work of a nursery.|an extended family
+nuclear family|çekirdek aile|B2|n|ail|The nuclear family is a recent invention.|the nuclear family
+single parent|tek ebeveyn|B2|n|ail|A single parent does two jobs before breakfast.|a single parent family
+adoption|evlat edinme|B2|n|ail|Adoption gave the twins a second beginning.|put up for adoption
+foster|koruyucu aile olmak|C1|v,adj|ail|They fostered eleven children over twenty years.|a foster family
+custody of a child|velayet|C1|n|ail|The court granted her custody of a child she had raised alone.|joint custody of a child
+breadwinner|eve ekmek getiren|C1|n|ail|The breadwinner model assumed one salary was enough.|the main breadwinner
+childcare|çocuk bakımı|B2|n|ail|Childcare costs more than rent in the capital.|affordable childcare
+parental leave|ebeveyn izni|B2|n|ail|Shared parental leave changes careers and kitchens.|take parental leave
+domestic chore|ev işi|B2|n|ail|Every domestic chore is still divided by habit.|share domestic chores
+strict|katı, sert|B1|adj|ail|Strict parents raise skilled liars.|a strict upbringing
+lenient|hoşgörülü, gevşek|C1|adj|ail|Lenient rules work when trust is high.|lenient parents
+overprotective|aşırı korumacı|C1|adj|ail|Overprotective parenting delays independence.|an overprotective mother
+estranged|arası açık, kopmuş|C2|adj|ail|He was estranged from his father for a decade.|an estranged son
+bring up|yetiştirmek|B1|pv|ail|Grandparents often bring up the children of migrant workers.|bring up children
+take after|çekmek, benzemek|B2|pv|ail|He takes after his mother in stubbornness.|take after a parent
+look after|bakmak|B1|pv|ail|The eldest daughter looked after four siblings.|look after children
+tie the knot|evlenmek|B2|idm|ail|They tied the knot after a ten-year engagement.|tie the knot
+run in the family|ailede olmak|B2|idm|ail|A talent for music runs in the family.|run in the family
+flesh and blood|öz evlat, kan bağı|C1|idm|ail|He could not turn away his own flesh and blood.|your own flesh and blood

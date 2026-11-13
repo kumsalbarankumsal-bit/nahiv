@@ -1,0 +1,137 @@
+sustainable|sürdürülebilir|B2|adj|cev|Sustainable fishing leaves enough for next year.|sustainable development
+sustainability|sürdürülebilirlik|B2|n|cev|Sustainability became a slogan before it became a policy.|environmental sustainability
+contaminate|kirletmek, bulaştırmak|C1|v|cev|Mining waste contaminated the river for decades.|contaminate the water supply
+toxic waste|zehirli atık|B2|n|cev|Toxic waste was shipped to poorer countries.|dump toxic waste
+endangered|nesli tehlikede|B2|adj|cev|The endangered turtle nests on a tourist beach.|an endangered species
+wildlife|yaban hayatı|B1|n|cev|Wildlife returned when the factory closed.|protect wildlife
+pesticide|tarım ilacı|C1|n|cev|Pesticides killed the bees along with the pests.|use of pesticides
+overfishing|aşırı avlanma|C1|n|cev|Overfishing emptied the bay within a generation.|the effects of overfishing
+eco-friendly|çevre dostu|B2|adj|cev|Eco-friendly packaging costs a few cents more.|eco-friendly products
+biodegradable|doğada çözünen|C1|adj|cev|Biodegradable bags still need the right conditions.|biodegradable packaging
+carbon neutral|karbon nötr|C1|adj|cev|The city aims to be carbon neutral by 2040.|become carbon neutral
+dispose of|bertaraf etmek, atmak|B2|pv|cev|Nobody knows how to dispose of old batteries safely.|dispose of waste
+run out of|tükenmek, bitirmek|B1|pv|cev|The region will run out of groundwater within a decade.|run out of time
+civil liberties|sivil özgürlükler|C1|n|hak|Civil liberties shrink quietly during emergencies.|protect civil liberties
+freedom of assembly|toplanma özgürlüğü|C1|n|hak|Freedom of assembly was suspended for a month.|the right to freedom of assembly
+asylum|sığınma|B2|n|hak|She was granted asylum after two years of waiting.|seek asylum
+prisoner of conscience|düşünce mahkûmu|C2|n|hak|The poet was declared a prisoner of conscience.|a prisoner of conscience
+fair trial|adil yargılanma|B2|n|hak|A fair trial is the first right a regime removes.|the right to a fair trial
+violate|ihlal etmek|C1|v|hak|The law violates the principle of equal treatment.|violate a right
+uphold|korumak, savunmak|C1|v|hak|Judges swore to uphold the constitution.|uphold the law
+deprive|yoksun bırakmak|C1|v|hak|The ban deprived girls of an education.|deprive sb of sth
+silence|susturmak, sessizlik|B2|v,n|hak|Lawsuits are used to silence reporters.|silence critics
+stateless|vatansız|C1|adj|hak|Stateless children cannot enrol in school.|a stateless person
+humanitarian|insani|B2|adj|hak|A humanitarian corridor opened for six hours.|humanitarian aid
+stand up for|savunmak|B2|pv|hak|Few colleagues dared to stand up for the dismissed editor.|stand up for your rights
+truce|ateşkes, mütareke|C1|n|bar|The truce held through the winter.|call a truce
+hostility|düşmanlık|C1|n|bar|Hostility between the neighbours is older than the border.|open hostility
+stalemate|çıkmaz, pat durumu|C1|n|bar|The talks reached a stalemate over prisoners.|break the stalemate
+concession|taviz|C1|n|bar|Each side called its concession a victory.|make a concession
+peace accord|barış anlaşması|C1|n|bar|The peace accord was signed in a neutral capital.|sign a peace accord
+withdraw|çekilmek, geri çekmek|B2|v|bar|Troops began to withdraw at dawn.|withdraw troops
+civilian|sivil|B2|n,adj|bar|Civilians paid for a war they never chose.|civilian casualties
+refugee camp|mülteci kampı|B2|n|bar|A refugee camp built for a year lasted thirty.|live in a refugee camp
+war crime|savaş suçu|C1|n|bar|The shelling of the hospital was a war crime.|commit a war crime
+compromise|uzlaşma, uzlaşmak|B2|n,v|bar|A compromise leaves everyone slightly unhappy.|reach a compromise
+settle|çözmek, uzlaştırmak|B2|v|bar|The dispute was settled without a single shot.|settle a dispute
+break out|patlak vermek|B2|pv|bar|Fighting broke out along the northern front.|war breaks out
+glass ceiling|cam tavan|C1|n|esi|The glass ceiling is cracked but not broken.|break the glass ceiling
+stereotype|kalıp yargı|B2|n,v|esi|A stereotype saves the effort of looking.|challenge a stereotype
+tokenism|göstermelik temsil|C2|n|esi|One woman on the board is tokenism, not change.|accusations of tokenism
+equal opportunities|fırsat eşitliği|B2|n|esi|Equal opportunities begin long before the interview.|an equal opportunities policy
+ageism|yaş ayrımcılığı|C1|n|esi|Ageism is the prejudice everyone will eventually meet.|ageism in the workplace
+sexism|cinsiyetçilik|B2|n|esi|Casual sexism hides inside jokes.|everyday sexism
+racism|ırkçılık|B2|n|esi|Racism on the terraces ended his career early.|fight racism
+disability rights|engelli hakları|C1|n|esi|Disability rights begin with a ramp and end with a job.|disability rights
+unbiased|tarafsız|C1|adj|esi|No algorithm trained on old data is unbiased.|an unbiased view
+equity|hakkaniyet|C1|n|esi|Equity gives more to those who start with less.|equity in education
+underprivileged group|dezavantajlı grup|C1|n|esi|Each underprivileged group faces a different barrier.|an underprivileged group
+on equal terms|eşit şartlarda|C1|phr|esi|Small clubs cannot compete on equal terms.|compete on equal terms
+import|ithalat, ithal etmek|B2|n,v|kur|The country imports nine tenths of its energy.|import goods
+export|ihracat, ihraç etmek|B2|n,v|kur|Hazelnuts are the region's main export.|export goods
+trade barrier|ticaret engeli|C1|n|kur|Every trade barrier protects someone and taxes everyone.|remove trade barriers
+brain drain|beyin göçü|C1|n|kur|Brain drain empties the hospitals that trained the doctors.|suffer a brain drain
+global village|küresel köy|B2|n|kur|The global village has very unequal streets.|live in a global village
+cross-border|sınır ötesi|C1|adj|kur|Cross-border trade survived the political freeze.|cross-border cooperation
+labour market|iş gücü piyasası|C1|n|kur|The labour market rewards languages.|enter the labour market
+consumerism|tüketimcilik|C1|n|kur|Consumerism sells identity along with shoes.|a culture of consumerism
+sweatshop|ter atölyesi|C1|n|kur|The shirt was sewn in a sweatshop for a few cents.|sweatshop labour
+fair trade|adil ticaret|B2|n|kur|Fair trade coffee pays farmers a fixed minimum.|fair trade products
+dependence|bağımlılık|B2|n|kur|Dependence on one supplier is a strategic weakness.|dependence on imports
+relocate|taşınmak, taşımak|C1|v|kur|The factory relocated to a cheaper country.|relocate production
+principle|ilke|B2|n|eti|He resigned on a point of principle.|a matter of principle
+virtue|erdem|C1|n|eti|Patience is a virtue that deadlines destroy.|a moral virtue
+ethical|etik|B2|adj|eti|An ethical bank refuses certain clients.|an ethical dilemma
+wrongdoing|suistimal, kabahat|C1|n|eti|The inquiry found no evidence of wrongdoing.|admit wrongdoing
+double standard|çifte standart|C1|n|eti|A double standard is easiest to see in others.|apply a double standard
+hypocrisy|ikiyüzlülük|C1|n|eti|The speech on honesty was an exercise in hypocrisy.|sheer hypocrisy
+fairness|adalet, hakkaniyet|B2|n|eti|Children understand fairness before they can spell it.|a sense of fairness
+honesty|dürüstlük|B1|n|eti|Honesty about failure is rare in annual reports.|in all honesty
+deceive|aldatmak|B2|v|eti|The label was designed to deceive buyers.|deceive the public
+obligation|yükümlülük|B2|n|eti|Wealth brings an obligation, not only a choice.|a moral obligation
+right and wrong|doğru ile yanlış|B1|phr|eti|War blurs the line between right and wrong.|tell right from wrong
+grey area|gri alan|C1|n|eti|Data collected with a click is a legal grey area.|a moral grey area
+the lesser of two evils|ehvenişer|C1|idm|eti|Voters chose the lesser of two evils.|choose the lesser of two evils
+turn a blind eye|görmezden gelmek|C1|idm|eti|Inspectors turned a blind eye to the leaks.|turn a blind eye to sth
+outskirts|kentin dış mahalleleri|B2|n|ken|Factories moved to the outskirts of the city.|on the outskirts
+skyline|ufuk çizgisi, siluet|B2|n|ken|New towers broke the historic skyline.|the city skyline
+landmark|simge yapı|B2|n|ken|The tower is the city's best-known landmark.|a historic landmark
+public transport|toplu taşıma|B1|n|ken|Free public transport cut traffic by a fifth.|use public transport
+neighbourhood|mahalle|B1|n|ken|The neighbourhood changed when the rents did.|a quiet neighbourhood
+metropolis|metropol|C1|n|ken|A metropolis of sixteen million never fully sleeps.|a modern metropolis
+inner city|şehir merkezi (yoksul)|C1|n|ken|Inner city schools need the best teachers.|inner city areas
+tenant|kiracı|B2|n|ken|Tenants have fewer rights than their landlords' cars.|a tenant's rights
+landlord|ev sahibi|B2|n|ken|The landlord doubled the rent with a text message.|a private landlord
+urban planning|şehir planlama|C1|n|ken|Urban planning decides who meets whom.|urban planning policy
+bustling|hareketli, canlı|C1|adj|ken|The bustling bazaar falls silent at sunset.|a bustling street
+run-down|bakımsız, köhne|B2|adj|ken|The run-down docks became a gallery district.|a run-down area
+global warming|küresel ısınma|B1|n|ikl|Global warming is measured in tenths of a degree.|the effects of global warming
+greenhouse effect|sera etkisi|B2|n|ikl|The greenhouse effect was described in the nineteenth century.|the greenhouse effect
+heatwave|sıcak dalgası|B2|n|ikl|The heatwave closed schools for a week.|a record heatwave
+sea level|deniz seviyesi|B2|n|ikl|Rising sea levels threaten every delta city.|rising sea levels
+glacier|buzul|B2|n|ikl|The glacier has retreated two kilometres.|a melting glacier
+ice cap|buzul örtüsü|C1|n|ikl|The polar ice cap shrinks every summer.|the polar ice caps
+carbon dioxide|karbondioksit|B2|n|ikl|Forests absorb carbon dioxide slowly and release it fast.|carbon dioxide emissions
+net zero|net sıfır|C1|n|ikl|Net zero by 2050 needs action before 2030.|reach net zero
+carbon tax|karbon vergisi|C1|n|ikl|A carbon tax makes pollution visible on the bill.|introduce a carbon tax
+solar panel|güneş paneli|B1|n|ikl|Solar panels cover the school roof.|install solar panels
+wind turbine|rüzgâr türbini|B2|n|ikl|Wind turbines power the island all winter.|an offshore wind turbine
+clean energy|temiz enerji|B2|n|ikl|Clean energy is now cheaper than coal.|invest in clean energy
+tipping point|kırılma noktası|C1|n|ikl|The ice sheet may have passed its tipping point.|reach a tipping point
+irreversible|geri döndürülemez|C1|adj|ikl|Some of the damage is already irreversible.|irreversible damage
+unprecedented|eşi görülmemiş|C1|adj|ikl|Temperatures rose at an unprecedented rate.|on an unprecedented scale
+adaptation|uyum|C1|n|ikl|Adaptation is cheaper than rebuilding.|climate adaptation
+climate denial|iklim inkârı|C1|n|ikl|Climate denial was funded like a campaign.|climate denial
+climate refugee|iklim mültecisi|C1|n|ikl|No treaty yet recognises a climate refugee.|a climate refugee
+phase out|aşamalı olarak kaldırmak|C1|pv|ikl|The country will phase out coal by 2035.|phase out fossil fuels
+cut down on|azaltmak|B2|pv|ikl|Cities must cut down on private car use.|cut down on waste
+extreme weather|aşırı hava olayları|B2|n|ikl|Extreme weather is the new normal for farmers.|extreme weather events
+wildfire|orman yangını|B2|n|ikl|The wildfire burned for eleven days.|a raging wildfire
+desertification|çölleşme|C1|n|ikl|Desertification pushes herders into the cities.|combat desertification
+ozone layer|ozon tabakası|B2|n|ikl|The ozone layer is slowly healing.|a hole in the ozone layer
+carbon capture|karbon yakalama|C2|n|ikl|Carbon capture remains expensive and unproven.|carbon capture technology
+scorching|kavurucu|C1|adj|ikl|A scorching July broke every record.|scorching heat
+thaw|erimek, çözülme|C1|v,n|ikl|The frozen ground is beginning to thaw.|a spring thaw
+natural disaster|doğal afet|B1|n|afe|A natural disaster reveals how a society was built.|hit by a natural disaster
+earthquake|deprem|B1|n|afe|The earthquake lasted less than a minute.|a devastating earthquake
+aftershock|artçı sarsıntı|C1|n|afe|Aftershocks kept families outdoors for weeks.|a strong aftershock
+tsunami|tsunami|B2|n|afe|The tsunami arrived twenty minutes after the quake.|a tsunami warning
+flood|sel, su basmak|B1|n,v|afe|The flood carried cars through the main street.|flash floods
+landslide disaster|heyelan felaketi|C1|n|afe|The landslide disaster buried the only road.|a landslide disaster
+hurricane|kasırga|B2|n|afe|The hurricane flattened the coast.|a category five hurricane
+volcanic eruption|yanardağ patlaması|B2|n|afe|The volcanic eruption grounded flights for a week.|a volcanic eruption
+evacuate|tahliye etmek|B2|v|afe|Authorities evacuated three coastal towns.|evacuate residents
+rescue|kurtarma, kurtarmak|B1|n,v|afe|Rescue teams worked for seventy hours without rest.|a rescue operation
+survivor|hayatta kalan|B2|n|afe|A survivor was pulled out on the ninth day.|the sole survivor
+rubble|enkaz, moloz|C1|n|afe|Volunteers dug through the rubble by hand.|buried under the rubble
+relief effort|yardım çalışması|C1|n|afe|The relief effort was slowed by blocked roads.|an international relief effort
+shelter|barınak, barınmak|B2|n,v|afe|Schools became shelters overnight.|take shelter
+death toll|can kaybı sayısı|C1|n|afe|The death toll rose with every hour.|a rising death toll
+devastation|yıkım|C1|n|afe|The scale of the devastation was visible from space.|widespread devastation
+emergency services|acil yardım ekipleri|B2|n|afe|Emergency services reached the village on foot.|call the emergency services
+preparedness|hazırlıklı olma|C1|n|afe|Preparedness saves more lives than heroism.|disaster preparedness
+collapse|çökmek, çöküş|B2|v,n|afe|Buildings without inspection collapsed first.|on the verge of collapse
+casualty figures|kayıp sayıları|C1|n|afe|Casualty figures were revised three times.|casualty figures
+epicentre|merkez üssü|C1|n|afe|The epicentre lay beneath a crowded city.|the epicentre of the quake
+resilient city|dirençli kent|C1|n|afe|A resilient city plans for the worst day.|build a resilient city
+wipe out|yok etmek|B2|pv|afe|The wave wiped out an entire fishing fleet.|wipe out a village

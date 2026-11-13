@@ -1,0 +1,124 @@
+Dear Sir or Madam|Sayın Yetkili|B1|phr|p1m|Dear Sir or Madam, I am writing about the closure of the library.|Dear Sir or Madam
+To whom it may concern|İlgili makama|B2|phr|p1m|To whom it may concern, please find my application attached.|To whom it may concern
+I am writing to|... için yazıyorum|B1|phr|p1m|I am writing to express my concern about the new timetable.|I am writing to complain
+with reference to|... ile ilgili olarak|B2|phr|p1m|With reference to your article of 3 May, I would like to respond.|with reference to your letter
+in response to|... üzerine, yanıt olarak|B2|phr|p1m|In response to your advertisement, I wish to apply for the post.|in response to
+I would like to enquire|bilgi almak istiyorum|B2|phr|p1m|I would like to enquire about the summer programme.|enquire about sth
+I would be grateful if|... yaparsanız minnettar olurum|B2|phr|p1m|I would be grateful if you could send further details.|I would be grateful if you could
+I would appreciate it if|... yaparsanız sevinirim|B2|phr|p1m|I would appreciate it if you could reply before Friday.|I would appreciate it if
+I wish to express|... ifade etmek isterim|B2|phr|p1m|I wish to express my disappointment at the decision.|express my gratitude
+I regret to inform you|üzülerek bildiririm|C1|phr|p1m|I regret to inform you that the trip has been cancelled.|I regret to inform you that
+I am pleased to|... memnuniyetle|B2|phr|p1m|I am pleased to confirm my place on the course.|I am pleased to announce
+please find attached|ekte bulabilirsiniz|B2|phr|p1m|Please find attached a copy of my certificate.|please find attached
+I look forward to|... dört gözle bekliyorum|B1|phr|p1m|I look forward to hearing from you soon.|look forward to hearing from you
+should you require|ihtiyaç duymanız hâlinde|C1|phr|p1m|Should you require any further information, please contact me.|should you require further information
+do not hesitate to|çekinmeden|B2|phr|p1m|Please do not hesitate to contact me with any questions.|do not hesitate to contact me
+at your earliest convenience|en kısa zamanda|C1|phr|p1m|I would welcome a reply at your earliest convenience.|at your earliest convenience
+Yours faithfully|Saygılarımla (isim bilinmiyorsa)|B1|phr|p1m|The letter opened with Dear Sir and closed with Yours faithfully.|Yours faithfully
+Yours sincerely|Saygılarımla (isim biliniyorsa)|B1|phr|p1m|She wrote Dear Ms Aydin and signed off Yours sincerely.|Yours sincerely
+Kind regards|İyi dileklerimle|B1|phr|p1m|He ended the email with Kind regards and his full name.|Kind regards
+I am writing on behalf of|... adına yazıyorum|B2|phr|p1m|I am writing on behalf of the student council.|on behalf of sb
+I feel compelled to|... yapmak zorunda hissediyorum|C1|phr|p1m|I feel compelled to reply to last week's column.|feel compelled to do sth
+I must take issue with|... konusunda itiraz etmeliyim|C1|phr|p1m|I must take issue with the claim that teenagers do not read.|take issue with sth
+it has come to my attention|dikkatimi çekti ki|C1|phr|p1m|It has come to my attention that the gym closes at four.|it has come to my attention that
+I trust that|... olacağına inanıyorum|C1|phr|p1m|I trust that the matter will be resolved promptly.|I trust that
+thank you in advance|şimdiden teşekkürler|B1|phr|p1m|Thank you in advance for your help.|thank you in advance for
+I apologise for|... için özür dilerim|B1|phr|p1m|I apologise for the late reply.|apologise for the delay
+how are things|nasıl gidiyor|B1|phr|p1m|Hi Deniz, how are things in Ankara?|how are things with you
+it was great to hear from you|senden haber almak harikaydı|B1|phr|p1m|It was great to hear from you after so long.|great to hear from you
+sorry for not writing sooner|daha önce yazamadığım için kusura bakma|B1|phr|p1m|Sorry for not writing sooner; the exams took over my life.|sorry for not writing sooner
+I can't wait to|... için sabırsızlanıyorum|B1|phr|p1m|I can't wait to show you the new stadium.|can't wait to see you
+give my love to|... selam söyle|B1|phr|p1m|Give my love to your family.|give my love to sb
+drop me a line|bana iki satır yaz|B2|idm|p1m|Drop me a line when you arrive.|drop sb a line
+keep in touch|haberleşelim|B1|idm|p1m|Let's keep in touch over the summer.|keep in touch with sb
+all the best|her şey gönlünce olsun|B1|phr|p1m|All the best for the oral next week.|all the best
+by the way|bu arada|B1|phr|p1m|By the way, did you see the match on Sunday?|by the way
+guess what|bil bakalım ne oldu|B1|phr|p1m|Guess what: I passed the driving test!|guess what
+have you ever wondered|hiç merak ettiniz mi|B1|phr|p1y|Have you ever wondered why referees are always blamed?|have you ever wondered why
+picture this|şunu gözünüzün önüne getirin|B2|phr|p1y|Picture this: a school with no bells.|picture this
+let's face it|kabul edelim|B2|idm|p1y|Let's face it, nobody reads the terms and conditions.|let's face it
+believe it or not|ister inan ister inanma|B1|phr|p1y|Believe it or not, the idea came from a nine-year-old.|believe it or not
+it is no secret that|herkesin bildiği gibi|B2|phr|p1y|It is no secret that the canteen is losing money.|it is no secret that
+the truth is|işin doğrusu|B1|phr|p1y|The truth is, we waste a third of what we buy.|the truth is that
+what struck me most|beni en çok etkileyen|B2|phr|p1y|What struck me most was the silence of the crowd.|what struck me most was
+in recent years|son yıllarda|B1|phr|p1y|In recent years, e-sports have filled real stadiums.|in recent years
+according to|-e göre|B1|prep|p1y|According to a recent survey, half of us sleep too little.|according to experts
+a recent survey|yakın tarihli bir anket|B2|n|p1y|A recent survey found that one student in three skips breakfast.|a recent survey shows
+it turns out that|meğer|B2|phr|p1y|It turns out that boredom is good for creativity.|it turns out that
+here is the thing|mesele şu|B2|phr|p1y|Here is the thing: nobody asked the students.|here is the thing
+stay tuned|bizi izlemeye devam edin|B2|phr|p1y|Stay tuned for part two next week.|stay tuned for
+leave a comment|yorum bırakmak|B1|phr|p1y|Leave a comment below and tell me what you think.|leave a comment below
+ladies and gentlemen|bayanlar ve baylar|B1|phr|p1y|Ladies and gentlemen, thank you for coming tonight.|ladies and gentlemen
+fellow students|sevgili öğrenci arkadaşlarım|B1|phr|p1y|Fellow students, we have a decision to make.|fellow students
+I stand before you|karşınızda duruyorum|B2|phr|p1y|I stand before you today as a worried classmate.|I stand before you today
+let me begin by|... ile başlayayım|B2|phr|p1y|Let me begin by thanking the organisers.|let me begin by saying
+I would like to draw your attention to|dikkatinizi ... çekmek isterim|B2|phr|p1y|I would like to draw your attention to one simple figure.|draw attention to sth
+this brings me to|bu beni ... getiriyor|B2|phr|p1y|This brings me to my second point.|this brings me to
+let me leave you with|sizi ... ile baş başa bırakayım|C1|phr|p1y|Let me leave you with one question.|let me leave you with
+thank you for listening|dinlediğiniz için teşekkürler|B1|phr|p1y|Thank you for listening, and enjoy the evening.|thank you for listening
+together we can|birlikte başarabiliriz|B1|phr|p1y|Together we can make the school greener.|together we can
+on a personal note|kişisel bir not olarak|B2|phr|p1y|On a personal note, this project changed my year.|on a personal note
+first and foremost|her şeyden önce|B2|phr|p1y|First and foremost, we need more time.|first and foremost
+last but not least|son olarak ama aynı derecede önemli|B2|phr|p1y|Last but not least, I want to thank our coach.|last but not least
+food for thought|üzerinde düşünmeye değer|C1|idm|p1y|The figures give us food for thought.|give sb food for thought
+a must-see|mutlaka görülmeli|B2|n|p1y|The documentary is a must-see for football fans.|a must-see film
+I would highly recommend|şiddetle tavsiye ederim|B2|phr|p1y|I would highly recommend the book to anyone studying history.|highly recommend sth
+well worth|kesinlikle değer|B2|phr|p1y|The exhibition is well worth a visit.|well worth a visit
+fails to live up to|beklentiyi karşılamıyor|C1|phr|p1y|The sequel fails to live up to the original.|live up to expectations
+on the whole|genel olarak|B2|phr|p1y|On the whole, the festival was a success.|on the whole
+the aim of this report|bu raporun amacı|B2|phr|p1r|The aim of this report is to assess the new canteen.|the aim of this report is to
+this report sets out|bu rapor ortaya koyuyor|C1|phr|p1r|This report sets out the results of a student survey.|this report sets out to
+terms of reference|görev tanımı, kapsam|C2|n|p1r|The terms of reference were limited to safety.|terms of reference
+findings|bulgular|B2|n|p1r|The findings are based on two hundred interviews.|the main findings
+it was found that|... olduğu saptandı|B2|phr|p1r|It was found that most students arrive by bus.|it was found that
+the majority of respondents|katılımcıların çoğu|B2|phr|p1r|The majority of respondents preferred a later start.|the majority of respondents
+a significant number of|kayda değer sayıda|B2|phr|p1r|A significant number of pupils skip lunch.|a significant number of
+as can be seen|görülebileceği gibi|B2|phr|p1r|As can be seen, attendance rises in spring.|as can be seen from
+it is recommended that|... önerilir|B2|phr|p1r|It is recommended that the library open on Saturdays.|it is recommended that
+it would be advisable to|... yapmak yerinde olur|C1|phr|p1r|It would be advisable to trial the scheme for one term.|it would be advisable to
+in light of the above|yukarıdakiler ışığında|C1|phr|p1r|In light of the above, we propose three changes.|in light of the above
+I propose that|... öneriyorum|B2|phr|p1r|I propose that the club meet twice a week.|I propose that
+the proposed scheme|önerilen plan|C1|n|p1r|The proposed scheme would cost very little.|the proposed scheme
+the benefits would include|faydaları şunları içerir|B2|phr|p1r|The benefits would include cleaner air and safer roads.|the benefits would include
+estimated cost|tahmini maliyet|B2|n|p1r|The estimated cost is below the annual budget.|the estimated cost of
+feasibility|uygulanabilirlik|C1|n|p1r|A short study confirmed the feasibility of the plan.|a feasibility study
+timeline|zaman çizelgesi|B2|n|p1r|The timeline allows six weeks for building.|a realistic timeline
+funding|finansman|B2|n|p1r|Funding could come from the parents' association.|secure funding
+stakeholder|paydaş|C1|n|p1r|Every stakeholder was invited to comment.|key stakeholders
+implementation|uygulama, hayata geçirme|C1|n|p1r|Implementation would begin in September.|the implementation of a plan
+recommendation|öneri|B2|n|p1r|The report ends with four recommendations.|make a recommendation
+overview|genel bakış|B2|n|p1r|The first section gives an overview of the problem.|a brief overview
+in summary|özetle|B2|phr|p1r|In summary, the trial met all three goals.|in summary
+you are advised to|... yapmanız önerilir|B2|phr|p1r|You are advised to arrive fifteen minutes early.|you are advised to
+make sure that|... olduğundan emin olun|B1|phr|p1r|Make sure that your phone is switched off.|make sure that
+under no circumstances|hiçbir koşulda|C1|phr|p1r|Under no circumstances should you leave the group.|under no circumstances should
+step by step|adım adım|B1|phr|p1r|The guide explains the process step by step.|a step-by-step guide
+dos and don'ts|yapılacaklar ve yapılmayacaklar|B2|idm|p1r|The leaflet lists the dos and don'ts of camping.|the dos and don'ts
+in the event of|... durumunda|C1|phr|p1r|In the event of fire, use the stairs.|in the event of an emergency
+for further information|ayrıntılı bilgi için|B1|phr|p1r|For further information, visit the school website.|for further information
+main idea|ana fikir|B1|n|p2s|The main idea of the paragraph is in its first line.|identify the main idea
+gist|ana fikir, öz|C1|n|p2s|Read once for the gist and once for detail.|get the gist
+skim|göz gezdirmek|B2|v|p2s|Skim the text before reading the questions.|skim a text
+scan|taramak|B2|v|p2s|Scan the passage for names and dates.|scan for information
+refer to|-e gönderme yapmak|B2|pv|p2s|What does the word it in line 12 refer to?|refer to sth
+phrase|ifade, söz öbeği|B1|n|p2s|Find the phrase which shows the writer's doubt.|a phrase which means
+synonym|eş anlamlı sözcük|B2|n|p2s|Find a synonym for reluctant in paragraph two.|a synonym for sth
+closest in meaning|anlamca en yakın|B2|phr|p2s|Which word is closest in meaning to scarce?|closest in meaning to
+statement|ifade, önerme|B2|n|p2s|Choose the four true statements.|a true statement
+true or false|doğru ya da yanlış|A2|phr|p2s|Decide whether each sentence is true or false and justify it.|true or false
+justification from the text|metinden gerekçe|B2|phr|p2s|A tick without a justification from the text earns nothing.|justification from the text
+according to the text|metne göre|B1|phr|p2s|According to the text, who paid for the bridge?|according to the text
+heading|başlık|B1|n|p2s|Match each heading to a paragraph.|match the headings
+gap|boşluk|B1|n|p2s|Complete each gap with one word from the box.|fill the gap
+extract|parça, alıntı|B2|n|p2s|The extract comes from a travel blog.|an extract from a text
+passage|metin parçası|B2|n|p2s|The second passage is the hardest.|a reading passage
+paragraph|paragraf|B1|n|p2s|The answer is in the third paragraph.|the opening paragraph
+quotation|alıntı|B2|n|p2s|Copy the quotation exactly, no more than needed.|a direct quotation
+in your own words|kendi sözcüklerinizle|B1|phr|p2s|Explain the title in your own words.|in your own words
+state|belirtmek|B2|v|p2s|State two reasons given by the author.|state a reason
+identify|belirlemek, saptamak|B2|v|p2s|Identify the word that shows surprise.|identify a feature
+intended audience|hedef kitle|B2|n|p2s|The intended audience is parents of teenagers.|the intended audience
+writer's attitude|yazarın tutumu|B2|n|p2s|The writer's attitude is clear from the adjectives.|the writer's attitude towards sth
+distractor|çeldirici|C2|n|p2s|Every option that is not correct is a distractor built from the text.|a plausible distractor
+keyword|anahtar sözcük|B1|n|p2s|Underline the keyword in each question.|underline the keywords
+paraphrase|başka sözcüklerle anlatmak|C1|v,n|p2s|The question will paraphrase the text, not copy it.|paraphrase a sentence

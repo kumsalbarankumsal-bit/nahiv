@@ -1,0 +1,153 @@
+species|tür|B2|n|hay|One species in eight faces extinction.|an endangered species
+mammal|memeli|B2|n|hay|The blue whale is the largest mammal ever recorded.|a marine mammal
+predator|yırtıcı|B2|n|hay|Without a predator, the deer destroyed the forest.|a natural predator
+prey|av|B2|n|hay|The owl locates its prey by sound alone.|hunt for prey
+poaching|kaçak avcılık|C1|n|hay|Poaching funds armed groups across the region.|ivory poaching
+captivity|tutsaklık, esaret|C1|n|hay|Dolphins live half as long in captivity.|bred in captivity
+sanctuary|koruma alanı, sığınak|C1|n|hay|The sanctuary houses bears rescued from circuses.|a wildlife sanctuary
+breed|üremek, cins|B2|v,n|hay|Pandas rarely breed outside their habitat.|breed in captivity
+migrate|göç etmek|B2|v|hay|Storks migrate over the Bosphorus every autumn.|migrate south
+animal welfare|hayvan refahı|B2|n|hay|Animal welfare laws stop at the farm gate.|animal welfare standards
+animal testing|hayvan deneyi|B2|n|hay|Animal testing for cosmetics is banned in the Union.|ban animal testing
+cruelty|zulüm, eziyet|B2|n|hay|Cruelty to animals predicts cruelty to people.|cruelty to animals
+stray|sokak hayvanı, başıboş|B2|adj,n|hay|Istanbul feeds its stray cats like citizens.|a stray dog
+livestock|çiftlik hayvanları|C1|n|hay|Livestock produce more emissions than aviation.|raise livestock
+factory farming|endüstriyel hayvancılık|C1|n|hay|Factory farming keeps prices low and animals out of sight.|factory farming
+vet|veteriner|B1|n|hay|The village vet treats cows and canaries alike.|take a pet to the vet
+tame|evcil, evcilleştirmek|B2|adj,v|hay|No wolf is ever fully tame.|tame a wild animal
+on the brink of extinction|yok olmanın eşiğinde|C1|phr|hay|The Anatolian leopard is on the brink of extinction.|on the brink of extinction
+natural habitat|doğal yaşam alanı|B2|n|hay|Zoos cannot copy a natural habitat.|in its natural habitat
+food chain|besin zinciri|B2|n|hay|Plastic has entered the food chain.|at the top of the food chain
+hibernate|kış uykusuna yatmak|C1|v|hay|Bears hibernate later as winters warm.|hibernate through winter
+flock|sürü (kuş, koyun)|B2|n|hay|A flock of starlings turned above the bridge.|a flock of birds
+die out|soyu tükenmek|B2|pv|hay|Languages die out faster than species.|die out completely
+reintroduce|yeniden kazandırmak|C1|v|hay|Rangers reintroduced wolves to the park.|reintroduce a species
+biodiverse|biyolojik çeşitliliği yüksek|C2|adj|hay|The delta is the most biodiverse wetland in the region.|a biodiverse region
+food security|gıda güvencesi|C1|n|gid|Food security depends on grain from three regions.|ensure food security
+harvest|hasat, hasat etmek|B2|n,v|gid|The harvest failed for the second year.|a poor harvest
+crop|ürün, ekin|B2|n|gid|Farmers switched to crops that need less water.|grow crops
+irrigation|sulama|C1|n|gid|Irrigation drained the lake to a tenth of its size.|an irrigation system
+fertiliser|gübre|C1|n|gid|Fertiliser prices doubled with the gas price.|chemical fertiliser
+organic farming|organik tarım|B2|n|gid|Organic farming yields less and sells for more.|organic farming
+genetically modified|genetiği değiştirilmiş|C1|adj|gid|Genetically modified rice resists drought.|genetically modified crops
+staple food|temel gıda|C1|n|gid|Bread is the staple food of the region.|a staple food
+shortage|kıtlık|B2|n|gid|A water shortage closed the factories.|a food shortage
+starvation|açlık|C1|n|gid|Starvation is usually a failure of politics, not weather.|die of starvation
+surplus|fazla|C1|n,adj|gid|Surplus food is destroyed to protect prices.|a food surplus
+food waste|gıda israfı|B2|n|gid|A third of all food becomes food waste.|reduce food waste
+drinking water|içme suyu|B1|n|gid|Two billion people lack safe drinking water.|access to drinking water
+water scarcity|su kıtlığı|C1|n|gid|Water scarcity will redraw alliances.|face water scarcity
+sanitation|temizlik altyapısı|C1|n|gid|Sanitation prevents more disease than hospitals cure.|access to sanitation
+dam|baraj|B2|n|gid|The dam gave one country power and another a drought.|build a dam
+processed food|işlenmiş gıda|B2|n|gid|Processed food is cheap, fast and everywhere.|eat processed food
+agriculture|tarım|B2|n|gid|Agriculture employs fewer people every decade.|intensive agriculture
+arable|ekilebilir|C2|adj|gid|Arable land is disappearing under concrete.|arable land
+nutritious|besleyici|B2|adj|gid|Nutritious meals at school raise exam results.|a nutritious diet
+self-sufficient|kendi kendine yeten|C1|adj|gid|No country is fully self-sufficient in food.|self-sufficient in energy
+feed|beslemek|B1|v|gid|The world grows enough to feed ten billion.|feed a family
+warfare|savaş, muharebe|C1|n|sav|Cyber warfare needs no declaration.|modern warfare
+weapon|silah|B1|n|sav|Information became the cheapest weapon.|a nuclear weapon
+arms race|silahlanma yarışı|C1|n|sav|The arms race bankrupted one side first.|a nuclear arms race
+invasion|işgal, istila|B2|n|sav|The invasion was planned as a three-day operation.|a full-scale invasion
+occupation|işgal|C1|n|sav|The occupation lasted four years.|under occupation
+siege|kuşatma|C1|n|sav|The siege of the city lasted fifty-three days.|under siege
+air strike|hava saldırısı|C1|n|sav|An air strike destroyed the bridge.|launch an air strike
+troops|askerî birlikler|B2|n|sav|Troops crossed the border before dawn.|deploy troops
+conscription|zorunlu askerlik|C1|n|sav|Conscription ended in most of Europe.|military conscription
+veteran|gazi, kıdemli|B2|n|sav|Veterans returned to a country that had moved on.|a war veteran
+terrorism|terörizm|B2|n|sav|Terrorism aims at the audience, not the victims.|the threat of terrorism
+security threat|güvenlik tehdidi|B2|n|sav|Climate is now classed as a security threat.|a serious security threat
+intelligence service|istihbarat servisi|C1|n|sav|The intelligence service missed every warning.|an intelligence service
+espionage|casusluk|C2|n|sav|Industrial espionage costs firms billions.|accused of espionage
+defence spending|savunma harcaması|C1|n|sav|Defence spending rose across the continent.|increase defence spending
+militia|milis|C1|n|sav|A local militia controlled the checkpoint.|an armed militia
+genocide|soykırım|C1|n|sav|The court recognised the killings as genocide.|commit genocide
+massacre|katliam|C1|n|sav|The massacre was denied for fifty years.|a civilian massacre
+surrender|teslim olmak|B2|v,n|sav|The garrison surrendered after the water ran out.|unconditional surrender
+retreat|geri çekilmek, geri çekilme|B2|v,n|sav|The army retreated across the frozen river.|a hasty retreat
+ally|müttefik|B2|n|sav|Yesterday's ally became today's rival.|a close ally
+front line|cephe hattı|B2|n|sav|Nurses were sent to the front line.|on the front line
+civil war|iç savaş|B2|n|sav|The civil war divided villages and families.|a bloody civil war
+nuclear weapon|nükleer silah|B2|n|sav|No state has given up a nuclear weapon under threat.|a nuclear weapon
+border dispute|sınır anlaşmazlığı|C1|n|sav|A border dispute over a river turned violent.|a border dispute
+collateral damage|ikincil hasar|C2|n|sav|Collateral damage is a phrase that hides the dead.|collateral damage
+wage war|savaş açmak|C1|phr|sav|Empires wage war to protect trade routes.|wage war on sth
+developing country|gelişmekte olan ülke|B2|n|kal|A developing country cannot follow the old polluting path.|a developing country
+developed country|gelişmiş ülke|B2|n|kal|Every developed country once protected its industries.|a developed country
+sustainable development|sürdürülebilir kalkınma|C1|n|kal|Sustainable development has seventeen official goals.|sustainable development goals
+humanitarian aid|insani yardım|B2|n|kal|Humanitarian aid waited at the closed crossing.|deliver humanitarian aid
+donor|bağışçı|C1|n|kal|Donors prefer projects that photograph well.|an international donor
+non-governmental organisation|sivil toplum kuruluşu|C1|n|kal|A non-governmental organisation ran the only clinic.|a non-governmental organisation
+microfinance|mikrofinans|C2|n|kal|Microfinance lends small sums to women without collateral.|a microfinance scheme
+literacy rate|okuryazarlık oranı|C1|n|kal|The literacy rate doubled in one generation.|a high literacy rate
+life expectancy|ortalama yaşam süresi|B2|n|kal|Life expectancy differs by ten years between districts.|average life expectancy
+infant mortality|bebek ölüm oranı|C1|n|kal|Infant mortality fell with clean water.|reduce infant mortality
+standard of living|yaşam standardı|B2|n|kal|The standard of living rose faster than happiness.|a high standard of living
+debt relief|borç affı|C1|n|kal|Debt relief freed funds for schools.|offer debt relief
+self-reliance|kendine yeterlilik|C1|n|kal|Aid should build self-reliance, not dependence.|promote self-reliance
+grant|hibe, vermek|B2|n,v|kal|A small grant bought the village a well.|a research grant
+eradicate|kökünü kazımak|C1|v|kal|Smallpox was eradicated by global cooperation.|eradicate poverty
+empowerment|güçlendirme|C1|n|kal|Empowerment begins with a bank account in her own name.|women's empowerment
+capacity building|kapasite geliştirme|C2|n|kal|Capacity building trains local engineers.|capacity building
+inequality gap|eşitsizlik uçurumu|C1|n|kal|The inequality gap between regions is widening.|close the inequality gap
+grassroots project|tabandan gelen proje|C1|n|kal|A grassroots project outlasted three official programmes.|a grassroots project
+uplift|kalkındırmak, yükseltmek|C2|v|kal|Trade has uplifted more people than aid.|uplift a community
+overpopulation|aşırı nüfus|B2|n|kal|Overpopulation is blamed for problems of distribution.|the problem of overpopulation
+birth rate|doğum oranı|B2|n|kal|The birth rate fell below replacement level.|a falling birth rate
+access to healthcare|sağlık hizmetine erişim|B2|phr|kal|Access to healthcare depends on a postcode.|access to healthcare
+Security Council|Güvenlik Konseyi|B2|n|ulu|The Security Council met in emergency session.|a Security Council resolution
+General Assembly|Genel Kurul|B2|n|ulu|The General Assembly voted to condemn the attack.|the General Assembly
+resolution|karar tasarısı, karar|C1|n|ulu|The resolution passed with three abstentions.|pass a resolution
+delegate|delege, temsilci|B2|n|ulu|Each delegate had ninety seconds to speak.|a conference delegate
+abstain|çekimser kalmak|C1|v|ulu|Five members chose to abstain.|abstain from voting
+member state|üye devlet|B2|n|ulu|Every member state has one vote.|a member state
+peace talks|barış görüşmeleri|B2|n|ulu|Peace talks resumed in a neutral city.|hold peace talks
+diplomatic relations|diplomatik ilişkiler|B2|n|ulu|The two states restored diplomatic relations.|break off diplomatic relations
+envoy|özel temsilci, elçi|C1|n|ulu|A special envoy carried the message.|a special envoy
+protocol|protokol|C1|n|ulu|The protocol was signed but never applied.|sign a protocol
+landfill site|çöp sahası|B2|n|atk|The landfill site will be full within five years.|a landfill site
+packaging|ambalaj|B2|n|atk|Packaging weighs more than the product.|plastic packaging
+disposable|tek kullanımlık|B2|adj|atk|Disposable cups outlive the people who use them.|disposable products
+throwaway culture|kullan-at kültürü|C1|n|atk|Throwaway culture treats repair as failure.|a throwaway culture
+fast fashion|hızlı moda|B2|n|atk|Fast fashion sells shirts designed to last a month.|the cost of fast fashion
+second-hand|ikinci el|B1|adj|atk|Second-hand shops are full of unworn clothes.|second-hand clothes
+reuse|yeniden kullanmak|B1|v,n|atk|It is better to reuse a jar than to recycle it.|reuse and recycle
+upcycle|ileri dönüştürmek|C1|v|atk|Designers upcycle old sails into bags.|upcycle old furniture
+compost|kompost, gübreleştirmek|C1|n,v|atk|Kitchen waste becomes compost within months.|a compost bin
+microplastics|mikroplastikler|C1|n|atk|Microplastics were found in mountain snow.|microplastics in the ocean
+incinerate|yakmak (atık)|C2|v|atk|The city incinerates what it cannot recycle.|incinerate waste
+overconsumption|aşırı tüketim|C1|n|atk|Overconsumption by a few outweighs the growth of many.|a culture of overconsumption
+circular economy|döngüsel ekonomi|C1|n|atk|A circular economy designs waste out of the product.|move to a circular economy
+planned obsolescence|planlı eskitme|C2|n|atk|Planned obsolescence makes a phone old in two years.|planned obsolescence
+zero waste|sıfır atık|B2|n|atk|A zero waste shop sells by weight.|a zero waste lifestyle
+refill|yeniden doldurmak|B2|v,n|atk|Customers refill their own bottles at the tap.|a refill station
+sort|ayırmak|B1|v|atk|Residents sort rubbish into five bins.|sort waste
+litter|çöp atmak, çöp|B2|n,v|atk|Litter on the beach comes mostly from fishing.|drop litter
+excessive|aşırı|B2|adj|atk|Excessive packaging hides small products.|excessive consumption
+durable|dayanıklı|B2|adj|atk|A durable coat is cheaper over ten years.|durable goods
+throw away|atmak|B1|pv|atk|Households throw away a fifth of what they buy.|throw away food
+tuition fee|öğrenim ücreti|B2|n|uni|Tuition fees tripled in a decade.|pay tuition fees
+scholarship|burs|B2|n|uni|A scholarship covered everything except the fear of failing.|win a scholarship
+undergraduate|lisans öğrencisi|B2|n,adj|uni|An undergraduate degree takes four years here.|an undergraduate student
+postgraduate|lisansüstü|B2|n,adj|uni|Postgraduate study abroad needs funding and nerve.|a postgraduate degree
+admission|kabul|B2|n|uni|Admission depends on six subjects and one interview.|university admission
+personal statement|niyet mektubu|B2|n|uni|A personal statement should sound like one person.|write a personal statement
+campus|kampüs|B1|n|uni|The campus empties every Friday afternoon.|live on campus
+faculty|fakülte|B2|n|uni|The faculty of law is the oldest in the country.|the faculty of medicine
+dissertation|bitirme tezi|C1|n|uni|Her dissertation compared two election campaigns.|write a dissertation
+thesis|tez|C1|n|uni|A thesis needs one question and many doubts.|a doctoral thesis
+graduate|mezun olmak, mezun|B1|v,n|uni|She will graduate in international relations.|graduate from university
+major in|ana dal yapmak|B2|pv|uni|He plans to major in political science.|major in a subject
+enrol|kaydolmak|B2|v|uni|Six thousand students enrol each autumn.|enrol on a course
+peer review|hakem değerlendirmesi|C1|n|uni|Peer review is slow, flawed and necessary.|a peer review process
+academic|akademik, akademisyen|B2|adj,n|uni|Academic freedom protects unpopular questions.|academic freedom
+research paper|araştırma makalesi|B2|n|uni|A research paper answers one narrow question.|publish a research paper
+reference|kaynak göstermek, kaynak|B2|n,v|uni|Every claim needs a reference.|a list of references
+bibliography|kaynakça|C1|n|uni|The bibliography ran to twelve pages.|compile a bibliography
+alumni|mezunlar|C1|n|uni|Alumni fund a third of the scholarships.|an alumni network
+tutorial|küçük grup dersi|B2|n|uni|A weekly tutorial tests what the lecture left vague.|attend a tutorial
+entry requirements|giriş koşulları|B2|n|uni|Entry requirements include a 7 in a language.|meet the entry requirements
+conditional offer|koşullu kabul|C1|n|uni|A conditional offer turns exams into a deadline.|receive a conditional offer
+extracurricular|ders dışı|B2|adj|uni|Extracurricular activities show what grades hide.|extracurricular activities
+interdisciplinary|disiplinler arası|C1|adj|uni|An interdisciplinary course joins law and data.|an interdisciplinary approach
+student loan|öğrenim kredisi|B2|n|uni|A student loan is a mortgage without a house.|repay a student loan

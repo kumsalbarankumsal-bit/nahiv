@@ -1,0 +1,163 @@
+social network|sosyal ağ|B1|n|sos|A social network sells attention, not connection.|a social network
+platform|platform|B1|n|sos|Each platform rewards a different kind of anger.|a social media platform
+feed|akış|B2|n|sos|The feed is designed to have no end.|scroll through a feed
+scroll|kaydırmak|B2|v|sos|We scroll for an hour and remember nothing.|scroll down
+post|paylaşım, paylaşmak|B1|n,v|sos|She posts once a week and reads all day.|post a comment
+hashtag|etiket|B1|n|sos|A hashtag can start a movement or bury one.|a trending hashtag
+follower|takipçi|B1|n|sos|Followers are not the same as readers.|gain followers
+trend|trend olmak, eğilim|B2|v,n|sos|The topic trended for exactly one afternoon.|a trending topic
+notification|bildirim|B2|n|sos|Every notification is a small interruption sold to you.|turn off notifications
+troll|trol, kışkırtıcı|B2|n,v|sos|Trolls feed on replies; silence starves them.|an internet troll
+cyberbullying|siber zorbalık|B2|n|sos|Cyberbullying follows the victim home.|victims of cyberbullying
+oversharing|aşırı paylaşım|C1|n|sos|Oversharing at sixteen can cost a job at twenty-six.|the risks of oversharing
+screen addiction|ekran bağımlılığı|B2|n|sos|Screen addiction is built into the design.|fight screen addiction
+online presence|çevrim içi varlık|B2|n|sos|Employers check your online presence before your CV.|build an online presence
+content creator|içerik üretici|B2|n|sos|A content creator works for an algorithm he cannot see.|a full-time content creator
+subscribe|abone olmak|B1|v|sos|Millions subscribe to channels they never watch.|subscribe to a channel
+moderation|içerik denetimi|C1|n|sos|Content moderation is done by underpaid strangers.|content moderation
+filter bubble|filtre balonu|C1|n|sos|A filter bubble shows you only what you already believe.|trapped in a filter bubble
+fake news|sahte haber|B1|n|sos|Fake news spreads because it is more exciting.|spread fake news
+deepfake|derin sahte video|C1|n|sos|A deepfake of the minister circulated before the vote.|a deepfake video
+anonymous|anonim|B2|adj|sos|Anonymous accounts say what named ones dare not.|an anonymous user
+log in|oturum açmak|B1|pv|sos|Users log in with a fingerprint now.|log in to an account
+digital detox|dijital arınma|B2|n|sos|A weekend of digital detox felt like a month.|go on a digital detox
+attention span|dikkat süresi|B2|n|sos|Short videos train a short attention span.|a short attention span
+engagement rate|etkileşim oranı|C1|n|sos|Outrage has the highest engagement rate.|a high engagement rate
+user-generated|kullanıcı üretimi|C1|adj|sos|User-generated content costs platforms nothing.|user-generated content
+data mining|veri madenciliği|C1|n|sos|Free apps pay for themselves through data mining.|large-scale data mining
+privacy settings|gizlilik ayarları|B2|n|sos|Few people ever open their privacy settings.|change privacy settings
+doomscrolling|kötü haber kaydırma|C1|n|sos|Doomscrolling at midnight ruins the next morning.|a habit of doomscrolling
+unplug|fişi çekmek, uzaklaşmak|B2|v|sos|It is hard to unplug when homework is online.|unplug from technology
+machine learning|makine öğrenmesi|B2|n|yze|Machine learning finds patterns nobody asked about.|a machine learning model
+neural network|sinir ağı|C1|n|yze|A neural network learns from examples, not rules.|train a neural network
+chatbot|sohbet robotu|B2|n|yze|The chatbot answered politely and wrongly.|an AI chatbot
+automate|otomatikleştirmek|B2|v|yze|Banks automated the work of ten thousand clerks.|automate a task
+robotics|robot bilimi|B2|n|yze|Robotics changed car factories before anything else.|advances in robotics
+autonomous|özerk, sürücüsüz|C1|adj|yze|Autonomous lorries will cross the desert first.|an autonomous vehicle
+facial recognition|yüz tanıma|B2|n|yze|Facial recognition fails most often on darker skin.|facial recognition software
+dataset|veri kümesi|C1|n|yze|A biased dataset produces a biased machine.|a training dataset
+generate|üretmek|B2|v|yze|The model generates text one word at a time.|generate an image
+prompt|istem, komut|B2|n,v|yze|A vague prompt gets a vague answer.|write a prompt
+accuracy|doğruluk|B2|n|yze|High accuracy in the lab means little in the street.|improve accuracy
+replace|yerini almak|B1|v|yze|Machines replace tasks, and tasks add up to jobs.|replace human workers
+job displacement|iş kaybı|C1|n|yze|Job displacement hits routine office work first.|fear of job displacement
+oversight|denetim, gözetim|C1|n|yze|Human oversight is the last safety net.|human oversight
+regulate|düzenlemek|B2|v|yze|Parliaments regulate technology a decade late.|regulate an industry
+breakthrough in|alanında atılım|B2|phr|yze|A breakthrough in translation changed diplomacy.|a breakthrough in AI
+superintelligence|süper zekâ|C2|n|yze|Superintelligence remains a hypothesis, not a product.|the risk of superintelligence
+sentient|duyarlı, bilinçli|C2|adj|yze|No machine is sentient, however fluent it sounds.|a sentient being
+ethical dilemma|etik ikilem|B2|n|yze|A self-driving car turns an ethical dilemma into code.|face an ethical dilemma
+transparency report|şeffaflık raporu|C1|n|yze|The firm published its first transparency report.|a transparency report
+predictive|öngörücü|C1|adj|yze|Predictive policing repeats old prejudices faster.|predictive text
+virtual assistant|sanal asistan|B2|n|yze|A virtual assistant listens more than it speaks.|a virtual assistant
+simulate|taklit etmek, benzetim yapmak|C1|v|yze|The program simulates a negotiation with a hostile partner.|simulate a conversation
+drone|insansız hava aracı|B2|n|yze|Drones deliver medicine to mountain villages.|a delivery drone
+labour-saving|emek tasarrufu sağlayan|C1|adj|yze|Every labour-saving device creates a new task.|a labour-saving device
+human-like|insansı|B2|adj|yze|Human-like voices make scams more convincing.|a human-like robot
+misuse|kötüye kullanma|B2|n,v|yze|Any powerful tool invites misuse.|misuse of data
+scalable|ölçeklenebilir|C1|adj|yze|A scalable solution works for ten users or ten million.|a scalable system
+outperform|daha iyi performans göstermek|C1|v|yze|The model outperforms doctors on one narrow task.|outperform humans
+algorithmic bias|algoritmik önyargı|C1|n|yze|Algorithmic bias hides behind a neutral interface.|expose algorithmic bias
+orbit|yörünge|B2|n,v|uza|The station orbits the Earth sixteen times a day.|in orbit
+satellite|uydu|B1|n|uza|A single satellite connects the whole island.|launch a satellite
+spacecraft|uzay aracı|B2|n|uza|The spacecraft took seven months to reach Mars.|an unmanned spacecraft
+launch|fırlatmak, fırlatma|B2|v,n|uza|The launch was delayed by high winds.|a rocket launch
+astronaut|astronot|B1|n|uza|The astronaut described borders as invisible from above.|a trained astronaut
+gravity|yer çekimi|B2|n|uza|Months without gravity weaken the bones.|zero gravity
+galaxy|galaksi|B2|n|uza|Our galaxy contains more stars than we have counted.|a distant galaxy
+telescope|teleskop|B1|n|uza|The telescope looks thirteen billion years into the past.|a space telescope
+mission|görev|B2|n|uza|The mission cost less than a football stadium.|a manned mission
+colonise|kolonileştirmek|C1|v|uza|Plans to colonise Mars ignore the problem of water.|colonise a planet
+extraterrestrial|dünya dışı|C1|adj,n|uza|The search for extraterrestrial life has found only silence.|extraterrestrial life
+habitable|yaşanabilir|C1|adj|uza|Only one habitable planet is known so far.|a habitable zone
+lunar|aya ait|C1|adj|uza|The lunar surface keeps footprints for millions of years.|a lunar landing
+space race|uzay yarışı|B2|n|uza|The space race was the Cold War by other means.|the space race
+debris|enkaz, döküntü|C1|n|uza|Space debris threatens every new launch.|space debris
+frontier|sınır, uç|C1|n|uza|The ocean floor is a nearer frontier than Mars.|the final frontier
+exploration|keşif|B2|n|uza|Exploration is expensive, and ignorance costs more.|space exploration
+solar system|güneş sistemi|B1|n|uza|The probe has now left the solar system.|the outer solar system
+light year|ışık yılı|B2|n|uza|The nearest star is four light years away.|light years away
+cosmos|evren|C1|n|uza|We are a brief accident in an old cosmos.|the origins of the cosmos
+probe|uzay sondası; araştırmak|C1|n,v|uza|The probe sent its last photograph in 2018.|a space probe
+manned|insanlı|C1|adj|uza|The first manned flight lasted 108 minutes.|a manned mission
+weightless|ağırlıksız|C1|adj|uza|Water forms floating spheres in weightless conditions.|a weightless environment
+stargazing|yıldız gözlemi|B2|n|uza|Light pollution has ended stargazing in the cities.|go stargazing
+space tourism|uzay turizmi|B2|n|uza|Space tourism burns a year of emissions in minutes.|the rise of space tourism
+surgery|ameliyat|B1|n|tip|Robotic surgery leaves smaller scars.|undergo surgery
+transplant|nakil|B2|n,v|tip|The transplant gave her another twenty years.|a heart transplant
+donor|bağışçı|B2|n|tip|One donor can save eight lives.|an organ donor
+antibiotic|antibiyotik|B2|n|tip|Antibiotics are losing a race against resistance.|a course of antibiotics
+resistance|direnç|B2|n|tip|Antibiotic resistance grows with every careless prescription.|drug resistance
+prescription|reçete|B2|n|tip|The drug is available only on prescription.|write a prescription
+side effect|yan etki|B2|n|tip|The side effects were worse than the illness.|a common side effect
+dose|doz|B2|n|tip|A second dose is needed after six months.|a high dose
+treatment|tedavi|B1|n|tip|Early treatment doubles the chance of recovery.|receive treatment
+cure|çare, iyileştirmek|B1|n,v|tip|There is no cure, but there is control.|find a cure
+pandemic|küresel salgın|B2|n|tip|The pandemic exposed every weakness in the system.|a global pandemic
+outbreak|salgın, patlak verme|B2|n|tip|The outbreak began in a single market.|an outbreak of disease
+infectious|bulaşıcı|B2|adj|tip|Infectious diseases ignore passports.|an infectious disease
+genetic|genetik|B2|adj|tip|Genetic testing raises questions parents never faced.|a genetic disorder
+gene editing|gen düzenleme|C1|n|tip|Gene editing could end some diseases within a generation.|gene editing technology
+stem cell|kök hücre|C1|n|tip|Stem cell research divided parliaments for a decade.|stem cell therapy
+clone|klonlamak, klon|B2|v,n|tip|Scientists cloned a sheep long before they understood ageing.|clone an animal
+biotechnology|biyoteknoloji|B2|n|tip|Biotechnology feeds more people than charity does.|advances in biotechnology
+vaccination|aşılama|B2|n|tip|Vaccination protects those who cannot be vaccinated.|a vaccination campaign
+placebo|plasebo|C1|n|tip|Half the patients received a placebo.|the placebo effect
+life-saving|hayat kurtaran|B2|adj|tip|A life-saving drug costs pennies to produce.|life-saving treatment
+terminal|ölümcül, son evre|C1|adj|tip|The patient learned that the illness was terminal.|a terminal illness
+euthanasia|ötanazi|C1|n|tip|Euthanasia is legal in a handful of countries.|legalise euthanasia
+surrogate|taşıyıcı (anne)|C1|n,adj|tip|Surrogate motherhood is banned in many states.|a surrogate mother
+prosthetic|protez|C1|adj,n|tip|A prosthetic leg let her run again.|a prosthetic limb
+mental health|ruh sağlığı|B1|n|tip|Mental health receives a fraction of the budget.|mental health services
+diagnose|tanı koymak|B2|v|tip|The illness is hard to diagnose in its early stage.|diagnose a condition
+contagion|bulaşma|C2|n|tip|Fear of contagion emptied the streets.|the risk of contagion
+breakthrough drug|çığır açan ilaç|B2|n|tip|The breakthrough drug costs more than a house.|a breakthrough drug
+bioethics|biyoetik|C1|n|tip|Bioethics asks whether we should, not whether we can.|a question of bioethics
+commercial|reklam filmi; ticari|B2|n,adj|rek|The commercial lasts thirty seconds and cost millions.|a television commercial
+brand|marka|B1|n|rek|A brand is a promise repeated until it is believed.|brand loyalty
+slogan|slogan|B1|n|rek|The slogan says nothing and everyone remembers it.|a catchy slogan
+logo|logo|B1|n|rek|Children recognise the logo before they can read.|a company logo
+target audience|hedef kitle|B2|n|rek|The target audience is parents, not children.|reach a target audience
+consumer|tüketici|B1|n|rek|Consumers pay for the advertising in every price.|consumer behaviour
+endorse a product|ürünü tanıtmak, desteklemek|C1|phr|rek|Athletes endorse a product they would never use.|endorse a product
+sponsorship|sponsorluk|B2|n|rek|Sponsorship keeps small festivals alive.|a sponsorship deal
+persuade|ikna etmek|B1|v|rek|Adverts persuade by feeling, not by fact.|persuade sb to do sth
+manipulate|yönlendirmek, manipüle etmek|B2|v|rek|Dark patterns manipulate users into clicking yes.|manipulate public opinion
+misleading|yanıltıcı|B2|adj|rek|The label was legal and deeply misleading.|misleading advertising
+product placement|ürün yerleştirme|C1|n|rek|Product placement turns a film into a shop window.|subtle product placement
+impulse buy|anlık satın alma|B2|n|rek|Sweets beside the till are an impulse buy by design.|an impulse buy
+bargain|kelepir, pazarlık etmek|B2|n,v|rek|A bargain you do not need is still a waste.|a real bargain
+discount|indirim|B1|n|rek|The discount hides a price that was raised last week.|offer a discount
+window shopping|vitrin gezme|B2|n|rek|Window shopping moved to the phone screen.|go window shopping
+shopaholic|alışveriş bağımlısı|B2|n|rek|Online sales create shopaholics with one click.|a confessed shopaholic
+brand-conscious|marka meraklısı|C1|adj|rek|Brand-conscious teenagers pay for the label.|brand-conscious shoppers
+billboard|reklam panosu|B2|n|rek|Billboards cover the old walls of the avenue.|a roadside billboard
+jingle|reklam müziği|C1|n|rek|The jingle has outlived the product.|an advertising jingle
+marketing|pazarlama|B1|n|rek|Marketing sells the feeling; the product comes free.|a marketing campaign
+market research|pazar araştırması|B2|n|rek|Market research showed that nobody wanted it.|carry out market research
+purchase|satın almak, satın alım|B2|v,n|rek|Each purchase is recorded and sold on.|make a purchase
+affordable|uygun fiyatlı|B2|adj|rek|Affordable does not always mean cheap to produce.|affordable prices
+overpriced|fahiş fiyatlı|B2|adj|rek|Tourists pay for overpriced tea with a view.|overpriced goods
+gimmick|dikkat çekme numarası|C1|n|rek|The free gift is a gimmick, not a kindness.|a marketing gimmick
+architect|mimar|B1|n|mim|Sinan was the architect of an empire's skyline.|a leading architect
+dome|kubbe|B2|n|mim|The dome seems to float above the windows.|a vast dome
+facade|cephe|C1|n|mim|Behind the restored facade the building is new.|a glass facade
+skyline|şehir silueti|B2|n|mim|Towers have changed the skyline of the old city.|the city skyline
+blueprint|plan, taslak|C1|n|mim|The treaty became a blueprint for later agreements.|a blueprint for reform
+layout|yerleşim planı|B2|n|mim|The layout of the square invites people to stay.|an open-plan layout
+landmark building|simge yapı|B2|n|mim|The station is a landmark building left to decay.|a landmark building
+spacious|ferah|B2|adj|mim|The spacious hall holds two thousand people.|a spacious room
+cramped|sıkışık, dar|B2|adj|mim|Four students share a cramped flat near campus.|cramped conditions
+ornate|süslü, bezemeli|C1|adj|mim|The ornate ceiling took nine years to paint.|an ornate gate
+minimalism|minimalizm|C1|n|mim|Minimalism hides how much each object costs.|modern minimalism
+functional|işlevsel|B2|adj|mim|The design is functional and nothing more.|a functional design
+renovate|yenilemek|B2|v|mim|The city renovated the pier without changing its shape.|renovate a building
+demolish|yıkmak|B2|v|mim|They demolished the cinema to build a car park.|demolish a building
+heritage listing|koruma altına alma|C1|n|mim|A heritage listing saved the old tram depot.|a heritage listing
+courtyard|avlu|B2|n|mim|The courtyard is the quietest place in the bazaar.|an inner courtyard
+arch|kemer|B2|n|mim|The aqueduct's arches still cross the avenue.|a stone arch
+pillar|sütun, direk|B2|n|mim|Trust is a pillar of every institution.|a pillar of society
+sustainable design|sürdürülebilir tasarım|B2|n|mim|Sustainable design starts with the direction of the windows.|sustainable design
+aesthetically|estetik açıdan|C1|adv|mim|The bridge is aesthetically bold and practically useless.|aesthetically pleasing
+eyesore|göz zevkini bozan yapı|C1|n|mim|The tower is an eyesore visible from every hill.|a concrete eyesore
+state-funded|devlet destekli|C1|adj|mim|A state-funded museum should be free to enter.|a state-funded project

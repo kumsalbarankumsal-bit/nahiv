@@ -1,0 +1,198 @@
+address|ele almak|B2|v|fi2|The report fails to address the cost of delay.|address an issue
+tackle|üstesinden gelmeye çalışmak|B2|v|fi2|No single country can tackle tax evasion alone.|tackle a problem
+boost|artırmak, canlandırmak|B2|v,n|fi2|Free school meals boost attendance.|boost the economy
+spark|ateşlemek, tetiklemek|C1|v|fi2|A single photograph sparked a national debate.|spark a debate
+fuel|körüklemek|C1|v|fi2|Rumours fuel panic faster than facts calm it.|fuel fears
+shape|biçimlendirmek|B2|v|fi2|Geography shapes foreign policy more than ideology.|shape public opinion
+drive|yön vermek, itmek|B2|v|fi2|Fear of decline drives much of the rivalry.|drive change
+hamper|engellemek, aksatmak|C1|v|fi2|Bad roads hamper the delivery of aid.|hamper progress
+impede|sekteye uğratmak|C1|v|fi2|Bureaucracy impedes every new business.|impede development
+obstruct|engellemek, tıkamak|C1|v|fi2|The minority party obstructed the vote for weeks.|obstruct justice
+thwart|boşa çıkarmak|C2|v|fi2|A late save thwarted the comeback.|thwart an attempt
+bolster|desteklemek, pekiştirmek|C1|v|fi2|The victory bolstered the government's position.|bolster confidence
+strengthen|güçlendirmek|B2|v|fi2|Shared exams strengthen ties between schools.|strengthen ties
+weaken|zayıflatmak|B2|v|fi2|Each scandal weakens trust in the institution.|weaken the argument
+erode|aşındırmak|C1|v|fi2|Small lies erode a leader's authority.|erode trust
+accelerate|hızlandırmak|C1|v|fi2|The pandemic accelerated the move online.|accelerate the process
+amplify|büyütmek, güçlendirmek|C1|v|fi2|Platforms amplify the angriest voices.|amplify a message
+intensify|yoğunlaştırmak|C1|v|fi2|The drought intensified competition for water.|intensify efforts
+ease|hafifletmek|B2|v|fi2|A phone call eased tensions on the border.|ease tensions
+resolve|çözmek|B2|v|fi2|Courts cannot resolve what politics refuses to face.|resolve a dispute
+confront|yüzleşmek|B2|v|fi2|The novel confronts a history the state ignored.|confront a problem
+grapple with|boğuşmak|C1|pv|fi2|Cities grapple with rising rents.|grapple with a problem
+strive|çabalamak|C1|v|fi2|Schools strive to treat pupils equally.|strive for excellence
+seek|aramak, istemek|B2|v|fi2|Both sides seek a way out without losing face.|seek advice
+attain|ulaşmak, elde etmek|C1|v|fi2|Few candidates attain the top band.|attain a goal
+accomplish|başarmak|B2|v|fi2|The mission accomplished less than it claimed.|accomplish a task
+incite|kışkırtmak|C1|v|fi2|The speech was accused of inciting violence.|incite hatred
+stimulate|uyarmak, canlandırmak|C1|v|fi2|Lower rates stimulate borrowing.|stimulate growth
+cultivate|geliştirmek, yetiştirmek|C1|v|fi2|Good schools cultivate curiosity.|cultivate a habit
+safeguard|korumak, güvence altına almak|C1|v|fi2|Independent courts safeguard minorities.|safeguard rights
+maintain|sürdürmek, korumak|B2|v|fi2|It is costly to maintain an empire.|maintain order
+ensure|sağlamak, garanti etmek|B2|v|fi2|Inspections ensure that rules are followed.|ensure safety
+guarantee|garanti etmek|B2|v,n|fi2|No treaty can guarantee peace.|guarantee a right
+enable|olanak sağlamak|B2|v|fi2|Scholarships enable poorer students to apply.|enable sb to do sth
+urge|ısrarla çağırmak|C1|v|fi2|Doctors urge the public to stay calm.|urge caution
+convince|ikna etmek|B1|v|fi2|Statistics rarely convince an angry crowd.|convince sb of sth
+dissuade|vazgeçirmek|C1|v|fi2|High fees dissuade many applicants.|dissuade sb from doing sth
+discourage|caydırmak, cesaretini kırmak|B2|v|fi2|Harsh marking discourages weaker pupils.|discourage sb from sth
+prevent|önlemek|B1|v|fi2|Vaccines prevent what hospitals cannot cure.|prevent sb from doing sth
+prohibit|yasaklamak|C1|v|fi2|The law prohibits smoking in public buildings.|strictly prohibited
+ban|yasaklamak, yasak|B2|v,n|fi2|Several countries ban phones in classrooms.|impose a ban
+permit|izin vermek|B2|v|fi2|The rules permit one dictionary per candidate.|permit access
+tolerate|hoş görmek, katlanmak|B2|v|fi2|The club will not tolerate racist chants.|tolerate dissent
+resist|direnmek|B2|v|fi2|Teachers resist reforms they were never asked about.|resist pressure
+oppose|karşı çıkmak|B2|v|fi2|Residents oppose the new motorway.|strongly oppose
+defy|meydan okumak|C1|v|fi2|Protesters defied the curfew.|defy expectations
+comply|uymak|C1|v|fi2|Firms that fail to comply face heavy fines.|comply with the rules
+adhere|bağlı kalmak|C1|v|fi2|Members must adhere to a common code.|adhere to a principle
+adapt|uyum sağlamak, uyarlamak|B2|v|fi2|Species that cannot adapt disappear.|adapt to change
+adjust|ayarlamak, alışmak|B2|v|fi2|It takes a term to adjust to a new school.|adjust to sth
+modify|değiştirmek|C1|v|fi2|The committee modified the proposal slightly.|modify behaviour
+transform|dönüştürmek|B2|v|fi2|The railway transformed a village into a city.|transform society
+revolutionise|kökten değiştirmek|C1|v|fi2|The printing press revolutionised religion.|revolutionise an industry
+stress|vurgulamak|B2|v|fi2|The author stresses the role of chance.|stress the importance of sth
+underline|altını çizmek|B2|v|fi2|The crisis underlines the need for reform.|underline a point
+clarify|açıklığa kavuşturmak|B2|v|fi2|The minister refused to clarify the remark.|clarify a position
+specify|belirtmek|C1|v|fi2|The task does not specify a text type.|specify the details
+outline|ana hatlarıyla anlatmak|B2|v,n|fi2|The first paragraph outlines the problem.|outline a plan
+summarise|özetlemek|B2|v|fi2|The last line summarises the argument.|summarise the main points
+claim|iddia etmek, iddia|B2|v,n|fi2|The firm claims that the data is anonymous.|make a claim
+contend|ileri sürmek|C1|v|fi2|Critics contend that the law is too vague.|contend that
+allege|iddia etmek (kanıtsız)|C1|v|fi2|The report alleges that votes were bought.|allege that
+deny|inkâr etmek|B2|v|fi2|The club denies any wrongdoing.|deny an accusation
+reject|reddetmek|B2|v|fi2|Voters rejected the proposal twice.|reject an offer
+challenge|sorgulamak, meydan okumak|B2|v,n|fi2|The novel challenges the official history.|challenge an assumption
+dispute|tartışmak, itiraz etmek|C1|v,n|fi2|Few historians dispute the dates.|dispute a claim
+expose|ifşa etmek, açığa çıkarmak|C1|v|fi2|The leak exposed years of secret payments.|expose corruption
+disclose|açıklamak, ifşa etmek|C1|v|fi2|The company refused to disclose its donors.|disclose information
+conceal|gizlemek|C1|v|fi2|Polite language can conceal a threat.|conceal the truth
+distort|çarpıtmak|C1|v|fi2|Selective quotation distorts the meaning.|distort the facts
+exaggerate|abartmak|B2|v|fi2|Headlines exaggerate every risk.|grossly exaggerate
+downplay|önemsiz göstermek|C1|v|fi2|Officials downplayed the scale of the leak.|downplay the risk
+neglect|ihmal etmek|B2|v,n|fi2|The plan neglects rural schools.|neglect a duty
+disregard|hiçe saymak|C1|v,n|fi2|The builders disregarded every safety rule.|disregard a warning
+abandon|terk etmek, vazgeçmek|B2|v|fi2|The government abandoned the project after a year.|abandon a plan
+exclude|dışlamak, hariç tutmak|B2|v|fi2|The talks excluded the people most affected.|exclude sb from sth
+isolate|yalıtmak|B2|v|fi2|Sanctions isolate a regime and its citizens alike.|isolate a country
+alienate|yabancılaştırmak|C1|v|fi2|The reforms alienated the party's oldest voters.|alienate supporters
+dominate|egemen olmak|B2|v|fi2|Three firms dominate the market.|dominate the debate
+exert|uygulamak (güç, baskı)|C1|v|fi2|Parents exert pressure without noticing.|exert influence
+wield|elinde tutmak (güç)|C2|v|fi2|Editors once wielded enormous power.|wield power
+surpass|aşmak, geçmek|C1|v|fi2|Demand surpassed every forecast.|surpass expectations
+exceed|aşmak|B2|v|fi2|Costs exceeded the budget by half.|exceed the limit
+outweigh|ağır basmak|C1|v|fi2|The benefits outweigh the risks.|outweigh the disadvantages
+compensate|telafi etmek|C1|v|fi2|Effort cannot fully compensate for a late start.|compensate for sth
+coincide|aynı zamana denk gelmek|C1|v|fi2|The strike coincided with the exam week.|coincide with sth
+differ|farklılık göstermek|B2|v|fi2|The two accounts differ on every key point.|differ from sth
+vary|değişiklik göstermek|B2|v|fi2|Results vary widely between regions.|vary from place to place
+dwindle|giderek azalmak|C1|v|fi2|Support for the war dwindled each month.|dwindling resources
+stabilise|istikrara kavuşmak|C1|v|fi2|Prices stabilised after the harvest.|stabilise the economy
+flourish|serpilmek, gelişmek|C1|v|fi2|The arts flourish where censors are lazy.|flourish under sth
+struggle|mücadele etmek, zorlanmak|B2|v,n|fi2|Small clubs struggle to keep their best players.|struggle to do sth
+endure|katlanmak, dayanmak|C1|v|fi2|The city endured a winter without heating.|endure hardship
+persist|sürmek, ısrar etmek|C1|v|fi2|The gap persists despite decades of policy.|persist in doing sth
+prevail|üstün gelmek, hâkim olmak|C1|v|fi2|In the end, common sense prevailed.|prevail over sth
+merit|hak etmek, değer|C1|v,n|fi2|The proposal merits serious attention.|merit consideration
+warrant|gerektirmek, haklı kılmak|C2|v|fi2|The evidence does not warrant such a conclusion.|warrant an investigation
+crucial|çok önemli, kritik|B2|adj|sf2|The first five minutes are crucial in an oral.|play a crucial role
+vital|hayati|B2|adj|sf2|Clean water is vital to public health.|of vital importance
+essential|zorunlu, temel|B1|adj|sf2|A free press is essential to a democracy.|absolutely essential
+pivotal|belirleyici, kilit|C1|adj|sf2|The battle proved pivotal in the war.|a pivotal moment
+integral|ayrılmaz|C1|adj|sf2|Music is integral to the film's effect.|an integral part
+paramount|en önemli|C2|adj|sf2|Safety is paramount in any school trip.|of paramount importance
+pressing|acil, ivedi|C1|adj|sf2|Housing is the most pressing issue for the young.|a pressing need
+urgent|acil|B1|adj|sf2|The bridge is in urgent need of repair.|urgent action
+dire|vahim|C1|adj|sf2|The refugees live in dire conditions.|dire consequences
+grave|ciddi, vahim|C1|adj|sf2|The decision was a grave mistake.|grave concern
+severe|şiddetli, ağır|B2|adj|sf2|The region faces a severe water shortage.|severe damage
+radical|köklü|B2|adj|sf2|The crisis demands a radical rethink.|radical change
+sweeping|kapsamlı, geniş çaplı|C1|adj|sf2|The new government promised sweeping reforms.|sweeping changes
+far-reaching|geniş kapsamlı|C1|adj|sf2|The ruling has far-reaching consequences.|far-reaching implications
+long-term|uzun vadeli|B2|adj|sf2|Long-term planning rarely wins elections.|long-term effects
+short-sighted|ileriyi görmeyen|C1|adj|sf2|Cutting research is a short-sighted saving.|a short-sighted policy
+lasting|kalıcı|B2|adj|sf2|The tournament left a lasting impression.|a lasting peace
+enduring|kalıcı, süregelen|C1|adj|sf2|The novel's enduring appeal lies in its narrator.|enduring popularity
+fleeting|gelip geçici|C1|adj|sf2|Fame on a platform is fleeting.|a fleeting moment
+temporary|geçici|B1|adj|sf2|A temporary camp became a permanent town.|a temporary solution
+permanent|kalıcı, daimi|B2|adj|sf2|Five states hold a permanent seat.|a permanent member
+rapid|hızlı|B2|adj|sf2|Rapid growth hid deep weaknesses.|rapid growth
+sharp|keskin, ani|B2|adj|sf2|There was a sharp rise in applications.|a sharp increase
+slight|hafif, az|B2|adj|sf2|Even a slight delay costs lives.|a slight difference
+sheer|salt, katıksız|C1|adj|sf2|The sheer scale of the camp shocked visitors.|by sheer luck
+utter|tam, mutlak|C1|adj|sf2|The talks ended in utter failure.|utter chaos
+mere|yalnızca, sırf|C1|adj|sf2|A mere two per cent voted against.|a mere formality
+outright|kesin, düpedüz|C1|adj,adv|sf2|The proposal met outright rejection.|an outright ban
+genuine|gerçek, içten|B2|adj|sf2|The apology sounded genuine.|genuine concern
+superficial|yüzeysel|C1|adj|sf2|The article offers a superficial analysis.|a superficial understanding
+shallow|sığ|B2|adj|sf2|A shallow argument collapses at the first question.|a shallow analysis
+trivial|önemsiz|C1|adj|sf2|The debate was lost in trivial details.|a trivial matter
+noteworthy|kayda değer|C1|adj|sf2|The most noteworthy change is in tone.|a noteworthy feature
+remarkable|dikkate değer|B2|adj|sf2|The team made a remarkable recovery.|a remarkable achievement
+striking|çarpıcı|C1|adj|sf2|The most striking image is the empty chair.|a striking contrast
+notable|kayda değer|C1|adj|sf2|With one notable exception, all members agreed.|a notable exception
+outstanding|olağanüstü|B2|adj|sf2|Her oral was outstanding for its calm.|an outstanding performance
+exceptional|istisnai, olağanüstü|B2|adj|sf2|Only in exceptional cases is the rule waived.|exceptional circumstances
+mediocre|vasat|C1|adj|sf2|A mediocre season ended with a cup.|a mediocre performance
+inadequate|yetersiz|B2|adj|sf2|Inadequate lighting makes streets feel unsafe.|inadequate funding
+insufficient|yetersiz|C1|adj|sf2|There is insufficient evidence for the claim.|insufficient evidence
+flawed|kusurlu|C1|adj|sf2|The study rests on a flawed sample.|a flawed argument
+deceptive|aldatıcı|C1|adj|sf2|The calm of the opening scene is deceptive.|deceptive appearances
+dubious|şüpheli, kuşkulu|C1|adj|sf2|The figures come from a dubious source.|a dubious claim
+questionable|tartışmalı, şüpheli|C1|adj|sf2|The timing of the announcement is questionable.|highly questionable
+controversial|tartışmalı|B2|adj|sf2|The referee made a controversial decision.|a controversial issue
+divisive|bölücü, ayrıştırıcı|C1|adj|sf2|Immigration remains a divisive topic.|a divisive issue
+sensitive|hassas|B2|adj|sf2|The archive contains sensitive documents.|a sensitive issue
+delicate|nazik, hassas|B2|adj|sf2|The talks have reached a delicate stage.|a delicate balance
+complex|karmaşık|B2|adj|sf2|The causes of the war are complex.|a complex issue
+straightforward|açık, basit|B2|adj|sf2|The answer is less straightforward than it looks.|a straightforward task
+nuanced|ince ayrımlı|C1|adj|sf2|The film offers a nuanced portrait of a soldier.|a nuanced view
+simplistic|fazla basitleştirilmiş|C1|adj|sf2|Blaming one leader is a simplistic reading.|a simplistic view
+crude|kaba, ham|C1|adj|sf2|The poster relies on crude stereotypes.|a crude measure
+sophisticated|gelişmiş, incelikli|B2|adj|sf2|The fraud used sophisticated software.|a sophisticated argument
+elaborate|ayrıntılı, özenli|C1|adj|sf2|The ceremony followed an elaborate ritual.|an elaborate plan
+comprehensive|kapsamlı|C1|adj|sf2|The report gives a comprehensive account.|a comprehensive review
+thorough|eksiksiz, titiz|B2|adj|sf2|The inquiry was slow but thorough.|a thorough investigation
+hasty|aceleci|C1|adj|sf2|A hasty withdrawal left allies exposed.|a hasty decision
+rational|akılcı|B2|adj|sf2|Fear is rarely a rational adviser.|a rational decision
+absurd|saçma|B2|adj|sf2|It is absurd to tax books and not yachts.|an absurd idea
+legitimate|meşru|C1|adj|sf2|Voters have legitimate concerns about costs.|a legitimate concern
+valid|geçerli|B2|adj|sf2|Both critics make a valid point.|a valid argument
+sound|sağlam|C1|adj|sf2|The policy rests on sound evidence.|sound advice
+unfounded|asılsız|C1|adj|sf2|The rumours proved unfounded.|unfounded allegations
+evident|açık, belli|C1|adj|sf2|The author's sympathy is evident from the first line.|clearly evident
+apparent|görünen, belli|B2|adj|sf2|For no apparent reason, the talks stopped.|become apparent
+blatant|bariz, apaçık|C1|adj|sf2|The advert is a blatant appeal to fear.|a blatant lie
+implicit|örtük|C1|adj|sf2|There is an implicit threat in the last sentence.|implicit criticism
+explicit|açık, belirgin|C1|adj|sf2|The text makes no explicit reference to the war.|an explicit statement
+tangible|somut|C1|adj|sf2|The summit produced no tangible results.|tangible benefits
+concrete|somut|B2|adj|sf2|Give a concrete example for every claim.|concrete evidence
+harsh|sert, acımasız|B2|adj|sf2|The review was harsh but accurate.|harsh criticism
+rigid|katı|C1|adj|sf2|A rigid timetable leaves no room for curiosity.|rigid rules
+flexible|esnek|B2|adj|sf2|Flexible hours help working parents.|a flexible approach
+relentless|amansız, durmak bilmeyen|C1|adj|sf2|The press kept up relentless pressure.|relentless pursuit
+persistent|ısrarlı, süregelen|C1|adj|sf2|Persistent inequality weakens trust.|a persistent problem
+adverse|olumsuz|C1|adj|sf2|Night shifts have adverse effects on health.|adverse effects
+beneficial|yararlı|B2|adj|sf2|Trade was mutually beneficial.|beneficial to sb
+favourable|olumlu, elverişli|B2|adj|sf2|The film received favourable reviews.|favourable conditions
+hostile|düşmanca|B2|adj|sf2|The crowd was openly hostile.|a hostile environment
+counterproductive|ters etki yaratan|C1|adj|sf2|Harsh penalties proved counterproductive.|prove counterproductive
+worthwhile|zahmete değer|B2|adj|sf2|The long preparation was worthwhile.|a worthwhile cause
+alarming|endişe verici|B2|adj|sf2|Glaciers are melting at an alarming rate.|at an alarming rate
+appalling|korkunç, dehşet verici|C1|adj|sf2|Workers lived in appalling conditions.|appalling conditions
+commendable|takdire değer|C1|adj|sf2|The club made a commendable effort to apologise.|a commendable effort
+daunting|göz korkutucu|C1|adj|sf2|Four hundred pages looked daunting in September.|a daunting task
+formidable|çetin, heybetli|C1|adj|sf2|The champions are a formidable opponent.|a formidable challenge
+overwhelming|ezici, bunaltıcı|B2|adj|sf2|An overwhelming majority backed the change.|overwhelming evidence
+staggering|sarsıcı, şaşırtıcı|C1|adj|sf2|The stadium cost a staggering sum.|a staggering amount
+immense|muazzam|C1|adj|sf2|The treaty was of immense importance.|immense pressure
+vast|çok geniş, engin|B2|adj|sf2|The vast majority of users never read the terms.|the vast majority
+ample|bol, fazlasıyla yeterli|C1|adj|sf2|There is ample evidence of neglect.|ample opportunity
+meagre|kıt, yetersiz|C2|adj|sf2|Pensioners survive on a meagre income.|a meagre salary
+prominent|önde gelen|C1|adj|sf2|A prominent lawyer took the case for free.|a prominent figure
+influential|etkili, nüfuzlu|B2|adj|sf2|The essay was hugely influential.|an influential thinker
+obscure|az bilinen, anlaşılmaz|C1|adj|sf2|The reference is obscure to modern readers.|an obscure reference
+conventional|geleneksel, alışılmış|B2|adj|sf2|The film breaks with conventional structure.|conventional wisdom
+innovative|yenilikçi|B2|adj|sf2|An innovative scheme pays pupils to read.|an innovative approach
+relevant|ilgili, konuyla alakalı|B2|adj|sf2|Only one paragraph is relevant to the task.|relevant to sth
+pertinent|konuyla ilgili, yerinde|C2|adj|sf2|The examiner asked a pertinent question.|a pertinent question

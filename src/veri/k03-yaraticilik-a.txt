@@ -1,0 +1,150 @@
+live performance|canlı gösteri|B1|n|egl|Nothing replaces the energy of a live performance.|a live performance
+sold out|biletleri tükenmiş|B2|adj|egl|The concert sold out in eleven minutes.|a sold-out show
+stand-up|tek kişilik gösteri|B2|n,adj|egl|Stand-up comedy turns embarrassment into applause.|a stand-up comedian
+amusement park|lunapark|B1|n|egl|The old amusement park became a shopping centre.|an amusement park ride
+viewer|izleyici|B1|n|egl|The final attracted two billion viewers.|television viewers
+ratings|izlenme oranları|B2|n|egl|The show was cancelled when its ratings fell.|high ratings
+crowd-pleaser|herkesin sevdiği iş|C1|n|egl|The film is a crowd-pleaser with a predictable ending.|a real crowd-pleaser
+light-hearted|hafif, eğlenceli|B2|adj|egl|A light-hearted comedy was what the audience needed.|a light-hearted film
+spoiler|sürprizbozan|B2|n|egl|The review gives away a major spoiler.|a spoiler alert
+hype|aşırı tanıtım, abartı|B2|n,v|egl|The game never lived up to the hype.|live up to the hype
+canvas|tuval|B2|n|san|The artist left half the canvas empty.|oil on canvas
+gallery|galeri|B1|n|san|The gallery is free on the first Sunday of the month.|an art gallery
+contemporary art|çağdaş sanat|B2|n|san|Contemporary art asks questions instead of pleasing the eye.|a museum of contemporary art
+still life|natürmort|C1|n|san|The still life shows fruit beginning to rot.|paint a still life
+self-portrait|otoportre|B2|n|san|Every novel is a kind of self-portrait.|paint a self-portrait
+sketch|eskiz, taslak çizmek|B2|n,v|san|He sketched the bridge on the back of a ticket.|a rough sketch
+miniature|minyatür|C1|n,adj|san|Ottoman miniatures show whole battles on one page.|a miniature painting
+tile|çini, karo|B2|n|san|İznik tiles cover the walls of the mosque.|ceramic tiles
+subject matter|konu, içerik|C1|n|san|The subject matter is ordinary; the treatment is not.|controversial subject matter
+perspective|bakış açısı, perspektif|B2|n|san|The painting plays with perspective to unsettle the viewer.|from a different perspective
+visual|görsel|B2|adj|san|Cinema is a visual language before it is a story.|visual arts
+performing arts|sahne sanatları|B2|n|san|Funding for the performing arts was cut again.|the performing arts
+expressive|anlatım gücü yüksek|C1|adj|san|Her expressive brushwork fills the canvas with motion.|an expressive face
+broadcast|yayınlamak, yayın|B2|v,n|med|The debate was broadcast live on three channels.|a live broadcast
+journalist|gazeteci|B1|n|med|A journalist protects her sources above all.|an investigative journalist
+press freedom|basın özgürlüğü|B2|n|med|Press freedom is measured by what editors fear.|restrict press freedom
+editorial|başyazı, yayın kuruluna ait|C1|n,adj|med|The editorial called for the minister's resignation.|an editorial line
+correspondent|muhabir|C1|n|med|The paper's foreign correspondent filed from the border.|a war correspondent
+source|kaynak|B1|n|med|A story with a single source is a rumour.|a reliable source
+scoop|atlatma haber|C1|n|med|The young reporter got the scoop of the year.|get a scoop
+breaking news|son dakika haberi|B2|n|med|Breaking news is often wrong in the first hour.|breaking news
+circulation|tiraj|C1|n|med|Print circulation has halved in a decade.|a daily circulation
+objective|nesnel|B2|adj|med|No report is fully objective, but some try harder.|an objective account
+slanted|taraflı|C1|adj|med|The coverage was slanted towards the government.|a slanted report
+credible|inandırıcı, güvenilir|C1|adj|med|A credible outlet corrects its mistakes in public.|a credible source
+go viral|hızla yayılmak|B2|idm|med|The clip went viral before it was verified.|go viral overnight
+censorious|sansürcü, ayıplayan|C2|adj|med|A censorious regulator fined the channel twice.|a censorious tone
+watchdog|denetçi kurum|C1|n|med|The press should act as a watchdog, not a guard dog.|a media watchdog
+gadget|küçük teknolojik alet|B1|n|tek|He owns every gadget and uses two.|the latest gadget
+state-of-the-art|en gelişmiş|C1|adj|tek|The lab has state-of-the-art equipment and no staff.|state-of-the-art technology
+breakthrough technology|çığır açan teknoloji|B2|n|tek|Touchscreens were a breakthrough technology of the 2000s.|a breakthrough technology
+wearable|giyilebilir|B2|adj,n|tek|Wearable devices track sleep better than memory does.|wearable technology
+bandwidth|bant genişliği|C1|n|tek|Rural schools lack the bandwidth for video lessons.|limited bandwidth
+software|yazılım|B1|n|tek|Old software is the weakest point of any system.|install software
+hardware|donanım|B2|n|tek|The hardware is fine; the code is the problem.|computer hardware
+malfunction|arıza, arıza yapmak|C1|n,v|tek|A sensor malfunction grounded the whole fleet.|a technical malfunction
+outage|kesinti|C1|n|tek|The outage left the city offline for six hours.|a power outage
+compatible|uyumlu|B2|adj|tek|The new charger is not compatible with older phones.|compatible with sth
+streamline|sadeleştirmek, hızlandırmak|C1|v|tek|The app streamlines a process that took three forms.|streamline a process
+tech-savvy|teknolojiye hâkim|B2|adj|tek|Tech-savvy grandparents run the family chat.|a tech-savvy generation
+planned obsolescence|planlı eskitme|C2|n|tek|Planned obsolescence turns phones into waste by design.|planned obsolescence
+laboratory|laboratuvar|B1|n|bil|The laboratory runs on grants that end every year.|a research laboratory
+theory|kuram|B1|n|bil|A theory explains; a law only describes.|a scientific theory
+observation|gözlem|B2|n|bil|Careful observation came before every great theory.|make an observation
+measure|ölçmek|B1|v|bil|We cannot manage what we do not measure.|measure accurately
+data|veri|B1|n|bil|The data were collected over twelve years.|collect data
+analysis|çözümleme|B2|n|bil|The analysis took longer than the experiment.|a detailed analysis
+methodology|yöntem bilimi, yöntem|C1|n|bil|A weak methodology ruins strong data.|research methodology
+funding|fon, kaynak|B2|n|bil|Funding follows fashion in science too.|research funding
+discovery|keşif, buluş|B1|n|bil|The discovery was an accident nobody ignored.|a scientific discovery
+verify|doğrulamak|B2|v|bil|Independent labs verified the result within a month.|verify a claim
+groundbreaking|çığır açan|C1|adj|bil|Her groundbreaking paper was rejected twice.|groundbreaking research
+curiosity|merak|B2|n|bil|Science begins with curiosity and survives on patience.|out of curiosity
+inquiry|sorgulama, araştırma|C1|n|bil|Scientific inquiry begins with a better question.|a line of inquiry
+melody|ezgi|B1|n|muz|A simple melody carries the whole film.|a haunting melody
+lyrics|şarkı sözleri|B1|n|muz|The lyrics were banned; the tune was not.|write lyrics
+rhythm|ritim|B1|n|muz|The rhythm of the prose imitates a train.|a sense of rhythm
+harmony|armoni, uyum|B2|n|muz|The choir sang in perfect harmony.|in harmony with sth
+composer|besteci|B2|n|muz|The composer wrote the score in three weeks.|a classical composer
+conductor|orkestra şefi|B2|n|muz|The conductor stopped the orchestra mid-phrase.|a guest conductor
+orchestra|orkestra|B1|n|muz|The youth orchestra tours every summer.|a symphony orchestra
+tune|melodi, akort etmek|B1|n,v|muz|I cannot get that tune out of my head.|a catchy tune
+catchy|akılda kalıcı|B2|adj|muz|A catchy chorus sells a mediocre song.|a catchy slogan
+gig|konser, iş|B2|n|muz|The band played its first gig in a school hall.|play a gig
+venue|mekân|B2|n|muz|The venue holds only two hundred people.|a concert venue
+rehearse|prova yapmak|B2|v|muz|They rehearse in a garage after school.|rehearse a speech
+improvise|doğaçlama yapmak|C1|v|muz|Jazz players improvise within strict rules.|improvise a solution
+acoustic|akustik|B2|adj|muz|An acoustic version reveals a song's skeleton.|an acoustic guitar
+virtuoso|virtüöz|C1|n|muz|The virtuoso played the piece from memory.|a violin virtuoso
+anthem|marş|B2|n|muz|The song became an anthem for a generation.|the national anthem
+folk music|halk müziği|B1|n|muz|Folk music preserved stories no book recorded.|traditional folk music
+playlist|çalma listesi|B1|n|muz|Algorithms now write the playlist of our lives.|a curated playlist
+chart|müzik listesi|B2|n|muz|The single stayed in the charts for a year.|top of the charts
+out of tune|akortsuz, detone|B2|idm|muz|The piano was badly out of tune.|sing out of tune
+instrumental|enstrümantal; etkili|C1|adj|muz|She was instrumental in saving the music school.|instrumental in sth
+ensemble|topluluk|C1|n|muz|The ensemble performs without a conductor.|a chamber ensemble
+uplifting|iç açıcı|B2|adj|muz|The final movement is unexpectedly uplifting.|an uplifting song
+resonate|yankı bulmak|C1|v|muz|The lyrics resonate with anyone who has left home.|resonate with sb
+score|film müziği, nota|B2|n|muz|The score tells us what the characters cannot say.|a film score
+tone-deaf|müzik kulağı olmayan; duyarsız|C1|adj|muz|The advert was tone-deaf in the middle of a crisis.|a tone-deaf response
+director|yönetmen|B1|n|sin|The director shot the film in twenty days.|a film director
+cast|oyuncu kadrosu|B2|n|sin|The cast is unknown, which helps the realism.|a star-studded cast
+screenwriter|senarist|B2|n|sin|The screenwriter cut every line of explanation.|an acclaimed screenwriter
+premiere|gala, ilk gösterim|B2|n|sin|The premiere took place at the Istanbul Film Festival.|a world premiere
+trailer|fragman|B1|n|sin|The trailer shows every good scene in two minutes.|watch the trailer
+footage|görüntü, çekim|B2|n|sin|The documentary uses footage never broadcast before.|archive footage
+close-up|yakın çekim|B2|n|sin|A long close-up replaces a page of dialogue.|in close-up
+sequence|sahne dizisi|B2|n|sin|The opening sequence has no words at all.|an action sequence
+special effects|özel efektler|B1|n|sin|The special effects aged faster than the story.|stunning special effects
+low-budget|düşük bütçeli|B2|adj|sin|A low-budget film won the main prize.|a low-budget production
+box-office hit|gişe başarısı|B2|n|sin|The sequel was a box-office hit and a critical failure.|a box-office hit
+flop|fiyasko, başarısız olmak|B2|n,v|sin|The film flopped at home and triumphed abroad.|a commercial flop
+remake|yeniden çevrim|B2|n,v|sin|The remake adds colour and removes meaning.|a Hollywood remake
+documentary|belgesel|B1|n|sin|The documentary follows three fishermen for a year.|a nature documentary
+plot twist|olay örgüsünde sürpriz|B2|n|sin|The plot twist arrives ten minutes too late.|an unexpected plot twist
+cliffhanger|merakta bırakan son|B2|n|sin|Each episode ends on a cliffhanger.|end on a cliffhanger
+character development|karakter gelişimi|B2|n|sin|The series trades action for character development.|strong character development
+performance|oyunculuk, performans|B1|n|sin|Her performance holds the whole film together.|a powerful performance
+understated|abartısız, ölçülü|C1|adj|sin|An understated ending is braver than a twist.|an understated performance
+far-fetched|inandırıcılıktan uzak|C1|adj|sin|The premise is far-fetched but the acting saves it.|a far-fetched plot
+thought-provoking|düşündürücü|B2|adj|sin|It is a thought-provoking film about ordinary guilt.|a thought-provoking documentary
+predictable|tahmin edilebilir|B2|adj|sin|The ending was predictable from the first scene.|a predictable plot
+subtext|alt metin|C1|n|sin|The subtext of every dinner scene is money.|political subtext
+auteur|yaratıcı yönetmen|C2|n|sin|Nuri Bilge Ceylan is the best-known Turkish auteur.|an auteur director
+binge-worthy|arka arkaya izlenir|C1|adj|sin|The series is binge-worthy but instantly forgettable.|a binge-worthy show
+on location|gerçek mekânda|C1|phr|sin|The film was shot on location in Kars.|shoot on location
+screen adaptation|ekran uyarlaması|B2|n|sin|The screen adaptation changes the narrator's gender.|a screen adaptation
+well-received|olumlu karşılanan|C1|adj|sin|The film was well-received at Cannes.|a well-received debut
+rave review|övgü dolu eleştiri|C1|n|sin|The debut earned rave reviews from every paper.|receive rave reviews
+soundtrack album|film müzikleri albümü|B2|n|sin|The soundtrack album outsold the film's tickets.|a soundtrack album
+novel|roman|B1|n|kit|The novel covers a single afternoon in Ankara.|a historical novel
+novelist|romancı|B2|n|kit|The novelist refused to explain her ending.|a prize-winning novelist
+short story|öykü|B1|n|kit|A short story must do in ten pages what a novel does in three hundred.|a collection of short stories
+poetry|şiir|B1|n|kit|Poetry says the most with the fewest words.|write poetry
+verse|dize, kıta|B2|n|kit|The second verse changes the meaning of the first.|in verse
+prose|düzyazı|C1|n|kit|His prose is plain and impossible to imitate.|elegant prose
+fiction|kurmaca|B1|n|kit|Fiction can tell truths that reports cannot.|a work of fiction
+non-fiction|kurmaca dışı|B2|n|kit|Non-fiction outsells novels among young readers.|a non-fiction bestseller
+chapter|bölüm|B1|n|kit|The final chapter rewrites everything before it.|the opening chapter
+excerpt|alıntı, parça|C1|n|kit|The oral begins with an excerpt of about 300 words.|an excerpt from a novel
+passage|pasaj, bölüm|B2|n|kit|This passage reveals the narrator's guilt.|a key passage
+publish|yayımlamak|B1|v|kit|The book was published abroad before it appeared at home.|publish a novel
+bestseller|çok satan|B2|n|kit|A bestseller is not always a good book.|an international bestseller
+literary|edebi|B2|adj|kit|The literary quality lies in what is left unsaid.|a literary work
+page-turner|elden bırakılmayan kitap|C1|n|kit|The thriller is a page-turner with nothing to say.|a real page-turner
+bookworm|kitap kurdu|B2|n|kit|A bookworm since childhood, he owns four thousand titles.|a real bookworm
+well-read|çok okumuş|C1|adj|kit|A well-read candidate quotes without showing off.|widely well-read
+plot-driven|olay odaklı|C1|adj|kit|The novel is plot-driven and thin on character.|a plot-driven story
+classic|klasik|B1|n,adj|kit|A classic is a book that never finishes speaking.|a modern classic
+translation|çeviri|B1|n|kit|A good translation is a second original.|in translation
+edition|baskı|B2|n|kit|The second edition restored the censored pages.|a paperback edition
+manuscript|müsvedde, el yazması|C1|n|kit|The manuscript was rejected by twelve publishers.|an unpublished manuscript
+anthology|antoloji, seçki|C1|n|kit|The anthology gathers poems from forty countries.|a poetry anthology
+dystopian|distopik|C1|adj|kit|Dystopian novels sell best in anxious decades.|a dystopian future
+coming-of-age novel|büyüme romanı|C1|n|kit|The coming-of-age novel is set during a military coup.|a coming-of-age novel
+recount|anlatmak, nakletmek|C1|v|kit|The narrator recounts the events without emotion.|recount a story
+unfold|gelişmek, açılmak|C1|v|kit|The story unfolds over a single night.|as events unfold
+readership|okur kitlesi|C1|n|kit|The magazine has a small but loyal readership.|a wide readership
+literary device|edebi sanat|C1|n|kit|Repetition is the simplest literary device.|use a literary device
+between the lines|satır aralarında|C1|idm|kit|Read between the lines and the letter is a threat.|read between the lines

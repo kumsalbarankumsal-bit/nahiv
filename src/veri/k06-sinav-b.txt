@@ -1,0 +1,221 @@
+sarcastic|alaycı, iğneleyici|B2|adj|ton|The columnist's sarcastic tone divides readers.|a sarcastic remark
+ironic|ironik|B2|adj|ton|It is ironic that a peace prize funds an arms maker.|an ironic tone
+humorous|esprili|B2|adj|ton|A humorous opening relaxes the audience.|a humorous tone
+playful|oyunbaz, şakacı|B2|adj|ton|The blog keeps a playful tone throughout.|a playful tone
+sombre|kasvetli, ağırbaşlı|C1|adj|ton|The speech took a sombre turn at the end.|a sombre mood
+melancholic|hüzünlü|C1|adj|ton|The last chapter has a melancholic quality.|a melancholic tone
+bitter|acı, kırgın|B2|adj|ton|The memoir ends on a bitter note.|a bitter tone
+indignant|haksızlığa öfkeli|C1|adj|ton|The letter to the editor is indignant from its first word.|an indignant reply
+outraged|öfkeden kudurmuş|C1|adj|ton|Outraged fans demanded a refund.|outraged by sth
+defensive|savunmacı|B2|adj|ton|The minister sounded defensive throughout the interview.|a defensive tone
+apologetic|özür diler tavırda|C1|adj|ton|The statement was apologetic but admitted nothing.|an apologetic tone
+subjective|öznel|B2|adj|ton|A diary is subjective by definition.|a subjective view
+biased|taraflı|B2|adj|ton|The coverage was openly biased.|a biased account
+neutral|tarafsız, yansız|B2|adj|ton|A news report keeps a neutral tone.|remain neutral
+impartial|yansız|C1|adj|ton|A referee must be impartial and seen to be so.|an impartial observer
+critical|eleştirel|B2|adj|ton|The review is critical without being cruel.|highly critical of sth
+scathing|sert, yerden yere vuran|C2|adj|ton|The paper published a scathing review of the plan.|a scathing attack
+condescending|tepeden bakan|C1|adj|ton|The brochure's tone is condescending to teenagers.|a condescending tone
+patronising|küçümseyici|C1|adj|ton|Simple language need not be patronising.|a patronising attitude
+respectful|saygılı|B2|adj|ton|A formal letter stays respectful even in complaint.|a respectful tone
+admiring|hayranlık dolu|C1|adj|ton|The profile is admiring but not blind.|an admiring glance
+passionate|tutkulu|B2|adj|ton|She gave a passionate defence of public libraries.|a passionate speech
+tentative|temkinli, kesin olmayan|C1|adj|ton|The essay reaches a tentative conclusion.|a tentative suggestion
+authoritative|yetkin, otoriter|C1|adj|ton|Statistics give the article an authoritative voice.|an authoritative source
+informative|bilgilendirici|B2|adj|ton|The leaflet is informative rather than persuasive.|an informative text
+didactic|öğretici, ders verici|C2|adj|ton|The fable has an openly didactic purpose.|a didactic tone
+reflective|düşünceli, iç gözlemci|C1|adj|ton|The final entry is quiet and reflective.|a reflective mood
+hopeful|umutlu|B1|adj|ton|The speech ends on a hopeful note.|a hopeful sign
+resigned|kabullenmiş|C1|adj|ton|The narrator sounds resigned to his fate.|a resigned sigh
+mocking|alaycı|C1|adj|ton|The cartoon takes a mocking view of the summit.|a mocking tone
+alarmist|telaş yayan|C1|adj|ton|The headline is alarmist; the article is calm.|alarmist language
+reassuring|güven verici|B2|adj|ton|The doctor's letter is brief and reassuring.|a reassuring message
+encouraging|cesaretlendirici|B2|adj|ton|Feedback should be honest and encouraging.|encouraging words
+formal|resmî|B1|adj|ton|A proposal requires a formal register.|formal language
+informal|gayriresmî, samimi|B1|adj|ton|A blog allows an informal style.|an informal tone
+conversational|sohbet havasında|C1|adj|ton|The column is written in a conversational style.|a conversational tone
+impersonal|kişisel olmayan|C1|adj|ton|A report is impersonal and factual.|an impersonal style
+increasingly|giderek|B2|adv|zrf|Voters are increasingly impatient.|increasingly difficult
+significantly|önemli ölçüde|B2|adv|zrf|Attendance rose significantly.|significantly higher
+considerably|hayli|B2|adv|zrf|Costs vary considerably between cities.|considerably more
+substantially|büyük ölçüde|C1|adv|zrf|The text was substantially rewritten.|substantially different
+dramatically|çarpıcı biçimde|B2|adv|zrf|Prices fell dramatically.|change dramatically
+sharply|sert biçimde|B2|adv|zrf|Opinion is sharply divided.|rise sharply
+steadily|istikrarlı biçimde|B2|adv|zrf|Support has grown steadily.|grow steadily
+gradually|yavaş yavaş|B2|adv|zrf|The tone gradually darkens.|gradually increase
+rapidly|hızla|B2|adv|zrf|The city is expanding rapidly.|grow rapidly
+slightly|biraz, hafifçe|B1|adv|zrf|The second draft is slightly longer.|slightly different
+largely|büyük oranda|B2|adv|zrf|The plan was largely ignored.|largely due to sth
+primarily|öncelikle, esasen|B2|adv|zrf|The text is aimed primarily at parents.|primarily concerned with
+predominantly|ağırlıklı olarak|C1|adv|zrf|The audience was predominantly young.|predominantly rural
+partly|kısmen|B2|adv|zrf|The failure was partly a matter of timing.|partly responsible
+entirely|tamamen|B2|adv|zrf|The decision is entirely yours.|entirely different
+utterly|büsbütün|C1|adv|zrf|The attempt was utterly pointless.|utterly unacceptable
+thoroughly|baştan sona, iyice|B2|adv|zrf|Check the task thoroughly before writing.|thoroughly enjoy
+virtually|neredeyse|C1|adv|zrf|It is virtually impossible to delete a rumour.|virtually impossible
+barely|güç bela, ancak|B2|adv|zrf|The text barely mentions the cost.|barely noticeable
+hardly|neredeyse hiç|B2|adv|zrf|The result was hardly surprising.|hardly ever
+scarcely|ancak, zar zor|C1|adv|zrf|The village had scarcely changed.|scarcely believe
+merely|yalnızca|C1|adv|zrf|The change is not merely cosmetic.|not merely
+solely|yalnızca, tek başına|C1|adv|zrf|Marks should not depend solely on memory.|solely responsible
+precisely|tam olarak|B2|adv|zrf|That is precisely the problem.|precisely because
+roughly|kabaca|B2|adv|zrf|Roughly half of the class agreed.|roughly equal
+approximately|yaklaşık|B2|adv|zrf|The oral lasts approximately fifteen minutes.|approximately half
+relatively|görece|B2|adv|zrf|The exam was relatively easy.|relatively small
+fairly|oldukça|B1|adv|zrf|The instructions are fairly clear.|fairly common
+somewhat|bir ölçüde|C1|adv|zrf|The ending is somewhat abrupt.|somewhat surprising
+highly|son derece|B2|adv|zrf|The author is highly critical of the plan.|highly unlikely
+deeply|derinden|B2|adv|zrf|The country remains deeply divided.|deeply concerned
+strongly|kuvvetle|B2|adv|zrf|I strongly recommend the second option.|strongly agree
+firmly|kararlılıkla|B2|adv|zrf|The club firmly denied the story.|firmly believe
+widely|yaygın biçimde|B2|adv|zrf|The decision was widely criticised.|widely accepted
+commonly|yaygın olarak|B2|adv|zrf|The phrase is commonly misused.|commonly known as
+typically|genellikle, tipik olarak|B2|adv|zrf|A review typically ends with a recommendation.|typically used
+frequently|sık sık|B1|adv|zrf|The image appears frequently in the poem.|frequently asked
+occasionally|ara sıra|B2|adv|zrf|The narrator occasionally addresses the reader.|only occasionally
+seldom|nadiren|C1|adv|zrf|Such chances seldom come twice.|seldom seen
+inevitably|kaçınılmaz olarak|C1|adv|zrf|Delays inevitably raise costs.|inevitably lead to
+undoubtedly|kuşkusuz|B2|adv|zrf|The reform was undoubtedly necessary.|undoubtedly true
+evidently|anlaşılan, belli ki|C1|adv|zrf|The writer is evidently angry.|evidently pleased
+apparently|görünüşe göre|B2|adv|zrf|The talks have apparently failed.|apparently not
+seemingly|görünüşte|C1|adv|zrf|A seemingly minor detail changes the meaning.|seemingly endless
+supposedly|güya, sözde|C1|adv|zrf|The supposedly neutral report took sides.|supposedly independent
+allegedly|iddiaya göre|C1|adv|zrf|The funds were allegedly moved abroad.|allegedly involved
+reportedly|bildirildiğine göre|C1|adv|zrf|The player has reportedly agreed terms.|reportedly worth
+deliberately|kasten, bilerek|B2|adv|zrf|The ending is deliberately ambiguous.|deliberately vague
+inadvertently|istemeden|C2|adv|zrf|The post inadvertently revealed the address.|inadvertently reveal
+reluctantly|gönülsüzce|C1|adv|zrf|The board reluctantly accepted his resignation.|reluctantly agree
+readily|kolayca, seve seve|C1|adv|zrf|The data is readily available.|readily available
+effectively|etkili biçimde, fiilen|B2|adv|zrf|The ban effectively ended the trade.|communicate effectively
+adequately|yeterince|C1|adv|zrf|The risks were never adequately explained.|adequately prepared
+appropriately|uygun biçimde|B2|adv|zrf|Choose the register appropriately.|dress appropriately
+accurately|doğru biçimde|B2|adv|zrf|The article accurately reflects the debate.|accurately describe
+explicitly|açıkça|C1|adv|zrf|The text explicitly rejects violence.|explicitly state
+initially|başlangıçta|B2|adv|zrf|The idea was initially dismissed.|initially reluctant
+currently|hâlihazırda|B2|adv|zrf|The scheme is currently under review.|currently available
+essentially|özünde|B2|adv|zrf|The two proposals are essentially the same.|essentially the same
+fundamentally|temelden|C1|adv|zrf|The two sides disagree fundamentally.|fundamentally different
+literally|kelimenin tam anlamıyla|B2|adv|zrf|The phrase should not be taken literally.|take sth literally
+ironically|ne ironiktir ki|C1|adv|zrf|Ironically, the safety campaign caused a panic.|ironically enough
+regrettably|ne yazık ki|C1|adv|zrf|Regrettably, the offer came too late.|regrettably few
+understandably|haklı olarak|C1|adv|zrf|Parents are understandably worried.|understandably upset
+particularly|özellikle|B1|adv|zrf|The second image is particularly effective.|particularly important
+notion|kavram, fikir|C1|n|isi|The text questions the notion of a fair race.|challenge the notion
+concept|kavram|B2|n|isi|Privacy is a recent concept.|a key concept
+perception|algı|C1|n|isi|Public perception lags behind the facts.|public perception
+assumption|varsayım|B2|n|isi|The plan rests on a false assumption.|make an assumption
+premise|öncül, dayanak|C1|n|isi|The whole argument rests on one premise.|a basic premise
+outcome|sonuç|B2|n|isi|Nobody predicted the outcome of the vote.|a positive outcome
+impact|etki|B2|n,v|isi|The ban had little impact on sales.|have an impact on sth
+influence|etki, nüfuz|B2|n,v|isi|Friends have more influence than adverts.|under the influence of sth
+factor|etken|B2|n|isi|Cost was the deciding factor.|a key factor
+aspect|yön, boyut|B2|n|isi|The report ignores the human aspect.|every aspect of sth
+tendency|eğilim|B2|n|isi|There is a tendency to blame the referee.|a tendency to do sth
+pattern|örüntü, düzen|B2|n|isi|The same pattern appears in every region.|follow a pattern
+phenomenon|olgu|C1|n|isi|Fan violence is not a new phenomenon.|a global phenomenon
+circumstance|koşul, durum|B2|n|isi|Under no circumstances may notes be read aloud.|under the circumstances
+context|bağlam|B2|n|isi|A quotation without context can mean anything.|in the context of sth
+approach|yaklaşım|B2|n,v|isi|A softer approach produced faster results.|adopt an approach
+stance|duruş, tutum|C1|n|isi|The paper took a firm stance against the war.|take a stance on sth
+viewpoint|bakış açısı|B2|n|isi|The article offers a single viewpoint.|from a different viewpoint
+attitude|tutum|B1|n|isi|Attitudes to work changed after the pandemic.|attitude towards sth
+mindset|zihniyet|C1|n|isi|Reform needs a change of mindset.|a growth mindset
+outlook|bakış, görünüm|C1|n|isi|The economic outlook is uncertain.|a positive outlook
+insight|kavrayış, içgörü|C1|n|isi|The diary gives an insight into wartime life.|gain an insight into sth
+awareness|farkındalık|B2|n|isi|Awareness is not the same as action.|public awareness
+justification|gerekçe|C1|n|isi|There is no justification for such secrecy.|justification for sth
+motive|güdü, saik|B2|n|isi|The narrator's motive remains unclear.|a hidden motive
+drawback|sakınca|B2|n|isi|The main drawback is the cost.|a major drawback
+shortcoming|eksiklik, kusur|C1|n|isi|The report lists its own shortcomings.|a serious shortcoming
+strength|güçlü yön|B1|n|isi|The film's strength lies in its silence.|strengths and weaknesses
+advantage|üstünlük, yarar|B1|n|isi|Home advantage matters less without a crowd.|take advantage of sth
+purpose|amaç|B1|n|isi|The purpose of a leaflet is to inform quickly.|serve a purpose
+extent|ölçü, derece|B2|n|isi|Nobody knew the full extent of the damage.|to some extent
+significance|önem, anlam|B2|n|isi|The date has a symbolic significance.|of great significance
+relevance|ilgi, geçerlilik|C1|n|isi|The play has lost none of its relevance.|relevance to sth
+validity|geçerlilik|C1|n|isi|Experts question the validity of the test.|question the validity of sth
+credibility|inandırıcılık|C1|n|isi|One false figure destroys a writer's credibility.|lose credibility
+legitimacy|meşruiyet|C1|n|isi|Low turnout weakens the legitimacy of the result.|political legitimacy
+authority|yetki, otorite|B2|n|isi|The referee lost his authority early.|in authority
+responsibility|sorumluluk|B1|n|isi|Nobody accepted responsibility for the delay.|take responsibility for sth
+commitment|bağlılık, taahhüt|B2|n|isi|The pledge shows a commitment to cleaner air.|make a commitment
+determination|kararlılık|B2|n|isi|Her determination outlasted every refusal.|sheer determination
+reluctance|isteksizlik|C1|n|isi|There is a reluctance to admit mistakes.|reluctance to do sth
+controversy|tartışma, ihtilaf|B2|n|isi|The goal caused a controversy that lasted weeks.|cause controversy
+criticism|eleştiri|B2|n|isi|The plan drew criticism from both sides.|face criticism
+scrutiny|yakın inceleme|C1|n|isi|The deal came under public scrutiny.|under scrutiny
+emphasis|vurgu|B2|n|isi|The course places emphasis on speaking.|place emphasis on sth
+distinction|ayrım|C1|n|isi|The law makes no distinction between the two.|draw a distinction
+contradiction|çelişki|C1|n|isi|There is a contradiction between his words and his votes.|a contradiction in terms
+likelihood|olasılık|C1|n|isi|The likelihood of a deal is small.|in all likelihood
+capacity|kapasite, yeti|B2|n|isi|The stadium was filled to capacity.|capacity for sth
+potential|potansiyel|B2|n,adj|isi|The scheme has the potential to save lives.|reach your potential
+transition|geçiş|C1|n|isi|The transition to democracy took a decade.|a smooth transition
+wrinkled|kırışık|B2|adj|bet|His wrinkled hands shook as he signed.|a wrinkled face
+slender|ince, narin|C1|adj|bet|A slender figure waited by the gate.|a slender build
+stout|tıknaz|C1|adj|bet|A stout man in a grey coat opened the door.|a stout figure
+pale|solgun|B2|adj|bet|She turned pale at the news.|turn pale
+weary|bitkin|C1|adj|bet|Weary travellers slept on the platform.|a weary smile
+dishevelled|dağınık, pejmürde|C2|adj|bet|He arrived dishevelled and out of breath.|dishevelled hair
+piercing|delici, keskin|C1|adj|bet|She fixed him with a piercing look.|piercing eyes
+frown|kaş çatmak|B2|v,n|bet|The examiner frowned at the first sentence.|frown at sb
+grin|sırıtmak, sırıtış|B2|v,n|bet|He grinned like a boy with a secret.|a broad grin
+glance|göz atmak, bakış|B2|v,n|bet|She glanced at the clock every minute.|at a glance
+stare|dik dik bakmak|B2|v,n|bet|The whole carriage stared at the stranger.|stare at sb
+gaze|uzun uzun bakmak|C1|v,n|bet|He gazed across the water at the lights.|gaze at sth
+whisper|fısıldamak, fısıltı|B2|v,n|bet|They whispered through the whole lecture.|in a whisper
+mutter|mırıldanmak|C1|v|bet|He muttered an apology and left.|mutter under your breath
+sigh|iç çekmek|B2|v,n|bet|She sighed and opened the letter.|a sigh of relief
+shrug|omuz silkmek|B2|v,n|bet|He shrugged as if nothing had happened.|shrug your shoulders
+tremble|titremek|B2|v|bet|Her voice trembled on the last word.|tremble with fear
+stroll|gezinmek|B2|v,n|bet|Families stroll along the shore at dusk.|go for a stroll
+stumble|tökezlemek|B2|v|bet|He stumbled over the opening line.|stumble over sth
+rush|koşuşturmak, acele|B2|v,n|bet|Commuters rushed for the last ferry.|in a rush
+cramped|dar, sıkışık|C1|adj|bet|Six people shared a cramped flat.|cramped conditions
+spacious|ferah|B2|adj|bet|The spacious hall echoed with every step.|a spacious room
+dim|loş|B2|adj|bet|A dim light burned in the corridor.|dim light
+gloomy|kasvetli|B2|adj|bet|The gloomy station smelled of rain.|a gloomy day
+deserted|ıssız, terk edilmiş|B2|adj|bet|The square was deserted after midnight.|a deserted street
+shabby|eski püskü|C1|adj|bet|He wore a shabby coat two sizes too large.|a shabby room
+cosy|sıcacık, rahat|B2|adj|bet|The café was small and cosy.|a cosy corner
+picturesque|resim gibi|B2|adj|bet|The picturesque harbour hides a hard life.|a picturesque village
+breathtaking|nefes kesici|B2|adj|bet|The view from the tower is breathtaking.|a breathtaking view
+tranquil|dingin|C1|adj|bet|A tranquil bay lay beyond the hills.|a tranquil setting
+eerie|ürkütücü, tekinsiz|C1|adj|bet|An eerie silence followed the whistle.|an eerie silence
+fragrant|hoş kokulu|C1|adj|bet|The fragrant smell of lime trees filled the street.|a fragrant garden
+deafening|kulakları sağır eden|C1|adj|bet|The stadium erupted in a deafening roar.|a deafening noise
+glitter|parıldamak|C1|v|bet|The Bosphorus glittered under the bridge lights.|glitter in the sun
+loom|belirmek, tepesinde durmak|C1|v|bet|The castle loomed above the town.|loom large
+overlook|yukarıdan bakmak (manzara)|B2|v|bet|The terrace overlooks the strait.|overlook the sea
+crumbling|dökülen, ufalanan|C1|adj|bet|Crumbling walls marked the old border.|a crumbling building
+winding|kıvrımlı|B2|adj|bet|A winding road climbs to the village.|a winding path
+I am convinced that|... olduğuna eminim|B2|phr|ikn|I am convinced that the scheme deserves a second year.|I am convinced that
+there is no doubt that|kuşku yok ki|B2|phr|ikn|There is no doubt that the costs were underestimated.|there is no doubt that
+it is undeniable that|yadsınamaz ki|C1|phr|ikn|It is undeniable that the club has lost its direction.|it is undeniable that
+it goes without saying|söylemeye gerek yok|B2|idm|ikn|It goes without saying that safety comes first.|it goes without saying that
+the fact remains that|gerçek şu ki|C1|phr|ikn|The fact remains that nobody was consulted.|the fact remains that
+what is more|dahası|B2|phr|ikn|What is more, the plan would cost nothing.|what is more
+not only that|bununla da kalmıyor|B2|phr|ikn|Not only that, the deadline has already passed.|not only that, but
+it is high time|vakti çoktan geldi|C1|phr|ikn|It is high time the school listened to its students.|it is high time sb did sth
+we cannot afford to|göze alamayız|B2|phr|ikn|We cannot afford to lose another year.|cannot afford to do sth
+surely|elbette, herhâlde|B2|adv|ikn|Surely a library matters more than a car park.|surely not
+imagine|hayal etmek|B1|v|ikn|Imagine a city where every child can walk to school.|just imagine
+ask yourself|kendinize sorun|B1|phr|ikn|Ask yourself who benefits from the delay.|ask yourself whether
+let us be honest|dürüst olalım|B2|phr|ikn|Let us be honest: the old system failed.|let us be honest
+the evidence speaks for itself|kanıtlar ortada|C1|idm|ikn|Attendance doubled; the evidence speaks for itself.|speak for itself
+contrary to popular belief|sanılanın aksine|C1|phr|ikn|Contrary to popular belief, crime is falling.|contrary to popular belief
+far from being|... olmak şöyle dursun|C1|phr|ikn|Far from being a luxury, music is a necessity.|far from being
+make no mistake|hiç şüpheniz olmasın|C1|idm|ikn|Make no mistake, this decision affects us all.|make no mistake about it
+time is running out|zaman daralıyor|B2|idm|ikn|Time is running out for the last old trees.|time is running out
+a wake-up call|uyarı niteliğinde olay|C1|idm|ikn|The flood should be a wake-up call for the council.|serve as a wake-up call
+I urge you to|sizi ... yapmaya çağırıyorum|C1|phr|ikn|I urge you to reconsider the closure.|I urge you to
+it is our duty to|... bizim görevimizdir|B2|phr|ikn|It is our duty to speak for those who cannot.|it is our duty to
+the question is whether|asıl soru şu|B2|phr|ikn|The question is whether we act now or pay later.|the question is whether
+few would deny that|çok az kişi yadsır|C1|phr|ikn|Few would deny that the rules need updating.|few would deny that
+by the same token|aynı mantıkla|C2|phr|ikn|By the same token, teachers deserve a voice.|by the same token
+needless to say|söylemeye gerek yok ki|C1|phr|ikn|Needless to say, the tickets sold out in minutes.|needless to say
+at the very least|en azından|B2|phr|ikn|At the very least, the school owes us an explanation.|at the very least
+all things considered|her şey göz önüne alındığında|B2|phr|ikn|All things considered, the trip was a success.|all things considered
+on balance|her şeyi tarttığımızda|C1|phr|ikn|On balance, the benefits are greater than the costs.|on balance
+I firmly believe|kesinlikle inanıyorum|B2|phr|ikn|I firmly believe that the ban will backfire.|I firmly believe that
+it would be a mistake to|... yapmak hata olur|B2|phr|ikn|It would be a mistake to ignore the survey.|it would be a mistake to

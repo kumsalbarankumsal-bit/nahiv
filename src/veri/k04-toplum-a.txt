@@ -1,0 +1,128 @@
+bond|bağ, bağ kurmak|B2|n,v|ili|Shared hardship creates the strongest bonds.|a close bond
+get along|iyi geçinmek|B1|pv|ili|The two delegations get along better in private.|get along with sb
+fall out|arası bozulmak|B2|pv|ili|The founders fell out over money.|fall out with sb
+make up|barışmak|B2|pv|ili|It took a week for the brothers to make up.|kiss and make up
+trust|güven, güvenmek|B1|n,v|ili|Trust takes years to build and a minute to lose.|earn sb's trust
+supportive|destekleyici|B2|adj|ili|A supportive teacher changes a student's direction.|a supportive environment
+gossip|dedikodu|B2|n,v|ili|Gossip travels faster than any official notice.|spread gossip
+misunderstanding|yanlış anlama|B2|n|ili|The whole feud began with a misunderstanding.|clear up a misunderstanding
+neighbourly|komşuluk ruhuna uygun|C1|adj|cem|A neighbourly greeting is rarer in tower blocks.|neighbourly relations
+volunteer|gönüllü, gönüllü olmak|B1|n,v|cem|Volunteers ran the soup kitchen through the winter.|volunteer for sth
+fundraising|bağış toplama|B2|n|cem|Fundraising paid for the new library roof.|a fundraising event
+community centre|toplum merkezi|B1|n|cem|The community centre offers free language classes.|a local community centre
+close-knit|sıkı bağlı|C1|adj|cem|A close-knit village notices every stranger.|a close-knit community
+civic duty|yurttaşlık görevi|C1|n|cem|Voting is a civic duty as well as a right.|a sense of civic duty
+social fabric|toplumsal doku|C1|n|cem|Long unemployment tears the social fabric.|the social fabric
+pull together|el birliği etmek|B2|pv|cem|The town pulled together after the flood.|pull together in a crisis
+rally|miting, toplanmak|B2|n,v|kat|Thousands joined the rally in the square.|hold a rally
+march|yürüyüş, yürümek|B1|n,v|kat|The march ended peacefully at the parliament.|a protest march
+strike|grev, greve gitmek|B2|n,v|kat|The teachers' strike lasted nine days.|go on strike
+sit-in|oturma eylemi|C1|n|kat|Students staged a sit-in at the rector's office.|stage a sit-in
+civil disobedience|sivil itaatsizlik|C1|n|kat|Civil disobedience breaks a law to change a law.|an act of civil disobedience
+activist|eylemci|B2|n|kat|The activist was arrested for a banner.|a human rights activist
+raise awareness|farkındalık yaratmak|B2|phr|kat|The campaign aims to raise awareness of food waste.|raise awareness of sth
+speak out|sesini yükseltmek|B2|pv|kat|Few officials dared to speak out against the plan.|speak out against sth
+tutor|özel öğretmen, ders vermek|B2|n,v|egt|A tutor explains what the classroom has no time for.|a private tutor
+lecture|ders, konferans|B1|n,v|egt|The lecture ended with more questions than answers.|give a lecture
+seminar|seminer|B2|n|egt|A seminar of ten teaches more than a hall of three hundred.|attend a seminar
+deadline|son teslim tarihi|B1|n|egt|Nothing focuses the mind like a deadline.|meet a deadline
+revise|tekrar etmek, gözden geçirmek|B1|v|egt|She revises in short sessions with long breaks.|revise for an exam
+cram|son anda ezberlemek|C1|v|egt|Students cram all night and forget by Friday.|cram for an exam
+grade|not, notlandırmak|B1|n,v|egt|A grade measures the exam, not the mind.|get good grades
+truancy|okuldan kaçma|C1|n|egt|Truancy rises when lessons feel pointless.|tackle truancy
+boarding school|yatılı okul|B2|n|egt|He spent seven years at a boarding school.|attend a boarding school
+compulsory|zorunlu|B2|adj|egt|Compulsory schooling lasts twelve years here.|compulsory education
+elective|seçmeli|C1|adj,n|egt|Philosophy is an elective that few schools offer.|an elective course
+attainment|başarı düzeyi|C1|n|egt|Family income predicts educational attainment.|educational attainment
+lifelong learning|yaşam boyu öğrenme|B2|n|egt|Lifelong learning is a necessity, not a hobby.|promote lifelong learning
+drop out|bırakmak (okulu)|B2|pv|egt|He dropped out a term before graduation.|drop out of school
+shift|vardiya|B2|n|cal|Nurses work twelve-hour shifts.|a night shift
+overtime|fazla mesai|B2|n|cal|Overtime is expected and rarely paid.|work overtime
+resign|istifa etmek|B2|v|cal|The director resigned after the report.|resign from a post
+dismiss an employee|işten çıkarmak|C1|phr|cal|It is illegal to dismiss an employee for joining a union.|dismiss an employee
+workload|iş yükü|B2|n|cal|The workload doubled while the staff halved.|a heavy workload
+perk|yan hak|C1|n|cal|Free lunch is a perk that hides long hours.|a perk of the job
+pension|emekli maaşı|B2|n|cal|A state pension no longer covers the rent.|a state pension
+self-employed|kendi işinde çalışan|B2|adj|cal|Self-employed workers have freedom without security.|become self-employed
+job security|iş güvencesi|B2|n|cal|Job security disappeared with short contracts.|lack of job security
+white-collar|beyaz yakalı|C1|adj|cal|Automation now threatens white-collar jobs too.|a white-collar worker
+law-abiding|yasalara saygılı|C1|adj|huk|Surveillance treats law-abiding citizens as suspects.|a law-abiding citizen
+lawsuit|dava|B2|n|huk|The lawsuit took eleven years to settle.|file a lawsuit
+sue|dava etmek|B2|v|huk|The families sued the company for negligence.|sue for damages
+plaintiff|davacı|C1|n|huk|The plaintiff withdrew the case at the last moment.|the plaintiff's lawyer
+loophole|yasal boşluk|C1|n|huk|The firm used a loophole to avoid the tax.|close a loophole
+binding|bağlayıcı|C1|adj|huk|The court's ruling is binding on all members.|legally binding
+unconstitutional|anayasaya aykırı|C1|adj|huk|The ban was declared unconstitutional.|rule sth unconstitutional
+rule of law|hukukun üstünlüğü|C1|n|huk|Investors look for the rule of law before low taxes.|uphold the rule of law
+government|hükümet|B1|n|siy|A government is judged by what it does in a crisis.|form a government
+parliament|parlamento, meclis|B1|n|siy|Parliament debated the bill for three nights.|a member of parliament
+democracy|demokrasi|B1|n|siy|Democracy needs losers who accept defeat.|a liberal democracy
+election|seçim|B1|n|siy|The election was decided by a few thousand votes.|hold an election
+ballot|oy pusulası|C1|n|siy|The ballot listed forty parties.|a secret ballot
+candidate|aday|B1|n|siy|The candidate avoided every direct question.|a presidential candidate
+coalition|koalisyon|B2|n|siy|The coalition survived less than a year.|a coalition government
+opposition|muhalefet|B2|n|siy|The opposition walked out of the chamber.|the main opposition party
+majority|çoğunluk|B2|n|siy|A narrow majority makes every vote a crisis.|an absolute majority
+policy|politika, siyasa|B1|n|siy|The policy looked better on paper than in practice.|foreign policy
+reform|reform, reform yapmak|B2|n,v|siy|Reform is easy to announce and hard to deliver.|introduce reforms
+authoritarian|otoriter|C1|adj|siy|Authoritarian regimes fear jokes more than speeches.|an authoritarian regime
+regime|rejim|B2|n|siy|The regime fell within eleven days.|a military regime
+populism|popülizm|C1|n|siy|Populism offers simple answers to complex anger.|the rise of populism
+ideology|ideoloji|B2|n|siy|Ideology decides which facts a party can see.|a political ideology
+left-wing|sol görüşlü|B2|adj|siy|The left-wing press welcomed the ruling.|a left-wing party
+right-wing|sağ görüşlü|B2|adj|siy|A right-wing coalition took office in the spring.|a right-wing government
+conservative|muhafazakâr|B2|adj,n|siy|Conservative voters turned out in record numbers.|a conservative politician
+liberal|liberal, özgürlükçü|B2|adj,n|siy|A liberal constitution limits the majority too.|liberal values
+checks and balances|denge ve denetleme|C1|n|siy|Checks and balances slow power down on purpose.|a system of checks and balances
+separation of powers|kuvvetler ayrılığı|C1|n|siy|The separation of powers protects judges from ministers.|the separation of powers
+head of state|devlet başkanı|B2|n|siy|The head of state has a largely ceremonial role.|a head of state
+cabinet|kabine|B2|n|siy|The cabinet met through the night.|a cabinet minister
+legislate|yasa çıkarmak|C1|v|siy|It is hard to legislate against stupidity.|legislate against sth
+veto|veto, veto etmek|B2|n,v|siy|A single veto can paralyse the Council.|use a veto
+manifesto|seçim bildirgesi|C1|n|siy|The manifesto promised more than any budget allows.|an election manifesto
+incumbent|görevdeki|C1|n,adj|siy|The incumbent lost despite a growing economy.|the incumbent president
+landslide|ezici zafer|C1|n|siy|The opposition won by a landslide.|a landslide victory
+grassroots support|taban desteği|C1|n|siy|The movement lives on grassroots support.|grassroots support
+propaganda machine|propaganda aygıtı|C1|n|siy|The state propaganda machine never sleeps.|a propaganda machine
+coup|darbe|C1|n|siy|The coup lasted a single night.|a military coup
+dictatorship|diktatörlük|B2|n|siy|A dictatorship controls the past as well as the present.|live under a dictatorship
+statesman|devlet adamı|C1|n|siy|A statesman thinks of the next generation.|an elder statesman
+bipartisan|iki partinin desteklediği|C2|adj|siy|The bill passed with rare bipartisan support.|bipartisan support
+accountable government|hesap veren yönetim|C1|n|siy|An accountable government publishes its failures.|accountable government
+govern|yönetmek|B2|v|siy|It is easier to win an election than to govern.|govern a country
+economy|ekonomi|B1|n|eko|The economy grew while wages stood still.|a growing economy
+inflation|enflasyon|B2|n|eko|Inflation punishes those who save in cash.|rising inflation
+recession|durgunluk|B2|n|eko|The recession closed one shop in five.|a deep recession
+interest rate|faiz oranı|B2|n|eko|A higher interest rate cools the housing market.|raise interest rates
+budget|bütçe|B1|n|eko|The budget reveals a government's real priorities.|a tight budget
+deficit|açık|C1|n|eko|The trade deficit widened for the third year.|a budget deficit
+debt|borç|B2|n|eko|Student debt delays every later decision.|pay off a debt
+loan|kredi, borç|B1|n|eko|The loan was repaid over twenty years.|take out a loan
+mortgage|konut kredisi|B2|n|eko|A mortgage ties a family to one city.|pay a mortgage
+tax|vergi|B1|n,v|eko|A tax on sugar reduced consumption within a year.|raise taxes
+revenue|gelir|C1|n|eko|Tourism revenue fell by half.|tax revenue
+expenditure|harcama|C1|n|eko|Defence expenditure exceeds the education budget.|public expenditure
+subsidy|sübvansiyon, destek|C1|n|eko|Fuel subsidies help the rich more than the poor.|a state subsidy
+austerity|kemer sıkma|C1|n|eko|Austerity closed libraries before it balanced budgets.|austerity measures
+prosperity|refah|C1|n|eko|Prosperity arrived unevenly across the country.|economic prosperity
+wealth|servet, zenginlik|B2|n|eko|Wealth concentrates faster than income.|distribution of wealth
+income|gelir|B1|n|eko|Half of their income goes on rent.|a low income
+invest|yatırım yapmak|B2|v|eko|Countries that invest in teachers rarely regret it.|invest in education
+shareholder|hissedar|C1|n|eko|Shareholders rewarded the firm for cutting staff.|a major shareholder
+stock market|borsa|B2|n|eko|The stock market rose as unemployment did.|a stock market crash
+currency|para birimi|B2|n|eko|The currency lost a third of its value.|a strong currency
+purchasing power|satın alma gücü|C1|n|eko|Inflation ate the purchasing power of pensions.|loss of purchasing power
+cost of living|hayat pahalılığı|B2|n|eko|The cost of living rises faster than wages.|the rising cost of living
+bankrupt|iflas etmiş|B2|adj|eko|The airline went bankrupt overnight.|go bankrupt
+boom|patlama, canlanma|B2|n,v|eko|The construction boom ended in empty towers.|an economic boom
+downturn|gerileme|C1|n|eko|The downturn hit young workers first.|an economic downturn
+monopoly|tekel|C1|n|eko|A monopoly sets prices and silences rivals.|break up a monopoly
+privatise|özelleştirmek|C1|v|eko|The state privatised the railways in the 1990s.|privatise an industry
+gross domestic product|gayrisafi yurt içi hasıla|C1|n|eko|Gross domestic product ignores unpaid work.|growth in gross domestic product
+commodity|emtia, mal|C1|n|eko|Water is becoming a traded commodity.|a valuable commodity
+thriving|gelişen, canlı|C1|adj|eko|A thriving port feeds the whole region.|a thriving business
+stagnant|durgun|C1|adj|eko|Wages have been stagnant for a decade.|a stagnant economy
+lucrative|kazançlı|C1|adj|eko|Football transfers are a lucrative business.|a lucrative contract
+frugality|tutumluluk|C2|n|eko|Frugality was a virtue before it became a trend.|a habit of frugality
+bail out|kurtarmak (mali)|C1|pv|eko|Taxpayers bailed out the banks in 2008.|bail out a bank
+black market|karaborsa|B2|n|eko|Rationing always creates a black market.|on the black market
