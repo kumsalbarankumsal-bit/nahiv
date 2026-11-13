@@ -11,6 +11,7 @@ import {
   seslendir, sesVar, titre, kivilcim, Dugme, Nisan, Levha, Bos, Cubuk, OturumUst, SonucEkrani, KelimeBasligi, kelimeEsit
 } from "./cekirdek.jsx";
 import { YUKSELT } from "./veri/yukselt.js";
+import { cin } from "./hareket.jsx";
 
 /* Örnek cümlede hedef kelimeyi kalın gösterir */
 export function OrnekCumle({ k, style }) {
@@ -55,7 +56,7 @@ export function KartYolu({ kelimeler, dag, kaydet, cik }) {
   const cevap = useCallback((ok) => {
     if (!k || cikis) return;
     if (!ilk.current.has(k.id)) { ilk.current.add(k.id); kaydet(k.id, ok); setGorulen((g) => g + 1); if (ok) setBilinen((b) => b + 1); }
-    titre(ok ? 8 : 4);
+    titre(ok ? 8 : 4); cin(ok);
     setCikis(ok ? "sag" : "sol");
     setTimeout(() => {
       setKuyruk((q) => ok ? q.slice(1) : [...q.slice(1), q[0]]);
@@ -153,7 +154,7 @@ export function MaratonYolu({ kelimeler, dag, kaydet, cik }) {
       sorulan.current.add(k.id); kaydet(k.id, ok);
       if (ok) setDogru((d) => d + 1); else setYanlislar((y) => [...y, k]);
     }
-    titre(ok ? 8 : 4);
+    titre(ok ? 8 : 4); cin(ok);
     setSecim(id);
   }
   function ileri() {
@@ -265,7 +266,7 @@ export function DizgiYolu({ kelimeler, dag, kaydet, cik }) {
   function cikar(x) { if (durum) return; setDizi((d) => d.filter((y) => y.n !== x.n)); setHavuz((h) => [...h, x]); }
   function denetle() {
     const ok = dizi.map((x) => x.t).join(" ") === hedef.join(" ");
-    kaydet(k.id, ok); titre(ok ? 10 : 5);
+    kaydet(k.id, ok); titre(ok ? 10 : 5); cin(ok);
     if (ok) setDogru((d) => d + 1); else setYanlislar((y) => [...y, k]);
     setDurum(ok ? "dogru" : "yanlis");
   }
@@ -339,7 +340,7 @@ export function YabanciYolu({ kelimeler, kaydet, cik }) {
     if (secim) return;
     const ok = k.id === t.yabanci.id;
     if (ok) { setDogru((d) => d + 1); t.secenekler.filter((x) => x.id !== t.yabanci.id).forEach((x) => kaydet(x.id, true)); }
-    titre(ok ? 9 : 4); setSecim(k.id);
+    titre(ok ? 9 : 4); cin(ok); setSecim(k.id);
   }
   return (
     <div>
@@ -391,7 +392,7 @@ export function AktarmaYolu({ kelimeler, dag, kaydet, cik }) {
   function sec(d) {
     if (secim) return;
     const ok = k.duraklar.includes(d);
-    kaydet(k.id, ok); titre(ok ? 9 : 4);
+    kaydet(k.id, ok); titre(ok ? 9 : 4); cin(ok);
     if (ok) setDogru((x) => x + 1); else setYanlislar((y) => [...y, k]);
     setSecim(d);
   }
@@ -677,7 +678,7 @@ export function YukseltYolu({ cik, enIyi, rekorKaydet }) {
   useEffect(() => { if (i >= liste.length && rekorKaydet && (enIyi == null || dogru > enIyi)) rekorKaydet(dogru); }, [i]);
   if (i >= liste.length) return <SonucEkrani dogru={dogru} toplam={liste.length} enIyi={enIyi} cik={cik} />;
 
-  function sec(id) { if (secim) return; const ok = id === soru.dogruId; if (ok) setDogru((d) => d + 1); titre(ok ? 9 : 4); setSecim(id); }
+  function sec(id) { if (secim) return; const ok = id === soru.dogruId; if (ok) setDogru((d) => d + 1); titre(ok ? 9 : 4); cin(ok); setSecim(id); }
   const parcalar = y.ornek.split(/\[|\]/);
   return (
     <div>

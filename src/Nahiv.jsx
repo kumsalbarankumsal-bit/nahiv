@@ -6,15 +6,17 @@
 import React, { useState, useEffect, useMemo, useCallback, useRef } from "react";
 import { Home, Library, GraduationCap, Waypoints, Feather, Flame, Command, ChevronRight, Anchor, RotateCcw, Volume2, Minus, Plus } from "lucide-react";
 import {
-  C, T, S, K, YAZI_TIPLERI, sGet, sSet, depoSagligi, eskiSurumTara, veriYaz, paketOzeti, gunlukYedek, bugun, yeniId, norm, trTarih,
+  C, T, S, K, YAZI_TIPLERI, sGet, sSet, depoSagligi, eskiSurumTara, veriYaz, paketOzeti, gunlukYedek, bugun, yeniId, norm, trTarih, gunEkle, YolDevinim, YOL_OBEK,
   ustalikGuncelle, kelimeGuncelle, dugum, TANI, DUGUMLER, HATLAR, DURAK_META, KELIMELER, zayifDugumler, aileKisa, bekleyenTekrarlar,
   vadesiGelenler, dagarcikTahmini, hatIlerleme, durakIlerleme, istanbulSVG, gokEvresi, GOKYUZU, selamla, ayAdi, useSayac, konfeti, seslendir, sesVar,
   Dugme, Nisan, Levha, Cubuk, Halka,
   Divan, Seyir, Sandik, Talimhane, Sokrates, Harita, Defter, Yazihane, Sesli, TaniSinavi, KomutPaleti
 } from "./cekirdek.jsx";
-import { Dagarcik, TUM_YOLLAR } from "./dagarcik2.jsx";
+import { Dagarcik, TUM_YOLLAR, YOL_BUL } from "./dagarcik2.jsx";
 import { MetinTurleri, Paper1, Paper2, IO } from "./sinav.jsx";
 import { OrnekCumle } from "./yollar2.jsx";
+import { Bogaz, gokRengi } from "./sahne.jsx";
+import { puanUcur, Acilis, gecis } from "./hareket.jsx";
 import { seviyeHesap, puanEkle, bugunPuan, seriGun, sonGunler, BOS_OYUN, ISKELELER } from "./oyun.js";
 
 const GRUPLAR = [
@@ -68,6 +70,28 @@ const STIL = `${YAZI_TIPLERI}
 .nv-tahta-satir{animation:nvTahta .5s cubic-bezier(.2,.8,.25,1) both;transform-origin:top}
 @media (min-width:980px){.nv-ikili{grid-template-columns:minmax(0,1.05fr) minmax(0,1fr)}}
 @media (max-width:979px){.nv-yapiskan{position:static!important;max-height:none!important}}
+@keyframes nvHarf{from{opacity:0;transform:translateY(.5em) rotate(6deg)}to{opacity:1;transform:none}}
+@keyframes nvCam{from{opacity:0;transform:translateY(16px) scale(.96)}to{opacity:1;transform:none}}
+@keyframes nvSira{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+@keyframes nvZil{0%,100%{transform:scale(1)}30%{transform:scale(1.22)}60%{transform:scale(.94)}}
+@keyframes nvAkis{to{stroke-dashoffset:-28}}
+@keyframes nvIsil{0%{background-position:-180% 0}100%{background-position:280% 0}}
+@keyframes nvKartIn{from{opacity:0;transform:translateY(18px) scale(.94)}to{opacity:1;transform:none}}
+.nv-harf{display:inline-block;animation:nvHarf .5s cubic-bezier(.3,1.5,.5,1) both}
+.nv-cam{animation:nvCam .6s .25s cubic-bezier(.2,.8,.2,1) both}
+.nv-sira>*{animation:nvSira .55s cubic-bezier(.2,.8,.2,1) both}
+.nv-sira>*:nth-child(1){animation-delay:.08s}.nv-sira>*:nth-child(2){animation-delay:.16s}.nv-sira>*:nth-child(3){animation-delay:.24s}.nv-sira>*:nth-child(4){animation-delay:.32s}.nv-sira>*:nth-child(5){animation-delay:.4s}.nv-sira>*:nth-child(6){animation-delay:.48s}
+.nv-zil{animation:nvZil .5s cubic-bezier(.3,1.5,.5,1)}
+.nv-akis{stroke-dasharray:1 13;animation:nvAkis 1.2s linear infinite}
+.nv-yolkart .nv-resim>span{transition:transform .35s cubic-bezier(.3,1.5,.5,1)}
+.nv-yolkart:hover .nv-resim>span{transform:scale(2.15) rotate(-3deg)!important}
+.nv-kartlar>*{animation:nvKartIn .45s cubic-bezier(.2,.8,.2,1) both}
+.nv-isil{position:relative;overflow:hidden}
+.nv-isil::after{content:"";position:absolute;inset:0;background:linear-gradient(105deg,transparent 40%,rgba(255,255,255,.55) 50%,transparent 60%);background-size:220% 100%;animation:nvIsil 3.6s ease-in-out infinite;pointer-events:none}
+::view-transition-old(root){animation:.18s ease both nvVtOut}::view-transition-new(root){animation:.34s cubic-bezier(.2,.8,.2,1) both nvVtIn}
+@keyframes nvVtOut{to{opacity:0;transform:translateY(-8px) scale(.995)}}@keyframes nvVtIn{from{opacity:0;transform:translateY(14px)}}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.5;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .06 0 0 0 0 .1 0 0 0 0 .2 0 0 0 .05 0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E")}
+#kok{position:relative;z-index:1}
 *{-webkit-tap-highlight-color:transparent;box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;background:${C.kagit}}
@@ -82,54 +106,41 @@ button:focus-visible,[role=button]:focus-visible{outline:3px solid ${C.safran};o
 
 /* ─── Yaşayan İstanbul başlığı ────────────────────────────────────── */
 
-function Sahne({ ad, oyun }) {
+function Sahne({ ad, oyun, puanVer }) {
   const [an, setAn] = useState(() => new Date());
-  useEffect(() => { const t = setInterval(() => setAn(new Date()), 20000); return () => clearInterval(t); }, []);
-  const evre = gokEvresi(an), G = GOKYUZU[evre], acik = G.murekkep === "light";
-  const svg = useMemo(() => istanbulSVG(an).replace("<svg ", '<svg preserveAspectRatio="xMidYMax slice" style="width:100%;height:100%;display:block" '), [evre, an.getHours()]);
+  useEffect(() => { const t = setInterval(() => setAn(new Date()), 15000); return () => clearInterval(t); }, []);
   const saat = `${String(an.getHours()).padStart(2, "0")}:${String(an.getMinutes()).padStart(2, "0")}`;
   const sv = seviyeHesap(oyun.xp), seri = seriGun(oyun);
-  const renk = acik ? "#FFFFFF" : C.murekkep, golge = acik ? "0 2px 14px rgba(0,0,0,.55)" : "0 1px 10px rgba(255,255,255,.7)";
+  const besle = useRef(0);
+  const marti = useCallback(() => { besle.current++; if (besle.current % 3 === 0 && besle.current <= 9) puanVer(1); }, [puanVer]);
+  const G = gokRengi(an.getHours() + an.getMinutes() / 60);
   return (
-    <div style={{ position: "relative", borderRadius: 28, overflow: "hidden", minHeight: "clamp(250px, 38vw, 360px)", marginBottom: S.lg, boxShadow: "0 24px 44px -30px rgba(15,27,51,.6)" }}>
-      <div style={{ position: "absolute", inset: 0 }} dangerouslySetInnerHTML={{ __html: svg }} />
-      {/* martılar */}
-      {[0, 1, 2].map((n) => (
-        <svg key={n} width="24" height="10" viewBox="0 0 24 10" aria-hidden="true" style={{ position: "absolute", left: 0, top: `${16 + n * 9}%`, opacity: acik ? .75 : .6,
-          animation: `nvMarti ${34 + n * 9}s linear ${n * -11}s infinite`, transform: "translateX(-10vw)" }}>
-          <path d="M0 6 Q6 0 12 6 Q18 0 24 6" fill="none" stroke={acik ? "#fff" : C.murekkep} strokeWidth="1.8" strokeLinecap="round" style={{ animation: `nvKanat ${0.7 + n * 0.12}s ease-in-out infinite` }} />
-        </svg>
-      ))}
-      {/* su pırıltısı */}
-      <div aria-hidden="true" style={{ position: "absolute", left: 0, right: 0, bottom: 0, height: "24%", pointerEvents: "none" }}>
-        {Array.from({ length: 12 }, (_, n) => <i key={n} style={{ position: "absolute", left: `${(n * 37) % 96}%`, top: `${18 + (n * 23) % 70}%`, width: 26 + (n % 4) * 12, height: 2, borderRadius: 2,
-          background: acik ? "#FFE9A8" : "#fff", animation: `nvPirilti ${2.4 + (n % 5) * 0.6}s ease-in-out ${n * 0.3}s infinite` }} />)}
-      </div>
-      <div style={{ position: "absolute", inset: 0, background: acik
-        ? "linear-gradient(180deg, rgba(6,12,30,.5) 0%, rgba(6,12,30,.05) 45%, rgba(6,12,30,.4) 100%)"
-        : "linear-gradient(180deg, rgba(255,255,255,.45) 0%, rgba(255,255,255,0) 42%, rgba(15,27,51,.22) 100%)" }} />
-      <div style={{ position: "relative", padding: "clamp(18px, 3.4vw, 34px)", display: "flex", flexDirection: "column", minHeight: "clamp(250px, 38vw, 360px)" }}>
-        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: S.md }}>
-          <div>
-            <div style={{ fontFamily: T.hat, fontSize: "clamp(30px, 6vw, 54px)", fontWeight: 780, letterSpacing: "-0.03em", lineHeight: 1.02, color: renk, textShadow: golge }}>{selamla(an, ad)}</div>
-            <div style={{ fontSize: "clamp(15px, 2vw, 18px)", marginTop: 8, color: renk, opacity: .92, textShadow: golge }}>{trTarih(an.toISOString())}{G.ay > 0 ? `, ${ayAdi(an)}` : ""}. Bugün hangi iskeleye yanaşıyoruz?</div>
+    <div style={{ marginBottom: S.lg }} className="nv-sahne">
+      <Bogaz yukseklik={"clamp(300px, 42vw, 420px)"} onMarti={marti}>
+        <div className="nv-cam" style={{ position: "absolute", left: "clamp(14px, 2.6vw, 28px)", top: "clamp(14px, 2.6vw, 28px)", maxWidth: "min(78%, 470px)", padding: "clamp(14px, 2vw, 22px) clamp(16px, 2.4vw, 26px)", borderRadius: 24,
+          background: G.gece > .5 ? "rgba(10,18,48,.55)" : "rgba(255,255,255,.72)", color: G.gece > .5 ? "#fff" : C.murekkep, backdropFilter: "blur(14px) saturate(1.3)", WebkitBackdropFilter: "blur(14px) saturate(1.3)",
+          border: `1px solid ${G.gece > .5 ? "rgba(255,255,255,.18)" : "rgba(255,255,255,.9)"}`, boxShadow: "0 18px 40px -22px rgba(0,0,0,.55)" }}>
+          <div style={{ fontFamily: T.hat, fontSize: "clamp(28px, 5vw, 46px)", fontWeight: 790, letterSpacing: "-0.03em", lineHeight: 1.03 }}>
+            {selamla(an, ad).split("").map((h, i) => <span key={i} className="nv-harf" style={{ animationDelay: `${420 + i * 28}ms` }}>{h === " " ? "\u00a0" : h}</span>)}
           </div>
-          <div style={{ fontFamily: T.kalem, fontSize: "clamp(22px, 4vw, 34px)", fontWeight: 700, color: renk, textShadow: golge }}>{saat}</div>
+          <div style={{ display: "flex", alignItems: "baseline", gap: 10, marginTop: 8, flexWrap: "wrap" }}>
+            <span style={{ fontFamily: T.kalem, fontSize: "clamp(19px, 2.6vw, 25px)", fontWeight: 700 }}>{saat}</span>
+            <span style={{ fontSize: 15.5, opacity: .85 }}>{trTarih(an.toISOString())}</span>
+          </div>
+          <div style={{ display: "flex", gap: 7, flexWrap: "wrap", marginTop: 12 }}>
+            <span style={hapStil}><Anchor size={16} style={{ color: C.altin }} /> {sv.no}. iskele <b>{sv.ad}</b></span>
+            {seri > 0 && <span style={hapStil}><Flame size={16} style={{ color: C.lal }} /> <b>{seri}</b> gün</span>}
+          </div>
         </div>
-        <span style={{ flex: 1 }} />
-        <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
-          <span style={hapStil}><Anchor size={17} style={{ color: C.altin }} /> {sv.no}. iskele: <b>{sv.ad}</b></span>
-          {seri > 0 && <span style={hapStil}><Flame size={17} style={{ color: C.lal }} /> <b>{seri}</b> gün üst üste</span>}
-        </div>
-      </div>
+      </Bogaz>
     </div>
   );
 }
-const hapStil = { display: "inline-flex", alignItems: "center", gap: 7, padding: "9px 15px", borderRadius: 99, background: "rgba(255,255,255,.94)", color: C.murekkep, fontSize: 15.5, boxShadow: "0 6px 16px -8px rgba(0,0,0,.5)" };
+const hapStil = { display: "inline-flex", alignItems: "center", gap: 7, padding: "7px 13px", borderRadius: 99, background: "rgba(255,255,255,.95)", color: C.murekkep, fontSize: 14.5 };
 
 /* ─── Ana sayfa ───────────────────────────────────────────────────── */
 
-function AnaSayfa({ profil, oyun, hedefDegis, dag, hatalar, ustalik, sinav, git, kelimeAc }) {
+function AnaSayfa({ profil, oyun, hedefDegis, dag, hatalar, ustalik, sinav, git, kelimeAc, puanVer }) {
   const vadesi = useMemo(() => vadesiGelenler(dag).length, [dag]);
   const tekrarHata = bekleyenTekrarlar(hatalar).length;
   const bp = bugunPuan(oyun), hedef = oyun.hedef || 100, sv = seviyeHesap(oyun.xp);
@@ -143,6 +154,10 @@ function AnaSayfa({ profil, oyun, hedefDegis, dag, hatalar, ustalik, sinav, git,
   const gununKelimesi = useMemo(() => { const g = bugun(); let t = 0; for (const c of g) t = (t * 31 + c.charCodeAt(0)) % 100003; const zor = KELIMELER.filter((k) => k.lv === "C1" || k.lv === "C2" || k.pos === "idm"); return zor[t % zor.length]; }, []);
   const zayif = useMemo(() => zayifDugumler(ustalik, hatalar, 1)[0], [ustalik, hatalar]);
   const yazilan = (sinav.p1 || []).length;
+  const takvim = useMemo(() => { const g = Array.from({ length: 7 }, (_, i) => ({ gun: gunEkle(bugun(), i), n: 0, ad: ["Pz", "Pt", "Sa", "Ça", "Pe", "Cu", "Ct"][new Date(gunEkle(bugun(), i) + "T00:00:00Z").getUTCDay()] }));
+    Object.values(dag).forEach((s) => { if (!s || !s.sonrakiTarih || s.usta) return; const i = s.sonrakiTarih <= g[0].gun ? 0 : g.findIndex((x) => x.gun === s.sonrakiTarih); if (i >= 0) g[i].n++; }); return g; }, [dag]);
+  const takvimUst = Math.max(1, ...takvim.map((g) => g.n));
+  const isi = sonGunler(oyun, 119);
 
   const seferler = [
     vadesi > 0 && { saat: "şimdi", ad: "Kelime tekrarları", alt: `${vadesi} kelimenin vadesi geldi`, renk: C.safran, tikla: () => kelimeAc({ gorunum: "studyo", kapsam: { tur: "vadesi" }, yol: "kart" }) },
@@ -155,8 +170,8 @@ function AnaSayfa({ profil, oyun, hedefDegis, dag, hatalar, ustalik, sinav, git,
 
   return (
     <div>
-      <Sahne ad={profil.ad} oyun={oyun} />
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(420px, 100%), 1fr))", gap: S.lg, alignItems: "stretch" }}>
+      <Sahne ad={profil.ad} oyun={oyun} puanVer={puanVer} />
+      <div className="nv-sira" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(420px, 100%), 1fr))", gap: S.lg, alignItems: "stretch" }}>
         {/* sefer tahtası */}
         <section style={{ background: C.gece, borderRadius: 26, padding: S.lg, color: "#fff", perspective: 900 }}>
           <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", marginBottom: S.md }}>
@@ -235,6 +250,50 @@ function AnaSayfa({ profil, oyun, hedefDegis, dag, hatalar, ustalik, sinav, git,
         </section>
       </div>
 
+      {/* stüdyodan */}
+      <section style={{ margin: `${S.xl}px 0 0` }}>
+        <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", marginBottom: S.md }}>
+          <h2 style={{ fontFamily: T.hat, fontSize: 25, fontWeight: 780, margin: 0, letterSpacing: "-0.02em" }}>Stüdyodan</h2>
+          <button onClick={() => kelimeAc({ gorunum: "studyo" })} style={{ border: "none", background: "transparent", color: C.altin, fontWeight: 750, fontSize: 15.5, cursor: "pointer" }}>Bütün yollar ({TUM_YOLLAR.length})</button>
+        </div>
+        <div className="nv-kartlar" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(150px, 1fr))", gap: 12 }}>
+          {["kart", "maraton", "dizgi", "harfavi", "daktilo", "radyo"].map((id, i) => { const y = YOL_BUL[id], o = YOL_OBEK.find((x) => x.id === y.obek); return (
+            <button key={id} className="nv-yolkart" onClick={() => kelimeAc({ gorunum: "studyo", kapsam: vadesi ? { tur: "vadesi" } : sira ? { tur: "durak", id: sira.id } : { tur: "yeni" }, yol: id })}
+              style={{ animationDelay: `${i * 60}ms`, padding: 0, borderRadius: 20, border: `1px solid ${C.cizgi}`, background: C.muhre, cursor: "pointer", overflow: "hidden", textAlign: "left", color: C.murekkep, "--renk": o.renk }}>
+              <span className="nv-resim" style={{ height: 86, background: `radial-gradient(120% 140% at 20% 0%, ${o.renk}30, ${o.renk}0D)`, display: "flex", alignItems: "center", justifyContent: "center" }}>
+                <span style={{ position: "relative", width: 62, height: 48, display: "block", transform: "scale(1.6)" }}><YolDevinim tip={y.dev} renk={o.renk} /></span></span>
+              <span style={{ display: "block", padding: "10px 12px 12px", fontFamily: T.hat, fontSize: 17.5, fontWeight: 740 }}>{y.ad}</span>
+            </button>); })}
+        </div>
+      </section>
+
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(420px, 100%), 1fr))", gap: S.lg, marginTop: S.xl }}>
+        <section style={{ background: C.muhre, border: `1px solid ${C.cizgi}`, borderRadius: 26, padding: S.lg }}>
+          <h2 style={{ fontFamily: T.hat, fontSize: 22, fontWeight: 780, margin: 0 }}>Önümüzdeki yedi gün</h2>
+          <div style={{ fontSize: 14.5, color: C.murekkepAlt }}>Hangi gün kaç kelime tekrar için dönecek</div>
+          <div style={{ display: "flex", alignItems: "flex-end", gap: 8, height: 120, marginTop: S.md }}>
+            {takvim.map((g, i) => (
+              <div key={i} style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "flex-end", gap: 4, height: "100%" }}>
+                <span style={{ fontSize: 13.5, fontWeight: 800, color: g.n ? C.murekkep : C.golge }}>{g.n}</span>
+                <div style={{ width: "100%", maxWidth: 38, borderRadius: 9, height: `${Math.max(5, (g.n / takvimUst) * 100)}%`, background: i === 0 ? C.safran : C.lacivert, opacity: g.n ? 1 : .18, transition: "height .7s cubic-bezier(.2,.8,.2,1)" }} />
+                <span style={{ fontSize: 12.5, fontWeight: i === 0 ? 800 : 500, color: C.murekkepAlt }}>{i === 0 ? "Bugün" : g.ad}</span>
+              </div>
+            ))}
+          </div>
+        </section>
+        <section style={{ background: C.muhre, border: `1px solid ${C.cizgi}`, borderRadius: 26, padding: S.lg }}>
+          <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between" }}>
+            <h2 style={{ fontFamily: T.hat, fontSize: 22, fontWeight: 780, margin: 0 }}>Seyir düzeni</h2>
+            <span style={{ fontSize: 14.5, color: C.murekkepAlt }}>{isi.filter((g) => g.xp > 0).length} aktif gün</span>
+          </div>
+          <div style={{ display: "grid", gridTemplateRows: "repeat(7, 1fr)", gridAutoFlow: "column", gap: 4, marginTop: S.md }}>
+            {isi.map((g) => <span key={g.gun} title={`${trTarih(g.gun)}: ${g.xp} puan`} style={{ aspectRatio: "1", borderRadius: 5, minWidth: 8,
+              background: g.xp <= 0 ? C.kagitDerin : g.xp < hedef * .5 ? "#B9CBFA" : g.xp < hedef ? "#6F92F0" : C.altin, outline: g.gun === bugun() ? `2px solid ${C.safran}` : "none" }} />)}
+          </div>
+          <div style={{ fontSize: 13.5, color: C.murekkepSis, marginTop: 10 }}>Her kare bir gün; renk koyulaştıkça o gün daha çok puan toplamışsın.</div>
+        </section>
+      </div>
+
       {/* hatlar */}
       <section style={{ margin: `${S.xl}px 0` }}>
         <h2 style={{ fontFamily: T.hat, fontSize: 25, fontWeight: 780, margin: `0 0 ${S.md}px`, letterSpacing: "-0.02em" }}>Hatların</h2>
@@ -305,7 +364,7 @@ export default function Nahiv() {
 
   const setSekme = useCallback((id) => {
     const es = { dagarcik: "dagarcik", talim: "talim", ana: "bugun" }[id] || id;
-    setSekmeHam(es); setOdakta(false); setTur((t) => t + 1); window.scrollTo({ top: 0 });
+    gecis(() => { setSekmeHam(es); setOdakta(false); setTur((t) => t + 1); window.scrollTo({ top: 0 }); });
   }, []);
   useEffect(() => { const f = () => setDar(window.innerWidth < 900); f(); window.addEventListener("resize", f); return () => window.removeEventListener("resize", f); }, []);
   useEffect(() => { try { localStorage.setItem("nahiv:olcek", String(olcek)); } catch { /* yok */ } }, [olcek]);
@@ -348,7 +407,7 @@ export default function Nahiv() {
       if (bugunPuan(e) < h && bugunPuan(y) >= h) setTimeout(() => konfeti(110), 200);
       return y;
     });
-    setPuanIzi({ n, k: ++izSayac.current });
+    setPuanIzi({ n, k: ++izSayac.current }); puanUcur(n);
   }, []);
   useEffect(() => { if (!puanIzi) return; const t = setTimeout(() => setPuanIzi(null), 1300); return () => clearTimeout(t); }, [puanIzi]);
   useEffect(() => { if (!kutlama) return; const t = setTimeout(() => setKutlama(null), 4200); return () => clearTimeout(t); }, [kutlama]);
@@ -432,6 +491,7 @@ export default function Nahiv() {
     <div style={{ minHeight: "100vh", background: `radial-gradient(1200px 500px at 85% -10%, ${C.altinSis} 0%, transparent 60%), radial-gradient(900px 480px at -10% 30%, ${C.laciSis} 0%, transparent 55%), ${C.kagit}`,
       backgroundAttachment: "fixed", fontFamily: T.govde, color: C.murekkep, zoom: olcek }}>
       <style>{STIL}</style>
+      <Acilis />
 
       {/* üst çubuk */}
       <header style={{ position: "sticky", top: 0, zIndex: 40, background: "rgba(238,243,248,.88)", backdropFilter: "blur(14px)", WebkitBackdropFilter: "blur(14px)", borderBottom: `1px solid ${C.cizgi}` }}>
@@ -453,7 +513,7 @@ export default function Nahiv() {
             <span style={{ fontSize: 13, fontWeight: 800, width: 22, textAlign: "center" }}>A</span>
             <button onClick={() => setOlcek((o) => Math.min(1.3, Math.round((o + 0.05) * 100) / 100))} aria-label="Yazıyı büyüt" style={olcekDugme}><Plus size={15} /></button>
           </div>
-          <button onClick={() => setSekme("bugun")} style={{ position: "relative", display: "flex", alignItems: "center", gap: 9, padding: "5px 14px 5px 5px", borderRadius: 99, border: `1px solid ${C.cizgi}`, background: C.muhre, cursor: "pointer", color: C.murekkep }}>
+          <button id="nv-puan-hedef" onClick={() => setSekme("bugun")} style={{ position: "relative", display: "flex", alignItems: "center", gap: 9, padding: "5px 14px 5px 5px", borderRadius: 99, border: `1px solid ${C.cizgi}`, background: C.muhre, cursor: "pointer", color: C.murekkep }}>
             <Halka deger={Math.min(100, (bp / hedef) * 100)} boy={36} kalinlik={5} renk={bp >= hedef ? C.zumrut : C.altin} ic={<Flame size={15} style={{ color: seri > 0 ? C.lal : C.golge }} />} />
             <span style={{ textAlign: "left", lineHeight: 1.15 }}>
               <span style={{ display: "block", fontSize: 14.5, fontWeight: 800 }}>{dar ? oyun.xp : sv.ad}</span>
@@ -475,7 +535,7 @@ export default function Nahiv() {
 
       <main style={{ maxWidth: genis ? 1180 : 940, margin: "0 auto", padding: `${S.lg}px ${dar ? S.md : S.lg}px ${dar ? 120 : S.xxxl}px` }}>
         <div key={sekme + ":" + tur} className="nv-gir">
-          {sekme === "bugun" && <AnaSayfa profil={profil} oyun={oyun} hedefDegis={hedefDegis} dag={dag} hatalar={hatalar} ustalik={ustalik} sinav={sinav} git={setSekme} kelimeAc={kelimeAc} />}
+          {sekme === "bugun" && <AnaSayfa puanVer={puanVer} profil={profil} oyun={oyun} hedefDegis={hedefDegis} dag={dag} hatalar={hatalar} ustalik={ustalik} sinav={sinav} git={setSekme} kelimeAc={kelimeAc} />}
           {sekme === "dagarcik" && <Dagarcik dag={dag} kelimeKaydet={kelimeKaydet} rekorlar={rekorlar} rekorKaydet={rekorKaydet} hataEkle={hataEkle} oturumBitir={oturumBitir} acilis={kelimeAcilis} odak={setOdakta} />}
           {sekme === "turler" && <MetinTurleri puanVer={puanVer} />}
           {sekme === "p1" && <Paper1 sinav={sinav} sinavKaydet={sinavKaydet} puanVer={puanVer} git={setSekme} />}

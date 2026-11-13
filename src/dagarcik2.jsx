@@ -121,7 +121,7 @@ function HatSeridi({ hat, dag, secili, sec }) {
         <>
           <svg width={w} height={satirSay * dy + 24} style={{ position: "absolute", inset: 0 }} aria-hidden="true">
             <path d={yol(noktalar.length - 1)} fill="none" stroke={hat.acik} strokeWidth="16" strokeLinecap="round" strokeLinejoin="round" />
-            <path d={yol(noktalar.length - 1)} fill="none" stroke={hat.renk} strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" strokeDasharray="1 13" opacity=".55" />
+            <path className="nv-akis" d={yol(noktalar.length - 1)} fill="none" stroke={hat.renk} strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" opacity=".6" />
             {bitenSon >= 0 && <path d={yol(Math.min(bitenSon + 1, noktalar.length - 1))} fill="none" stroke={hat.renk} strokeWidth="10" strokeLinecap="round" strokeLinejoin="round" />}
           </svg>
           {duraklar.map((d, n) => {
@@ -242,17 +242,20 @@ function HatlarGorunumu({ dag, calis, acilisHat }) {
 function YolKarti({ y, renk, rekor, sec, pasif, oneri }) {
   return (
     <button onClick={() => !pasif && sec(y.id)} className="nv-yolkart" disabled={pasif}
-      style={{ position: "relative", textAlign: "left", padding: S.md, minHeight: 148, borderRadius: 20, cursor: pasif ? "not-allowed" : "pointer",
-        border: `1px solid ${C.cizgi}`, background: C.muhre, color: C.murekkep, opacity: pasif ? .5 : 1, overflow: "hidden", display: "flex", flexDirection: "column", gap: 8, "--renk": renk }}>
-      <span style={{ position: "relative", width: 62, height: 48, borderRadius: 14, background: renk + "1C", display: "block", flexShrink: 0 }}>
-        <YolDevinim tip={y.dev} renk={renk} />
+      style={{ position: "relative", textAlign: "left", padding: 0, minHeight: 236, borderRadius: 22, cursor: pasif ? "not-allowed" : "pointer",
+        border: `1px solid ${C.cizgi}`, background: C.muhre, color: C.murekkep, opacity: pasif ? .5 : 1, overflow: "hidden", display: "flex", flexDirection: "column", gap: 0, "--renk": renk,
+        boxShadow: "0 1px 2px rgba(15,27,51,.05), 0 14px 28px -20px rgba(15,27,51,.4)" }}>
+      <span className="nv-resim" style={{ position: "relative", height: 104, background: `radial-gradient(120% 140% at 20% 0%, ${renk}30, ${renk}12 60%, ${renk}08)`, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, borderBottom: `1px solid ${renk}22` }}>
+        <span style={{ position: "relative", width: 62, height: 48, display: "block", transform: "scale(1.85)" }}><YolDevinim tip={y.dev} renk={renk} /></span>
       </span>
+      <span style={{ display: "flex", flexDirection: "column", gap: 6, padding: "12px 14px 14px", flex: 1 }}>
       <span style={{ fontFamily: T.hat, fontSize: 19.5, fontWeight: 740, letterSpacing: "-0.01em" }}>{y.ad}</span>
       <span style={{ fontSize: 14, lineHeight: 1.42, color: C.murekkepAlt, flex: 1 }}>{y.neden.split(". ")[0].replace(/\.$/, "")}.</span>
       <span style={{ display: "flex", gap: 6, flexWrap: "wrap", alignItems: "center", minHeight: 20 }}>
         {oneri && <Nisan kucuk renk={C.safranKoyu} zemin={C.safranSis}><Star size={11} /> önerilen</Nisan>}
         {rekor != null && <Nisan kucuk renk={renk}>en iyi {rekor}{y.id === "eslestir" ? " sn" : y.id === "hafiza" ? " hamle" : y.id === "kontrol" ? "%" : ""}</Nisan>}
         {y.yapay && <Nisan kucuk renk={C.mor}><Sparkles size={11} /> yapay zekâ</Nisan>}
+      </span>
       </span>
     </button>
   );
@@ -337,7 +340,7 @@ function Studyo({ dag, kapsam, setKapsam, sec, rekorlar }) {
                 <span style={{ fontFamily: T.hat, fontSize: 22, fontWeight: 750, letterSpacing: "-0.01em" }}>{o.ad}</span>
                 <span style={{ ...T.s, color: C.murekkepAlt }}>{o.ac}</span>
               </div>
-              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(184px, 1fr))", gap: 12 }}>
+              <div className="nv-kartlar" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(190px, 1fr))", gap: 14 }}>
                 {TUM_YOLLAR.filter((y) => y.obek === o.id).map((y) => (
                   <YolKarti key={y.id} y={y} renk={o.renk} rekor={rekorlar[y.id]} sec={sec} oneri={ROTA.includes(y.id)}
                     pasif={(y.gerek === "ses" && !sesVar())} />

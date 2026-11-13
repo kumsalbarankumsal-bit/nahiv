@@ -23,6 +23,10 @@ export const HATLAR = [
   { id: "dyk", ad: "Deyimler ve Kalıplar", en: "Idioms & phrases", renk: "#C2187A", koyu: "#8A0F56", acik: "#FBE3F1", murekkep: "#FFFFFF", no: 7,
     ozet: "Kriter A'nın en üst bandı deyimlerin yerinde kullanımını ister: deyim, öbek fiil, ikileme, eşdizim.",
     duraklar: [["dy1","Deyim: başarı ve çaba"],["dy2","Deyim: zorluk ve sorun"],["dy3","Deyim: duygu ve ilişki"],["dy4","Deyim: zaman ve değişim"],["dy5","Deyim: para ve iş"],["dy6","Deyim: düşünce ve iletişim"],["dy7","Deyim: tartışma ve siyaset"],["of1","Öbek fiil: akademik"],["of2","Öbek fiil: gündelik"],["of3","Öbek fiil: okul ve iş"],["dey","Öbek fiil ve deyim: karışık"],["iki","İkilemeler ve sabit kalıplar"],["ben","Benzetme ve atasözü"],["esd","Güçlü eşdizimler"]] }
+,
+  { id: "kit", ad: "Ders Kitabı", en: "Coursebook", renk: "#D4550F", koyu: "#8A3608", acik: "#FFE9DA", murekkep: "#FFFFFF", no: 8,
+    ozet: "English B Coursebook (Philpot, 2. baskı): on beş ünitenin kelimeleri, kitaptaki cümleleriyle.",
+    duraklar: [["u11","1.1 Citizens of the world"],["u12","1.2 Belief and identity"],["u13","1.3 Beauty and health"],["u21","2.1 Pilgrimage"],["u22","2.2 Extreme sports"],["u23","2.3 Migration"],["u31","3.1 Future humans"],["u32","3.2 Technology and human interaction"],["u33","3.3 Redefining art"],["u41","4.1 Minorities and education"],["u42","4.2 Partners for life"],["u43","4.3 The future of jobs"],["u51","5.1 Ending poverty"],["u52","5.2 Climate change"],["u53","5.3 Power to the people"],["u6","6 Metin türü terimleri"]] }
 ];
 
 export const DURAK_META = {};
