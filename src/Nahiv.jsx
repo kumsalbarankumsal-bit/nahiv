@@ -133,7 +133,7 @@ body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opa
 .nv-sefer-ikon{width:50px;height:50px;border-radius:99px;background:${C.safran};color:${C.gece};display:flex;align-items:center;justify-content:center;padding-left:3px;animation:nvAtim 2.4s ease-in-out infinite}
 @keyframes nvAtim{0%,100%{box-shadow:0 0 0 0 rgba(240,164,0,.55)}60%{box-shadow:0 0 0 14px rgba(240,164,0,0)}}
 .nv-hedef{display:flex;align-items:center;gap:12px;padding:6px 18px 6px 6px;border-radius:99px;background:rgba(9,16,40,.4);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.16);font-size:15px}
-.nv-kapilar{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr));gap:18px;margin-top:22px}
+.nv-kapilar{display:grid;grid-template-columns:1fr;gap:18px;margin-top:22px}@media (min-width:700px){.nv-kapilar{grid-template-columns:repeat(3,1fr);gap:14px}}@media (min-width:700px) and (max-width:1000px){.nv-kapi{padding:20px;min-height:290px}}
 .nv-kapi{position:relative;min-height:320px;padding:26px;border:none;border-radius:30px;color:#fff;cursor:pointer;overflow:hidden;text-align:left;
   transform:perspective(900px) rotateX(var(--rx,0)) rotateY(var(--ry,0));transition:transform .5s cubic-bezier(.2,.8,.2,1),box-shadow .4s;
   box-shadow:0 28px 50px -30px rgba(11,22,48,.8);animation:nvKapiGir .8s cubic-bezier(.2,.9,.2,1) both}
