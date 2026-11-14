@@ -112,7 +112,7 @@ export function Bogaz({ yukseklik = 340, sessiz, children, onMarti }) {
       if (!gunduz) { ctx.fillStyle = G.ust; ctx.beginPath(); ctx.arc(gx + 7, gy - 4, 15, 0, TAU); ctx.fill(); }
       /* bulutlar */
       ctx.fillStyle = G.gece > .5 ? "rgba(120,140,200,.16)" : "rgba(255,255,255,.72)";
-      D.bulutlar.forEach((b) => { b.x += b.v * dt; if (b.x - b.r * 3 > W) b.x = -b.r * 3; ctx.beginPath(); ctx.ellipse(b.x, b.y, b.r * 1.7, b.r * .5, 0, 0, TAU); ctx.ellipse(b.x - b.r * .7, b.y + 3, b.r, b.r * .42, 0, 0, TAU); ctx.ellipse(b.x + b.r * .8, b.y + 4, b.r * 1.1, b.r * .4, 0, 0, TAU); ctx.fill(); });
+      D.bulutlar.forEach((b) => { b.x += b.v * dt; if (b.x - b.r * 3 > W) b.x = -b.r * 3; [[0, 0, 1.5, .46], [-.75, .14, .95, .4], [.8, .16, 1.05, .38], [.15, -.22, .8, .42]].forEach(([dx, dy, rx, ry]) => { ctx.beginPath(); ctx.ellipse(b.x + dx * b.r, b.y + dy * b.r, b.r * rx, b.r * ry, 0, 0, TAU); ctx.fill(); }); });
       /* uzak tepeler */
       ctx.fillStyle = G.siluet; ctx.globalAlpha = .45; ctx.beginPath(); ctx.moveTo(0, uy);
       for (let x = 0; x <= W; x += 12) ctx.lineTo(x, uy - 16 - Math.sin(x * .008 + 1) * 12 - Math.sin(x * .021) * 6);
@@ -189,7 +189,7 @@ export function Bogaz({ yukseklik = 340, sessiz, children, onMarti }) {
     <div ref={kap} style={{ position: "relative", height: yukseklik, borderRadius: 30, overflow: "hidden", boxShadow: "0 2px 4px rgba(15,27,51,.06), 0 34px 60px -30px rgba(15,27,51,.6)", touchAction: "pan-y" }}>
       <canvas ref={tuval} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", display: "block", cursor: "pointer" }} aria-label="Yaşayan Boğaz sahnesi" />
       <div style={{ position: "absolute", inset: 0, pointerEvents: "none" }}>{children}</div>
-      {ipucu && <div style={{ position: "absolute", right: 14, bottom: 12, pointerEvents: "none", padding: "7px 13px", borderRadius: 99, background: "rgba(255,255,255,.9)", color: "#0F1B33", fontSize: 13.5, fontWeight: 700, boxShadow: "0 6px 14px -8px rgba(0,0,0,.5)" }}>Göğe dokun: simit at · Vapura dokun: düdük · Suya dokun: halka</div>}
+      {ipucu && <div className="nv-ipucu" style={{ position: "absolute", left: "50%", transform: "translateX(-50%)", top: 22, pointerEvents: "none", padding: "7px 13px", borderRadius: 99, background: "rgba(255,255,255,.9)", color: "#0F1B33", fontSize: 13.5, fontWeight: 700, boxShadow: "0 6px 14px -8px rgba(0,0,0,.5)" }}>Dokun: göğe simit at, vapura düdük çaldır</div>}
     </div>
   );
 }
