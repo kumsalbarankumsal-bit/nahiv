@@ -10,7 +10,7 @@ import {
   Play, ArrowRight, Layers, Trash2, Command, Eye, EyeOff, Sparkles, Filter,
   Loader2, Send, Info, CheckCircle, XCircle, Crosshair, Swords, Pickaxe,
   ScrollText, History, Gauge, Waypoints, Lock, Flame, PenLine, Square,
-  CircleDot, Radio, Volume2, Copy, Plus, Minus, Bookmark, GitCompare, Library
+  CircleDot, Radio, Volume2, Copy, Plus, Minus, Bookmark, GitCompare, Library, Star
 } from "lucide-react";
 
 import { HAM_HEPSI, HATLAR, DURAK_META } from "./veri/index.js";
@@ -2076,32 +2076,7 @@ export function Gul({ boy = 16, renk = C.altin, opak = 1 }) {
   );
 }
 
-export function Serlevha({ genislik = 560, renk = C.altin, ikinci = C.lacivert }) {
-  const birim = 46, adet = Math.max(3, Math.floor(genislik / birim));
-  return (
-    <svg width="100%" height="34" viewBox={`0 0 ${adet * birim} 34`} preserveAspectRatio="none"
-      style={{ display: "block", overflow: "visible" }}>
-      <line x1="0" y1="32" x2={adet * birim} y2="32" stroke={renk} strokeWidth="1.1" />
-      <line x1="0" y1="29" x2={adet * birim} y2="29" stroke={renk} strokeWidth="0.5" opacity="0.5" />
-      {Array.from({ length: adet }, (_, i) => {
-        const x = i * birim, orta = i === Math.floor(adet / 2);
-        return (
-          <g key={i}>
-            <path d={`M ${x + 3} 32 Q ${x + birim / 2} ${orta ? 2 : 12} ${x + birim - 3} 32`}
-              fill="none" stroke={orta ? ikinci : renk} strokeWidth={orta ? 1.2 : 0.85}
-              opacity={orta ? 0.95 : 0.62} />
-            <circle cx={x + birim / 2} cy={orta ? 8 : 15} r={orta ? 2.6 : 1.5}
-              fill={orta ? ikinci : renk} opacity={orta ? 1 : 0.65} />
-            {orta && <>
-              <path d={`M ${x + 11} 32 Q ${x + birim / 2} 12 ${x + birim - 11} 32`} fill="none" stroke={renk} strokeWidth="0.8" opacity="0.8" />
-              <circle cx={x + birim / 2} cy="8" r="5.4" fill="none" stroke={renk} strokeWidth="0.6" opacity="0.7" />
-            </>}
-          </g>
-        );
-      })}
-    </svg>
-  );
-}
+export function Serlevha() { return null; }
 
 export function KoseSusu({ boy = 22, renk = C.cetvel, don = 0 }) {
   return (
@@ -2113,44 +2088,33 @@ export function KoseSusu({ boy = 22, renk = C.cetvel, don = 0 }) {
   );
 }
 
-/* Cetvel — çift hatlı çerçeve, dört köşesinde süs */
-export function Cetvel({ children, style, sikilik = "normal", renk = C.cetvel }) {
+/* Cetvel — sade, yumuşak gölgeli kart */
+export function Cetvel({ children, style, sikilik = "normal" }) {
   const ic = sikilik === "genis" ? S.xl : sikilik === "dar" ? S.md : S.lg;
   return (
-    <div style={{ position: "relative", border: `1px solid ${renk}55`, borderRadius: 14, padding: 3, ...style }}>
-      <div style={{ border: `1px solid ${renk}`, borderRadius: 10, padding: ic, position: "relative", background: C.muhre }}>
-        <div style={{ position: "absolute", top: -1, left: -1 }}><KoseSusu renk={renk} don={0} /></div>
-        <div style={{ position: "absolute", top: -1, right: -1 }}><KoseSusu renk={renk} don={90} /></div>
-        <div style={{ position: "absolute", bottom: -1, right: -1 }}><KoseSusu renk={renk} don={180} /></div>
-        <div style={{ position: "absolute", bottom: -1, left: -1 }}><KoseSusu renk={renk} don={270} /></div>
-        {children}
-      </div>
-    </div>
+    <div style={{ background: C.muhre, border: `1px solid ${C.cizgi}`, borderRadius: 26, padding: ic,
+      boxShadow: "0 1px 2px rgba(15,27,51,.04), 0 22px 40px -30px rgba(15,27,51,.5)", ...style }}>{children}</div>
   );
 }
 
 export function Baslik({ ust, ad, alt, sag }) {
   return (
-    <div style={{ marginBottom: S.xl }}>
-      <div style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", gap: S.lg, marginBottom: S.sm }}>
-        <div style={{ minWidth: 0 }}>
-          {ust && <div style={{ ...T.cap, color: C.altin, marginBottom: 6 }}>{ust}</div>}
-          <div style={{ fontFamily: T.hat, ...T.d1, color: C.murekkep }}>{ad}</div>
-        </div>
-        {sag}
+    <div style={{ marginBottom: S.xl, display: "flex", alignItems: "flex-end", justifyContent: "space-between", gap: S.lg, flexWrap: "wrap" }}>
+      <div style={{ minWidth: 0, flex: "1 1 320px" }}>
+        {ust && <div style={{ fontSize: 15, fontWeight: 750, color: C.altin, marginBottom: 4 }}>{ust}</div>}
+        <h1 style={{ fontFamily: T.hat, ...T.d0, margin: 0, color: C.murekkep }}>{ad}</h1>
+        {alt && <div style={{ ...T.m, color: C.murekkepAlt, marginTop: 8, maxWidth: 640 }}>{alt}</div>}
       </div>
-      <Serlevha />
-      {alt && <div style={{ ...T.s, color: C.murekkepAlt, marginTop: S.md, maxWidth: 620, fontStyle: "italic" }}>{alt}</div>}
+      {sag}
     </div>
   );
 }
 
 export function Fasil({ ad, sag, style }) {
   return (
-    <div style={{ display: "flex", alignItems: "center", gap: S.sm, margin: `${S.lg}px 0 ${S.md}px`, ...style }}>
-      <Gul boy={13} />
-      <div style={{ ...T.cap, color: C.murekkepAlt, whiteSpace: "nowrap" }}>{ad}</div>
-      <div style={{ flex: 1, height: 1, background: `linear-gradient(90deg, ${C.cizgi}, transparent)` }} />
+    <div style={{ display: "flex", alignItems: "center", gap: S.sm, margin: `${S.xl}px 0 ${S.md}px`, ...style }}>
+      <div style={{ fontFamily: T.hat, fontSize: 21, fontWeight: 780, letterSpacing: "-0.015em", color: C.murekkep }}>{ad}</div>
+      <span style={{ flex: 1 }} />
       {sag}
     </div>
   );
@@ -2214,7 +2178,7 @@ export function Aralik({ en, tr, fark, acikBasla, kompakt }) {
               }}>{p.en}</span>
               {acik && p.vurgu && p.tr && (
                 <span style={{
-                  fontFamily: T.govde, fontStyle: "italic", fontSize: kompakt ? 13.5 : 14.5,
+                  fontFamily: T.govde, fontSize: kompakt ? 13.5 : 14.5,
                   lineHeight: 1.35, marginTop: 3, padding: "0 2px",
                   color: p.yok ? C.lal : C.altin, letterSpacing: "0.01em"
                 }}>
@@ -2682,7 +2646,7 @@ ex dizisinde 3, sh dizisinde 3 öğe olsun.`, 1900);
             <div style={{ fontFamily: T.govde, ...T.m, color: C.murekkep }}>{d.m || ek.m}</div>
             {(d.an || ek.an) && (
               <div style={{ marginTop: S.md, paddingTop: S.md, borderTop: `1px dashed ${C.cizgi}`,
-                ...T.s, fontStyle: "italic", color: C.murekkepAlt }}>{d.an || ek.an}</div>
+                ...T.s, color: C.murekkepAlt }}>{d.an || ek.an}</div>
             )}
           </Cetvel>
         )}
@@ -2994,7 +2958,7 @@ YALNIZCA şu JSON'u döndür:
               </div>
             ))}
           </div>
-          <div style={{ ...T.xs, color: C.murekkepAlt, marginTop: S.md, fontStyle: "italic" }}>
+          <div style={{ ...T.xs, color: C.murekkepAlt, marginTop: S.md }}>
             Tek bir Türkçe cümle kurulacak ve bu hataların hepsini aynı anda davet edecek. Çevirirken nereye basacağını bilmiyorsun — mesele de bu.
           </div>
         </Levha>
@@ -3433,7 +3397,7 @@ YALNIZCA şu JSON'u döndür:
   if (!d) {
     return (
       <div>
-        <div style={{ ...T.s, color: C.murekkepAlt, marginBottom: S.lg, fontStyle: "italic" }}>
+        <div style={{ ...T.s, color: C.murekkepAlt, marginBottom: S.lg }}>
           Sıralama ustalık puanına, Türkçe girişim şiddetine ve senin kayıtlı hatalarına göre yapıldı. Önkoşulu açılmamış düğümler listeye girmez.
         </div>
         <div style={{ display: "grid", gap: 5 }}>
@@ -3483,7 +3447,7 @@ YALNIZCA şu JSON'u döndür:
           </div>
         ))}
       </div>
-      <div style={{ ...T.xs, color: C.murekkepAlt, fontStyle: "italic", marginBottom: S.lg }}>{BASAMAK[basamak].ac}</div>
+      <div style={{ ...T.xs, color: C.murekkepAlt, marginBottom: S.lg }}>{BASAMAK[basamak].ac}</div>
 
       {!sorular && !yuklu && (
         <div style={{ textAlign: "center", padding: S.xl }}>
@@ -3732,7 +3696,7 @@ export function SerbestModu({ hatalar, hataEkle, metinEkle, oturumBitir, taslak,
             })}
           </div>
           {isabet && (
-            <div style={{ ...T.xs, color: C.murekkepAlt, marginTop: S.md, paddingTop: S.sm, borderTop: `1px dashed ${C.cizgi}`, fontStyle: "italic" }}>
+            <div style={{ ...T.xs, color: C.murekkepAlt, marginTop: S.md, paddingTop: S.sm, borderTop: `1px dashed ${C.cizgi}` }}>
               {isabet.isabet >= 75 ? "Model seni fazla iyi tanıyor. Bu iyi bir haber değil — örüntülerin hâlâ sabit."
                 : isabet.isabet >= 40 ? "Model seni kısmen tanıyor. Bazı örüntülerden çıkmaya başlamışsın."
                 : "Model seni ıskaladı. Eski örüntülerinin dışına çıkıyorsun — asıl aradığımız buydu."}
@@ -3991,7 +3955,7 @@ YALNIZCA şu JSON'u döndür:
       </div>
       <Cetvel>
         <Etiket renk={C.altin}>{gorev.metinTuru} · {gorev.kelimeAraligi} sözcük</Etiket>
-        <div style={{ ...T.s, color: C.murekkepAlt, marginBottom: S.md, fontStyle: "italic" }}>{gorev.baglam}</div>
+        <div style={{ ...T.s, color: C.murekkepAlt, marginBottom: S.md }}>{gorev.baglam}</div>
         <div style={{ fontFamily: T.kalem, fontSize: 16, lineHeight: 1.8, color: C.murekkep }}>{gorev.gorev}</div>
         <div style={{ marginTop: S.md, paddingTop: S.md, borderTop: `1px dashed ${C.cizgi}`, ...T.xs, color: C.murekkepAlt }}>
           <strong>Kayıt · </strong>{gorev.kayitNotu} &nbsp;·&nbsp; <strong>Kitle · </strong>{gorev.hedefKitle}
@@ -4203,7 +4167,7 @@ YALNIZCA şu JSON'u döndür:
               <div key={i}>
                 <div style={{ ...T.cap, fontSize: 11.5, color: C.altin, marginBottom: 4 }}>{b.yapi}</div>
                 <Aralik en={b.en} tr={b.tr} fark={b.f} acikBasla={hepsi} />
-                {b.not && <div style={{ ...T.xs, color: C.murekkepAlt, marginTop: 4, paddingLeft: S.sm, fontStyle: "italic" }}>{b.not}</div>}
+                {b.not && <div style={{ ...T.xs, color: C.murekkepAlt, marginTop: 4, paddingLeft: S.sm }}>{b.not}</div>}
               </div>
             ))}
           </div>
@@ -4373,7 +4337,7 @@ YALNIZCA şu JSON'u döndür:
       {gorev && (
         <Cetvel style={{ marginBottom: S.md }}>
           <Etiket renk={C.altin}>Görev · 60-90 saniye</Etiket>
-          <div style={{ ...T.xs, color: C.murekkepAlt, marginBottom: S.sm, fontStyle: "italic" }}>{gorev.baglam}</div>
+          <div style={{ ...T.xs, color: C.murekkepAlt, marginBottom: S.sm }}>{gorev.baglam}</div>
           <div style={{ fontFamily: T.kalem, fontSize: 16, lineHeight: 1.8, color: C.murekkep, marginBottom: S.md }}>{gorev.gorev}</div>
           <div style={{ display: "grid", gap: 4 }}>
             {(gorev.ipuclari || []).map((x, i) => (
@@ -4410,7 +4374,7 @@ YALNIZCA şu JSON'u döndür:
             ipucu={destek ? "Konuşmanın çözümü buraya düşecek. Elle de yazabilirsin." : "Konuşmanın metnini buraya yaz…"}
             style={{ border: "none", padding: 0, background: "transparent" }} />
         )}
-        {gecici && <span style={{ fontFamily: T.kalem, fontSize: 16, color: C.murekkepSis, fontStyle: "italic" }}>{gecici}</span>}
+        {gecici && <span style={{ fontFamily: T.kalem, fontSize: 16, color: C.murekkepSis }}>{gecici}</span>}
       </Cetvel>
 
       {!rapor && (yuklu && !dinliyor ? <Bekle asamalar={["Çözüm okunuyor…", "Konuşma dili filtreleniyor…", "Hatalar çıkarılıyor…"]} />
@@ -4749,45 +4713,35 @@ export function Divan({ profil, ustalik, hatalar, metinler, oturumlar, esdizim, 
 
   return (
     <div>
-      <YasayanBaslik ad={profil.ad} dag={dag || {}} ustalik={ustalik} hatalar={hatalar} oturumlar={oturumlar} git={git} />
-
-      <div style={{ display: "flex", alignItems: "center", gap: S.md, marginBottom: S.lg }}>
-        <Halka deger={genel} boy={62} kalinlik={4} renk={C.altin}
-          ic={<div style={{ textAlign: "center" }}>
-            <div style={{ fontFamily: T.hat, fontSize: 18, ...T.rakam, color: C.altin, lineHeight: 1 }}>{genel}</div>
-            <div style={{ ...T.cap, fontSize: 6.5, color: C.murekkepSis, marginTop: 1 }}>gramer</div>
-          </div>} />
-        <div style={{ flex: 1 }}>
-          <Serlevha />
+      <div style={{ display: "flex", alignItems: "center", gap: S.lg, marginBottom: S.xl, flexWrap: "wrap" }}>
+        <div style={{ flex: "1 1 320px", minWidth: 0 }}>
+          <h1 style={{ fontFamily: T.hat, ...T.d0, margin: 0 }}>Gramer</h1>
+          <div style={{ ...T.m, color: C.murekkepAlt, marginTop: 8, maxWidth: 600 }}>Bugünün planı {ocak.toplamDk} dakika. Adımları sırayla yürü; her biri bir öncekinin üstüne kurulur.</div>
+          <div style={{ display: "flex", gap: 8, marginTop: 12, flexWrap: "wrap" }}>
+            {seri > 0 && <span className="nv-oturum-cip"><Flame size={16} style={{ color: C.lal }} /> {seri} günlük seri</span>}
+            {bugunCalisti && <span className="nv-oturum-cip dogru"><Check size={16} /> bugün çalıştın</span>}
+          </div>
         </div>
+        <Halka deger={genel} boy={112} kalinlik={12} renk={C.altin}
+          ic={<div style={{ textAlign: "center" }}>
+            <div style={{ fontFamily: T.hat, fontSize: 32, fontWeight: 800, ...T.rakam, color: C.murekkep, lineHeight: 1 }}>{genel}</div>
+            <div style={{ fontSize: 12.5, color: C.murekkepSis, marginTop: 3 }}>gramer puanı</div>
+          </div>} />
       </div>
 
-      {/* Ocak */}
-      <Cetvel style={{ marginBottom: S.lg }}>
-        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: S.md, gap: S.md, flexWrap: "wrap" }}>
-          <div style={{ display: "flex", alignItems: "center", gap: S.sm }}>
-            <Flame size={16} style={{ color: bugunCalisti ? C.altin : C.murekkepSis }} />
-            <span style={{ fontFamily: T.hat, ...T.d3, color: C.murekkep }}>Ocak</span>
-            <span style={{ ...T.xs, color: C.murekkepSis }}>· bugünün {ocak.toplamDk} dakikası</span>
-          </div>
-          <div style={{ display: "flex", gap: S.sm, alignItems: "center" }}>
-            {seri > 0 && <Nisan renk={C.altin} dolu>{seri} günlük seri</Nisan>}
-            {bugunCalisti && <Nisan renk={C.zumrut}><Check size={10} /> bugün çalıştın</Nisan>}
-          </div>
-        </div>
-        <div style={{ display: "grid", gap: 5 }}>
-          {ocak.adimlar.map((a, i) => (
-            <div key={i} onClick={() => a.dugumId ? calis(a.dugumId) : git(a.hedef)}
-              style={{ display: "flex", alignItems: "center", gap: S.md, padding: `${S.sm + 2}px ${S.sm}px`,
-                borderBottom: i < ocak.adimlar.length - 1 ? `1px dashed ${C.cizgi}` : "none", cursor: "pointer" }}>
-              <span style={{ fontFamily: T.hat, fontSize: 16, color: C.altin, width: 18, ...T.rakam }}>{i + 1}</span>
-              <span style={{ flex: 1, fontFamily: T.govde, fontSize: 16, color: C.murekkep }}>{a.ad}</span>
-              <span style={{ ...T.xs, color: C.murekkepSis }}>{a.dk} dk</span>
-              <ChevronRight size={14} style={{ color: C.murekkepSis }} />
-            </div>
-          ))}
-        </div>
-      </Cetvel>
+      <div className="nv-adimlar" style={{ marginBottom: S.xl }}>
+        {ocak.adimlar.map((a, i) => (
+          <button key={i} onClick={() => a.dugumId ? calis(a.dugumId) : git(a.hedef)} className="nv-adim"
+            style={{ animationDelay: `${120 + i * 90}ms`, "--r": [C.altin, C.lacivert, C.erguvan, C.zumrut, C.mor][i % 5] }}>
+            <span className="nv-adim-no">{i + 1}</span>
+            <span style={{ flex: 1, minWidth: 0, textAlign: "left" }}>
+              <span style={{ display: "block", fontFamily: T.hat, fontSize: 19, fontWeight: 760, lineHeight: 1.25, color: C.murekkep }}>{a.ad}</span>
+              <span style={{ display: "block", fontSize: 14.5, color: C.murekkepAlt, marginTop: 4 }}>{a.dk} dakika</span>
+            </span>
+            <span className="nv-adim-ok"><Play size={16} fill="currentColor" /></span>
+          </button>
+        ))}
+      </div>
 
       {/* Ölçüler */}
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(130px, 1fr))", gap: S.sm, marginBottom: S.lg }}>
@@ -5305,17 +5259,19 @@ export function seslendir(metin, hiz) {
 /* ─── Ortak oturum parçaları ──────────────────────────────────────── */
 
 export function OturumUst({ i, n, skor, baslik, cik, sayac }) {
+  const oran = n > 0 ? Math.min(100, (i / n) * 100) : 0;
   return (
-    <div style={{ marginBottom: S.md }}>
-      <div style={{ display: "flex", alignItems: "center", gap: S.sm, marginBottom: 7 }}>
-        <Dugme tur="sessiz" kucuk tikla={cik}><ChevronLeft size={13} /> Çık</Dugme>
-        <span style={{ ...T.cap, color: C.murekkepSis }}>{baslik}</span>
-        <span style={{ flex: 1 }} />
-        {sayac != null && <Nisan kucuk renk={sayac < 11 ? C.lal : C.murekkepAlt} zemin={sayac < 11 ? C.lalSis : undefined}><Clock size={10} /> {sayac}</Nisan>}
-        {skor != null && <Nisan kucuk renk={C.zumrut}>{skor}</Nisan>}
-        {n > 0 && <span style={{ ...T.cap, color: C.murekkepSis, ...T.rakam }}>{Math.min(i + 1, n)} / {n}</span>}
+    <div className="nv-oturum">
+      <button onClick={cik} aria-label="Oturumdan çık" className="nv-oturum-cik"><X size={22} /></button>
+      <div style={{ flex: 1, minWidth: 0 }}>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: 8, marginBottom: 8 }}>
+          <span style={{ fontFamily: T.hat, fontSize: 19, fontWeight: 780, letterSpacing: "-0.01em", color: C.murekkep, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{baslik}</span>
+          {n > 0 && <span style={{ fontSize: 15, fontWeight: 750, color: C.murekkepAlt, ...T.rakam }}>{Math.min(i + 1, n)} / {n}</span>}
+        </div>
+        {n > 0 && <div className="nv-ilerleme"><span style={{ width: `${Math.max(3, oran)}%` }} /></div>}
       </div>
-      {n > 0 && <Cubuk deger={(i / n) * 100} boy={3} />}
+      {sayac != null && <span className={`nv-oturum-cip${sayac < 11 ? " acil" : ""}`}><Clock size={17} /> {sayac}</span>}
+      {skor != null && <span key={skor} className="nv-oturum-cip dogru"><Check size={17} /> {skor}</span>}
     </div>
   );
 }
@@ -5362,39 +5318,55 @@ export function KelimeAyrinti({ k, acikBasla }) {
 
 export function SonucEkrani({ dogru, toplam, sure, enIyi, yeniRekor, yanlislar, tekrar, cik, ek }) {
   const oran = toplam ? Math.round((dogru / toplam) * 100) : 0;
-  const n = useSayac(oran, 1100);
+  const n = useSayac(oran, 1300);
+  const yildiz = oran >= 90 ? 3 : oran >= 65 ? 2 : oran >= 35 ? 1 : 0;
+  const renk = oran >= 80 ? C.zumrut : oran >= 50 ? C.altin : C.erguvan;
+  const soz = oran === 100 ? "Kusursuz sefer" : oran >= 80 ? "Harika gidiyorsun" : oran >= 50 ? "İyi bir tur" : toplam ? "Bu kelimeler yeniden gelecek" : "Tur bitti";
   useEffect(() => {
     if (oran >= 80) { konfeti(oran === 100 ? 170 : 110); titre(oran === 100 ? 26 : 14); }
   }, []);
+  const cevre = 2 * Math.PI * 84;
   return (
     <div style={{ display: "grid", gap: S.md }}>
-      <Cetvel sikilik="genis" style={{ textAlign: "center" }}>
-        <div style={{ display: "flex", justifyContent: "center", marginBottom: S.md }}><Gul boy={26} /></div>
-        <div style={{ fontFamily: T.hat, fontSize: 52, fontWeight: 650, color: oran >= 80 ? C.zumrut : oran >= 50 ? C.altin : C.lal, ...T.rakam, lineHeight: 1 }}>
-          %{n}
+      <div className="nv-sonuc" style={{ "--r": renk }}>
+        <div className="nv-yildizlar">
+          {[0, 1, 2].map((y) => <Star key={y} size={y === 1 ? 52 : 40} className={y < yildiz ? "dolu" : ""} style={{ animationDelay: `${700 + y * 220}ms` }} />)}
         </div>
-        <div style={{ ...T.cap, color: C.murekkepAlt, marginTop: S.sm }}>{dogru} / {toplam} doğru</div>
-        {sure != null && <div style={{ ...T.xs, color: C.murekkepSis, marginTop: 5 }}>{Math.floor(sure / 60)} dk {sure % 60} sn</div>}
-        {yeniRekor && <div style={{ marginTop: S.md }}><Nisan renk={C.altin} dolu>Yeni rekor</Nisan></div>}
-        {enIyi != null && !yeniRekor && <div style={{ ...T.xs, color: C.murekkepSis, marginTop: 6 }}>En iyin: {enIyi}</div>}
-      </Cetvel>
+        <div style={{ position: "relative", width: 200, height: 200, margin: "6px auto 0" }}>
+          <svg width="200" height="200" viewBox="0 0 200 200">
+            <circle cx="100" cy="100" r="84" fill="none" stroke="rgba(15,27,51,.08)" strokeWidth="16" />
+            <circle cx="100" cy="100" r="84" fill="none" stroke={renk} strokeWidth="16" strokeLinecap="round" transform="rotate(-90 100 100)"
+              strokeDasharray={`${(cevre * n) / 100} ${cevre}`} />
+          </svg>
+          <div style={{ position: "absolute", inset: 0, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+            <div style={{ fontFamily: T.hat, fontSize: 54, fontWeight: 800, letterSpacing: "-0.04em", color: C.murekkep, lineHeight: 1, ...T.rakam }}>%{n}</div>
+            <div style={{ fontSize: 15, color: C.murekkepAlt, marginTop: 4 }}>{dogru} / {toplam} doğru</div>
+          </div>
+        </div>
+        <div className="nv-sonuc-soz" style={{ fontFamily: T.hat, fontSize: 30, fontWeight: 800, letterSpacing: "-0.025em", marginTop: 12 }}>{soz}</div>
+        <div style={{ display: "flex", gap: 8, justifyContent: "center", flexWrap: "wrap", marginTop: 12 }}>
+          {sure != null && <span className="nv-oturum-cip"><Clock size={16} /> {Math.floor(sure / 60)} dk {sure % 60} sn</span>}
+          {yeniRekor && <span className="nv-oturum-cip dogru"><Star size={16} /> Yeni rekor</span>}
+          {enIyi != null && !yeniRekor && <span className="nv-oturum-cip">En iyin: {enIyi}</span>}
+        </div>
+      </div>
       {ek}
       {yanlislar && yanlislar.length > 0 && (
-        <Levha renk={C.lal}>
-          <Etiket renk={C.lal}>Bunlar seni zorladı · {yanlislar.length}</Etiket>
-          <div style={{ display: "grid", gap: 7 }}>
-            {yanlislar.map((k) => (
-              <div key={k.id} style={{ display: "flex", gap: S.sm, alignItems: "baseline", ...T.s }}>
-                <span style={{ fontFamily: T.kalem, color: C.murekkep, minWidth: 110 }}>{k.w}</span>
-                <span style={{ color: C.murekkepAlt }}>{k.tr}</span>
+        <div style={{ background: C.muhre, border: `1px solid ${C.cizgi}`, borderRadius: 24, padding: S.lg }}>
+          <div style={{ fontFamily: T.hat, fontSize: 20, fontWeight: 780, marginBottom: 12 }}>Seni zorlayanlar <span style={{ color: C.murekkepSis, fontWeight: 600 }}>{yanlislar.length}</span></div>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: 8 }}>
+            {yanlislar.map((k, i) => (
+              <div key={k.id + i} className="nv-zor" style={{ animationDelay: `${900 + i * 50}ms` }}>
+                <span style={{ fontFamily: T.kalem, fontSize: 17, fontWeight: 700, color: C.murekkep }}>{k.w}</span>
+                <span style={{ fontSize: 15, color: C.murekkepAlt }}>{k.tr}</span>
               </div>
             ))}
           </div>
-        </Levha>
+        </div>
       )}
       <div style={{ display: "flex", gap: S.sm }}>
-        {tekrar && <Dugme tur="altin" tikla={tekrar} tam><RotateCcw size={13} /> Bir tur daha</Dugme>}
-        <Dugme tur="ikincil" tikla={cik} tam>Bitir</Dugme>
+        {tekrar && <Dugme tur="altin" tikla={tekrar} tam><RotateCcw size={16} /> Bir tur daha</Dugme>}
+        <Dugme tur={tekrar ? "ikincil" : "altin"} tikla={cik} tam>Bitir</Dugme>
       </div>
     </div>
   );
@@ -7349,7 +7321,7 @@ export function Sandik({ ozet, saglik, yenile }) {
                 <Dugme tur={mod === "birlestir" ? "ikincil" : "sessiz"} kucuk tikla={() => setMod("birlestir")}>Birleştir</Dugme>
                 <Dugme tur={mod === "degistir" ? "ikincil" : "sessiz"} kucuk tikla={() => setMod("degistir")}>Üzerine yaz</Dugme>
               </div>
-              <div style={{ ...T.xs, color: C.murekkepAlt, marginBottom: S.md, fontStyle: "italic" }}>
+              <div style={{ ...T.xs, color: C.murekkepAlt, marginBottom: S.md }}>
                 {mod === "birlestir"
                   ? "Mevcut veriyle birleştirilir. Aynı kimlikli kayıtlarda daha yeni olan tutulur, ustalıkta en son görülen kayıt kazanır. Güvenli seçenek."
                   : "Mevcut veri tamamen silinir ve yedektekiyle değiştirilir. Yalnızca temiz bir cihaza taşıyorsan kullan."}

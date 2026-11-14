@@ -4,6 +4,7 @@
    bir konudur. Stüdyo yirmi yedi çalışma yolunu bir arada sunar.
    ══════════════════════════════════════════════════════════════════════ */
 import React, { useState, useEffect, useMemo, useRef } from "react";
+import { createPortal } from "react-dom";
 import { Search, X, Check, ChevronRight, ChevronLeft, RotateCcw, Sparkles, Volume2, Map as MapIcon, LayoutGrid, BookOpen, Flame, Star } from "lucide-react";
 import {
   C, T, S, KELIMELER, HATLAR, DURAK_META, SEVIYE_RENK, turYaz, duraginKelimeleri, hattinKelimeleri, durakIlerleme, hatIlerleme,
@@ -278,40 +279,55 @@ function Studyo({ dag, kapsam, setKapsam, sec, rekorlar }) {
   };
   return (
     <div>
-      <Levha ic={S.lg} style={{ marginBottom: S.lg }}>
-        <div style={{ display: "flex", alignItems: "baseline", gap: S.sm, flexWrap: "wrap" }}>
-          <span style={{ fontFamily: T.hat, fontSize: 22, fontWeight: 740 }}>Neyi çalışacaksın?</span>
-          <span style={{ ...T.s, color: C.murekkepAlt }}>Seçili: <b style={{ color: coz.renk }}>{coz.ad}</b>, {coz.kelimeler.length} kelime</span>
+      <div style={{ marginBottom: S.xl }}>
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: S.sm, flexWrap: "wrap", marginBottom: S.md }}>
+          <h2 style={{ fontFamily: T.hat, fontSize: 26, fontWeight: 800, letterSpacing: "-0.02em", margin: 0 }}>Neyi çalışacaksın?</h2>
+          <button onClick={() => setDurakSec(true)} className={`nv-kapsam-sec${["durak", "hat", "seviye"].includes(kapsam.tur) ? " et" : ""}`} style={{ "--r": coz.renk }}>
+            <MapIcon size={18} /> {["durak", "hat", "seviye"].includes(kapsam.tur) ? coz.ad : "Hat, durak ya da seviye seç"} <ChevronRight size={17} />
+          </button>
         </div>
-        <div style={{ display: "flex", gap: 8, overflowX: "auto", padding: "12px 2px 4px" }}>
-          {cip("Bugünün tekrarları", { tur: "vadesi" }, vadesi, C.safranKoyu)}
-          {cip("Hiç görmediklerim", { tur: "yeni" }, null, C.lacivert)}
-          {cip("Zorlular", { tur: "zor" }, zor, C.lal)}
-          {cip("Hepsi", { tur: "hepsi" }, KELIMELER.length, C.altin)}
-          {["B1", "B2", "C1", "C2"].map((l) => cip(l, { tur: "seviye", id: l }, null, SEVIYE_RENK[l]))}
+        <div className="nv-kapsamlar">
+          {[["vadesi", "Bugünün tekrarları", `${vadesi} kelime`, C.safranKoyu, RotateCcw], ["yeni", "Hiç görmediklerim", "yeni kelimeler", C.lacivert, Sparkles],
+            ["zor", "Zorlular", `${zor} kelime`, C.lal, Flame], ["hepsi", "Hepsi", `${KELIMELER.length} kelime`, C.altin, BookOpen]].map(([tur, ad, alt, renk, I], n) => {
+            const et = kapsam.tur === tur;
+            return (
+              <button key={tur} onClick={() => setKapsam({ tur })} className={`nv-kapsam${et ? " et" : ""}`} style={{ "--r": renk, animationDelay: `${n * 60}ms` }}>
+                <span className="nv-kapsam-ikon"><I size={21} /></span>
+                <span style={{ display: "block", fontSize: 17, fontWeight: 800, marginTop: 12, lineHeight: 1.2 }}>{ad}</span>
+                <span style={{ display: "block", fontSize: 14.5, opacity: .78, marginTop: 2 }}>{alt}</span>
+              </button>
+            );
+          })}
         </div>
-        <div style={{ display: "flex", gap: 8, overflowX: "auto", padding: "8px 2px 4px" }}>
-          {HATLAR.map((h) => cip(h.ad, { tur: "hat", id: h.id }, null, h.renk))}
-        </div>
-        <button onClick={() => setDurakSec(!durakSec)} style={{ border: "none", background: "transparent", color: C.altin, fontWeight: 700, cursor: "pointer", fontSize: 15, padding: "8px 2px" }}>
-          {durakSec ? "Durak listesini kapat" : "Tek bir durak seç"}
-        </button>
-        {durakSec && (
-          <div style={{ display: "grid", gap: 10, marginTop: 6 }}>
+      </div>
+      {durakSec && createPortal(
+        <>
+          <div className="nv-perde-arka" onClick={() => setDurakSec(false)} />
+          <div className="nv-sayfa" role="dialog" aria-label="Hat, durak ya da seviye seç">
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: S.md }}>
+              <span style={{ fontFamily: T.hat, fontSize: 24, fontWeight: 800 }}>Nereden çalışalım?</span>
+              <button onClick={() => setDurakSec(false)} className="nv-oturum-cik" aria-label="Kapat"><X size={20} /></button>
+            </div>
+            <div style={{ fontSize: 15, fontWeight: 750, color: C.murekkepAlt, marginBottom: 8 }}>Seviyeye göre</div>
+            <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: S.lg }}>
+              {["B1", "B2", "C1", "C2"].map((l) => <button key={l} className="nv-durak-cip" style={{ "--r": SEVIYE_RENK[l] }} onClick={() => { setKapsam({ tur: "seviye", id: l }); setDurakSec(false); }}>{l}</button>)}
+            </div>
             {HATLAR.map((h) => (
-              <div key={h.id} style={{ display: "flex", flexWrap: "wrap", gap: 6, alignItems: "center" }}>
-                <span style={{ width: 26, height: 26, borderRadius: 99, background: h.renk, color: h.murekkep || "#fff", display: "inline-flex", alignItems: "center", justifyContent: "center", fontWeight: 800, fontSize: 13 }}>{h.no}</span>
-                {h.duraklar.map(([id, ad]) => {
-                  const et = kapsam.tur === "durak" && kapsam.id === id;
-                  return <button key={id} onClick={() => setKapsam({ tur: "durak", id })}
-                    style={{ padding: "5px 11px", borderRadius: 99, fontSize: 14, cursor: "pointer", fontWeight: et ? 800 : 500,
-                      border: `1.5px solid ${et ? h.renk : C.cizgi}`, background: et ? h.acik : C.muhre, color: C.murekkep }}>{ad}</button>;
-                })}
+              <div key={h.id} style={{ marginBottom: S.lg }}>
+                <button onClick={() => { setKapsam({ tur: "hat", id: h.id }); setDurakSec(false); }} style={{ display: "flex", alignItems: "center", gap: 10, border: "none", background: "transparent", cursor: "pointer", padding: "4px 0", color: C.murekkep }}>
+                  <span style={{ width: 32, height: 32, borderRadius: 99, background: h.renk, color: h.murekkep || "#fff", display: "flex", alignItems: "center", justifyContent: "center", fontWeight: 800 }}>{h.no}</span>
+                  <span style={{ fontFamily: T.hat, fontSize: 19, fontWeight: 780 }}>{h.ad}</span>
+                  <span style={{ fontSize: 14, color: C.murekkepSis }}>bütün hat</span>
+                </button>
+                <div style={{ display: "flex", flexWrap: "wrap", gap: 7, marginTop: 8 }}>
+                  {h.duraklar.map(([id, ad]) => <button key={id} className={`nv-durak-cip${kapsam.tur === "durak" && kapsam.id === id ? " et" : ""}`} style={{ "--r": h.renk }}
+                    onClick={() => { setKapsam({ tur: "durak", id }); setDurakSec(false); }}>{ad}</button>)}
+                </div>
               </div>
             ))}
           </div>
-        )}
-      </Levha>
+        </>, document.body
+      )}
 
       {coz.kelimeler.length === 0 ? (
         <Bos baslik={kapsam.tur === "vadesi" ? "Bugün tekrarı gelen kelime yok" : "Bu kapsam boş"}
@@ -449,7 +465,7 @@ export function Dagarcik({ dag, kelimeKaydet, rekorlar, rekorKaydet, hataEkle, o
     if (acilis.kapsam) setKapsam(acilis.kapsam);
     setYol(acilis.yol || null);
   }, [acilis]);
-  useEffect(() => { if (yol) baslangic.current = Date.now(); odak && odak(!!yol); }, [yol]);
+  useEffect(() => { if (yol) baslangic.current = Date.now(); odak && odak(!!yol); window.scrollTo({ top: 0 }); }, [yol]);
   useEffect(() => () => { odak && odak(false); }, []);
 
   const coz = useMemo(() => kapsamCoz(kapsam, dag), [kapsam, yol ? null : dag]);
@@ -463,12 +479,13 @@ export function Dagarcik({ dag, kelimeKaydet, rekorlar, rekorKaydet, hataEkle, o
   if (yol && (coz.kelimeler.length || (YOL_BUL[yol] && YOL_BUL[yol].bagimsiz))) {
     const ortak = { kelimeler: coz.kelimeler, dag, kaydet: kelimeKaydet, cik, hataEkle, enIyi: rekorlar[yol], rekorKaydet: (v) => rekorKaydet(yol, v) };
     return (
-      <div className="nv-gir" style={{ maxWidth: 780, margin: "0 auto" }}>
-        <div style={{ display: "flex", gap: 8, alignItems: "center", marginBottom: S.sm, flexWrap: "wrap" }}>
-          <Nisan renk={coz.renk} zemin={coz.renk + "18"}>{coz.ad}</Nisan>
-          {!(YOL_BUL[yol] && YOL_BUL[yol].bagimsiz) && <span style={{ ...T.xs, color: C.murekkepSis }}>{coz.kelimeler.length} kelimelik havuz</span>}
+      <div className="nv-odak" style={{ "--r": coz.renk }}>
+        <div className="nv-gir" style={{ maxWidth: 800, margin: "0 auto" }}>
+          {yolEkrani(yol, ortak)}
+          <div style={{ textAlign: "center", marginTop: S.xl, fontSize: 14.5, color: C.murekkepSis }}>
+            {coz.ad}{!(YOL_BUL[yol] && YOL_BUL[yol].bagimsiz) ? `, ${coz.kelimeler.length} kelimelik havuz` : ""}
+          </div>
         </div>
-        {yolEkrani(yol, ortak)}
       </div>
     );
   }

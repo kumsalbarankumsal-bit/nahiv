@@ -55,7 +55,7 @@ const STIL = `${YAZI_TIPLERI}
 @keyframes nvPuan{0%{opacity:0;transform:translateY(8px) scale(.8)}15%{opacity:1;transform:translateY(0) scale(1.08)}80%{opacity:1}100%{opacity:0;transform:translateY(-22px)}}
 @keyframes nvTahta{from{transform:rotateX(-88deg);opacity:0}to{transform:none;opacity:1}}
 .nv-vapur{animation:nvYuzer 46s linear infinite}
-.nv-gir{animation:nvGir .38s cubic-bezier(.2,.8,.25,1) both}
+.nv-gir{animation:nvGir .38s cubic-bezier(.2,.8,.25,1) backwards}
 .nv-vapurcuk{animation:nvSalla 2.4s ease-in-out infinite}
 .n-secenek{transition:transform .14s,border-color .14s,box-shadow .14s}
 .n-secenek:hover{transform:translateY(-2px);border-color:${C.cetvel}!important;box-shadow:0 8px 16px -10px rgba(15,27,51,.4)}
@@ -163,6 +163,49 @@ body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opa
 .nv-baglanti{padding:11px 18px;min-height:44px;border-radius:99px;border:1px solid rgba(15,27,51,.12);background:#fff;color:${C.murekkep};font-size:15px;font-weight:700;cursor:pointer;transition:transform .2s,box-shadow .2s}
 .nv-baglanti:hover{transform:translateY(-2px);box-shadow:0 10px 20px -12px rgba(15,27,51,.5)}
 @media (max-width:899px){.nv-kapi{min-height:300px}.nv-ipucu{display:none}.nv-hero,.nv-hero > div{border-radius:26px!important}}
+
+/* ── 4.4 çalışma ekranı, sonuç, adımlar, kapsam ── */
+.nv-odak{position:relative;margin:-24px -24px 0;padding:28px 24px 48px;min-height:calc(100vh - 76px);background:radial-gradient(1100px 520px at 50% -12%,color-mix(in srgb,var(--r) 26%,transparent),transparent 72%)}
+@media (max-width:899px){.nv-odak{margin:-24px -12px 0;padding:18px 12px 40px}}
+.nv-oturum{display:flex;align-items:center;gap:14px;margin-bottom:24px}
+.nv-oturum-cik{flex-shrink:0;width:46px;height:46px;border-radius:99px;border:1px solid rgba(15,27,51,.12);background:#fff;color:${C.murekkep};cursor:pointer;display:flex;align-items:center;justify-content:center;transition:transform .2s,background .2s}
+.nv-oturum-cik:hover{transform:rotate(90deg);background:${C.lalSis};color:${C.lal}}
+.nv-ilerleme{height:14px;border-radius:99px;background:rgba(15,27,51,.08);overflow:hidden}
+.nv-ilerleme span{position:relative;display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,color-mix(in srgb,var(--r,#1B4FCF) 60%,#fff),var(--r,#1B4FCF));transition:width .7s cubic-bezier(.3,1.35,.4,1)}
+.nv-ilerleme span::after{content:"";position:absolute;left:8px;right:8px;top:3px;height:3px;border-radius:3px;background:rgba(255,255,255,.5)}
+.nv-oturum-cip{flex-shrink:0;display:inline-flex;align-items:center;gap:6px;padding:9px 14px;border-radius:99px;background:#fff;border:1px solid rgba(15,27,51,.1);font-weight:800;font-size:15.5px;color:${C.murekkepAlt}}
+.nv-oturum-cip.dogru{color:${C.zumrut};background:${C.zumSis};border-color:transparent;animation:nvZil .45s cubic-bezier(.3,1.5,.5,1)}
+.nv-oturum-cip.acil{color:${C.lal};background:${C.lalSis};border-color:transparent;animation:nvZil .45s}
+.nv-sonuc{text-align:center;border-radius:32px;padding:28px 24px 30px;background:radial-gradient(600px 300px at 50% 0%,color-mix(in srgb,var(--r) 22%,#fff),#fff 70%);border:1px solid ${C.cizgi};box-shadow:0 30px 60px -40px rgba(15,27,51,.6);animation:nvKapiGir .7s cubic-bezier(.2,.9,.2,1) both}
+.nv-yildizlar{display:flex;justify-content:center;align-items:flex-end;gap:10px;height:60px}
+.nv-yildizlar svg{color:rgba(15,27,51,.14);fill:rgba(15,27,51,.08)}
+.nv-yildizlar svg.dolu{color:#E89B00;fill:#FFC93C;animation:nvYildizPat .6s cubic-bezier(.3,1.8,.5,1) both;filter:drop-shadow(0 6px 10px rgba(232,155,0,.45))}
+@keyframes nvYildizPat{0%{transform:scale(0) rotate(-40deg);opacity:0}100%{transform:none;opacity:1}}
+.nv-sonuc-soz{animation:nvKelGir .7s .5s cubic-bezier(.2,.9,.2,1) both}
+.nv-zor{display:flex;flex-direction:column;gap:2px;padding:12px 14px;border-radius:16px;background:${C.kagitAlt};border:1px solid ${C.cizgi};animation:nvKelGir .5s cubic-bezier(.2,.9,.2,1) both}
+.nv-adimlar{display:grid;gap:12px}
+.nv-adim{display:flex;align-items:center;gap:16px;padding:18px 20px;min-height:84px;border-radius:24px;border:1px solid ${C.cizgi};background:#fff;cursor:pointer;color:${C.murekkep};
+  box-shadow:0 18px 32px -28px rgba(15,27,51,.55);transition:transform .25s cubic-bezier(.3,1.4,.5,1),box-shadow .25s,border-color .25s;animation:nvKelGir .6s cubic-bezier(.2,.9,.2,1) both}
+.nv-adim:hover{transform:translateX(6px);border-color:var(--r);box-shadow:0 22px 36px -24px color-mix(in srgb,var(--r) 70%,transparent)}
+.nv-adim-no{flex-shrink:0;width:48px;height:48px;border-radius:16px;background:var(--r);color:#fff;display:flex;align-items:center;justify-content:center;font-family:${T.hat};font-weight:800;font-size:22px}
+.nv-adim-ok{flex-shrink:0;width:42px;height:42px;border-radius:99px;background:color-mix(in srgb,var(--r) 14%,#fff);color:var(--r);display:flex;align-items:center;justify-content:center;padding-left:2px;transition:transform .25s}
+.nv-adim:hover .nv-adim-ok{transform:scale(1.12)}
+.nv-kapsamlar{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(190px,46%),1fr));gap:12px}
+.nv-kapsam{text-align:left;padding:18px;min-height:132px;border-radius:24px;border:2px solid ${C.cizgi};background:#fff;color:${C.murekkep};cursor:pointer;transition:transform .25s cubic-bezier(.3,1.4,.5,1),background .25s,border-color .25s,color .25s;animation:nvKelGir .55s cubic-bezier(.2,.9,.2,1) both}
+.nv-kapsam:hover{transform:translateY(-3px);border-color:var(--r)}
+.nv-kapsam.et{background:var(--r);border-color:var(--r);color:#fff;box-shadow:0 20px 34px -22px var(--r)}
+.nv-kapsam-ikon{width:44px;height:44px;border-radius:14px;display:flex;align-items:center;justify-content:center;background:color-mix(in srgb,var(--r) 14%,#fff);color:var(--r);transition:background .25s,color .25s}
+.nv-kapsam.et .nv-kapsam-ikon{background:rgba(255,255,255,.22);color:#fff}
+.nv-kapsam-sec{display:inline-flex;align-items:center;gap:8px;padding:11px 18px;min-height:46px;border-radius:99px;border:2px solid ${C.cizgi};background:#fff;color:${C.murekkep};font-size:15.5px;font-weight:750;cursor:pointer;transition:border-color .2s,background .2s,color .2s}
+.nv-kapsam-sec:hover{border-color:${C.cetvel}}
+.nv-kapsam-sec.et{background:var(--r);border-color:var(--r);color:#fff}
+.nv-perde-arka{position:fixed;inset:0;z-index:80;background:rgba(11,22,48,.42);backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px);animation:nvSoluk .25s ease both}
+@keyframes nvSoluk{from{opacity:0}}
+.nv-sayfa{font-family:${T.govde};color:${C.murekkep};position:fixed;left:50%;bottom:0;transform:translateX(-50%);width:min(780px,100%);max-height:84vh;overflow:auto;background:#fff;border-radius:30px 30px 0 0;padding:24px 24px 40px;z-index:81;box-shadow:0 -30px 60px -30px rgba(11,22,48,.5);animation:nvYukari .5s cubic-bezier(.2,.95,.2,1) both}
+@keyframes nvYukari{from{transform:translate(-50%,100%)}to{transform:translate(-50%,0)}}
+.nv-durak-cip{padding:9px 15px;min-height:42px;border-radius:99px;border:1.5px solid color-mix(in srgb,var(--r) 35%,#fff);background:color-mix(in srgb,var(--r) 8%,#fff);color:${C.murekkep};font-size:15px;font-weight:650;cursor:pointer;transition:background .2s,color .2s,transform .2s}
+.nv-durak-cip:hover{transform:translateY(-2px)}
+.nv-durak-cip.et,.nv-durak-cip:active{background:var(--r);color:#fff}
 *{-webkit-tap-highlight-color:transparent;box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;background:${C.kagit}}
@@ -544,7 +587,7 @@ export default function Nahiv() {
             <svg width="38" height="38" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="12" fill={C.murekkep} /><path d="M8 26 C 14 20, 18 20, 20 24 S 27 29, 32 22" stroke={C.safran} strokeWidth="3.2" fill="none" strokeLinecap="round" /><path d="M12 15 h16" stroke="#fff" strokeWidth="3.2" strokeLinecap="round" /><circle cx="20" cy="15" r="3.6" fill="#fff" /></svg>
             <span>NAHİV</span>
           </button>
-          {!dar && <Kaydirmali tur="ust" etkin={grup.id} sec={(id) => setSekme(GRUPLAR.find((g) => g.id === id).sekmeler[0][0])}
+          {!dar && !odakta && <Kaydirmali tur="ust" etkin={grup.id} sec={(id) => setSekme(GRUPLAR.find((g) => g.id === id).sekmeler[0][0])}
             ogeler={GRUPLAR.map((g) => ({ id: g.id, ad: g.ad, Ikon: g.ikon }))} />}
           <span style={{ flex: 1 }} />
           <button onClick={() => setOlcek((o) => (o >= 1.25 ? 0.95 : Math.round((o + 0.1) * 100) / 100))} className="nv-yuvarlak" aria-label="Yazı boyunu değiştir" title={`Yazı boyu %${Math.round(olcek * 100)}`}>
@@ -592,7 +635,7 @@ export default function Nahiv() {
       )}
 
       {kutlama && (
-        <div className="nv-gir" role="status" style={{ position: "fixed", left: "50%", top: 84, transform: "translateX(-50%)", zIndex: 60, background: C.gece, color: "#fff", borderRadius: 22, padding: "16px 24px", boxShadow: "0 24px 44px -18px rgba(11,22,48,.8)", textAlign: "center", width: "min(92vw, 380px)" }}>
+        <div className="nv-gir" role="status" style={{ position: "fixed", left: 0, right: 0, margin: "0 auto", top: 84, zIndex: 60, background: C.gece, color: "#fff", borderRadius: 22, padding: "16px 24px", boxShadow: "0 24px 44px -18px rgba(11,22,48,.8)", textAlign: "center", width: "min(92vw, 380px)" }}>
           <div style={{ fontSize: 14.5, color: C.safran, fontWeight: 700 }}>Yeni iskeleye yanaştın</div>
           <div style={{ fontFamily: T.hat, fontSize: 30, fontWeight: 800, letterSpacing: "-0.02em" }}>{kutlama.no}. {kutlama.ad}</div>
         </div>
