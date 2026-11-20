@@ -4,7 +4,7 @@
    cekirdek.jsx içindedir; yeni bölümler kendi dosyalarında durur.
    ══════════════════════════════════════════════════════════════════════ */
 import React, { useState, useEffect, useLayoutEffect, useMemo, useCallback, useRef } from "react";
-import { Home, Library, GraduationCap, Waypoints, Feather, Flame, Command, ChevronRight, Anchor, RotateCcw, Volume2, Minus, Plus, Play, Type } from "lucide-react";
+import { Home, Library, GraduationCap, Waypoints, Feather, Flame, Command, ChevronRight, Anchor, RotateCcw, Volume2, Minus, Plus, Play, Type, Clapperboard } from "lucide-react";
 import {
   C, T, S, K, YAZI_TIPLERI, sGet, sSet, depoSagligi, eskiSurumTara, veriYaz, paketOzeti, gunlukYedek, bugun, yeniId, norm, trTarih, gunEkle, YolDevinim, YOL_OBEK,
   ustalikGuncelle, kelimeGuncelle, dugum, TANI, DUGUMLER, HATLAR, DURAK_META, KELIMELER, zayifDugumler, aileKisa, bekleyenTekrarlar,
@@ -16,11 +16,13 @@ import { Dagarcik, TUM_YOLLAR, YOL_BUL } from "./dagarcik2.jsx";
 import { MetinTurleri, Paper1, Paper2, IO } from "./sinav.jsx";
 import { OrnekCumle } from "./yollar2.jsx";
 import { Bogaz, gokRengi } from "./sahne.jsx";
+import { Akis } from "./akis.jsx";
 import { puanUcur, Acilis, gecis } from "./hareket.jsx";
 import { seviyeHesap, puanEkle, bugunPuan, seriGun, sonGunler, BOS_OYUN, ISKELELER } from "./oyun.js";
 
 const GRUPLAR = [
   { id: "ana", ad: "Bugün", ikon: Home, sekmeler: [["bugun", "Bugün"], ["seyir", "Seyir defteri"], ["sandik", "Sandık"]] },
+  { id: "akis", ad: "Akış", ikon: Clapperboard, sekmeler: [["akis", "Akış"]] },
   { id: "kelime", ad: "Kelime", ikon: Library, sekmeler: [["dagarcik", "Dağarcık"]] },
   { id: "sinav", ad: "Sınav", ikon: GraduationCap, sekmeler: [["turler", "Metin türleri"], ["p1", "Paper 1"], ["p2", "Paper 2"], ["io", "Sözlü (IO)"]] },
   { id: "gramer", ad: "Gramer", ikon: Waypoints, sekmeler: [["divan", "Plan"], ["talim", "Talimhane"], ["sokrates", "Sokrates"], ["harita", "Takımyıldız"], ["defter", "Hata defteri"]] },
@@ -206,6 +208,18 @@ body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opa
 .nv-durak-cip{padding:9px 15px;min-height:42px;border-radius:99px;border:1.5px solid color-mix(in srgb,var(--r) 35%,#fff);background:color-mix(in srgb,var(--r) 8%,#fff);color:${C.murekkep};font-size:15px;font-weight:650;cursor:pointer;transition:background .2s,color .2s,transform .2s}
 .nv-durak-cip:hover{transform:translateY(-2px)}
 .nv-durak-cip.et,.nv-durak-cip:active{background:var(--r);color:#fff}
+
+/* ── 4.5 akış girişi ── */
+.nv-akis-dugme{display:flex;align-items:center;gap:12px;padding:10px 22px 10px 10px;min-height:72px;border-radius:99px;border:1px solid rgba(255,255,255,.28);cursor:pointer;color:#fff;text-shadow:none;
+  background:linear-gradient(120deg,rgba(226,48,126,.85),rgba(106,59,214,.85));box-shadow:0 18px 36px -14px rgba(106,59,214,.8);transition:transform .25s cubic-bezier(.3,1.5,.5,1)}
+.nv-akis-dugme:hover{transform:translateY(-3px) scale(1.02)}
+.nv-akis-dugme:active{transform:scale(.97)}
+.nv-akis-ikon{width:50px;height:50px;border-radius:99px;background:rgba(255,255,255,.2);display:flex;align-items:center;justify-content:center;animation:nvAkisIkon 2.6s ease-in-out infinite}
+@keyframes nvAkisIkon{0%,100%{transform:rotate(0)}10%{transform:rotate(-12deg)}20%{transform:rotate(10deg)}30%{transform:rotate(0)}}
+.nv-kay button[data-id="akis"] svg{color:#E2307E}
+.nv-kay-ust button[data-id="akis"].et svg,.nv-kay-taban button[data-id="akis"].et svg{color:#E2307E}
+.nv-kay-taban button[data-id="akis"] svg{color:#FF7AB6}
+@media (max-width:480px){.nv-akis-dugme{min-height:60px;padding:7px 16px 7px 7px;gap:10px}.nv-akis-ikon{width:44px;height:44px}.nv-akis-dugme>span:last-child>span:last-child{display:none!important}.nv-hedef br,.nv-hedef>span>span:last-child{display:none!important}.nv-hedef{padding:4px 14px 4px 4px;gap:8px}.nv-hedef svg{width:50px;height:50px}.nv-sefer{min-height:64px}}
 *{-webkit-tap-highlight-color:transparent;box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;background:${C.kagit}}
@@ -348,6 +362,13 @@ function AnaSayfa({ profil, oyun, dag, ustalik, sinav, git, kelimeAc, puanVer })
                   <span style={{ display: "block", fontSize: 14.5, opacity: .75, marginTop: 1 }}>{vadesi ? `${vadesi} kelime tekrar bekliyor` : sira ? `${DURAK_META[sira.id].ad} durağından ${yeniSay} yeni kelime` : "Yeni kelimelerle tanış"}</span>
                 </span>
               </button>
+              <button onClick={() => git("akis")} className="nv-akis-dugme" aria-label="Akışa dal">
+                <span className="nv-akis-ikon"><Clapperboard size={22} /></span>
+                <span style={{ textAlign: "left" }}>
+                  <span style={{ display: "block", fontFamily: T.hat, fontSize: 19, fontWeight: 800 }}>Akışa dal</span>
+                  <span style={{ display: "block", fontSize: 13.5, opacity: .8 }}>kaydır, öğren</span>
+                </span>
+              </button>
               <div className="nv-hedef" title={`${bp} / ${hedef} puan`}>
                 <svg width="64" height="64" viewBox="0 0 64 64">
                   <circle cx="32" cy="32" r="26" fill="none" stroke="rgba(255,255,255,.22)" strokeWidth="7" />
@@ -450,8 +471,10 @@ export default function Nahiv() {
   const [kutlama, setKutlama] = useState(null);
   const [olcek, setOlcek] = useState(() => { try { return parseFloat(localStorage.getItem("nahiv:olcek")) || 1; } catch { return 1; } });
 
+  const oncekiSekme = useRef("bugun");
   const setSekme = useCallback((id) => {
     const es = { dagarcik: "dagarcik", talim: "talim", ana: "bugun" }[id] || id;
+    if (es === "akis") { setSekmeHam((e) => { if (e !== "akis") oncekiSekme.current = e; return "akis"; }); return; }
     gecis(() => { setSekmeHam(es); setOdakta(false); setTur((t) => t + 1); window.scrollTo({ top: 0 }); });
   }, []);
   useEffect(() => { const f = () => setDar(window.innerWidth < 900); f(); window.addEventListener("resize", f); return () => window.removeEventListener("resize", f); }, []);
@@ -609,7 +632,7 @@ export default function Nahiv() {
 
       <main style={{ maxWidth: sekme === "bugun" ? 1240 : genis ? 1180 : 940, margin: "0 auto", padding: `${sekme === "bugun" ? (dar ? 10 : 16) : S.lg}px ${dar ? 12 : S.lg}px ${dar ? 120 : S.xxxl}px` }}>
         <div key={sekme + ":" + tur} className="nv-gir">
-          {sekme === "bugun" && <AnaSayfa puanVer={puanVer} profil={profil} oyun={oyun} hedefDegis={hedefDegis} dag={dag} hatalar={hatalar} ustalik={ustalik} sinav={sinav} git={setSekme} kelimeAc={kelimeAc} />}
+          {(sekme === "bugun" || (sekme === "akis" && oncekiSekme.current === "bugun")) && <AnaSayfa puanVer={puanVer} profil={profil} oyun={oyun} hedefDegis={hedefDegis} dag={dag} hatalar={hatalar} ustalik={ustalik} sinav={sinav} git={setSekme} kelimeAc={kelimeAc} />}
           {sekme === "dagarcik" && <Dagarcik dag={dag} kelimeKaydet={kelimeKaydet} rekorlar={rekorlar} rekorKaydet={rekorKaydet} hataEkle={hataEkle} oturumBitir={oturumBitir} acilis={kelimeAcilis} odak={setOdakta} />}
           {sekme === "turler" && <MetinTurleri puanVer={puanVer} />}
           {sekme === "p1" && <Paper1 sinav={sinav} sinavKaydet={sinavKaydet} puanVer={puanVer} git={setSekme} />}
@@ -641,6 +664,8 @@ export default function Nahiv() {
         </div>
       )}
       {palet && <KomutPaleti kapat={() => setPalet(false)} komutlar={komutlar} />}
+      {sekme === "akis" && <Akis dag={dag} oyun={oyun} kelimeKaydet={kelimeKaydet} ustalikKaydet={ustalikKaydet} hataEkle={hataEkle} puanVer={puanVer}
+        kapat={() => { setSekmeHam(oncekiSekme.current || "bugun"); setTur((t) => t + 1); }} />}
     </div>
   );
 }

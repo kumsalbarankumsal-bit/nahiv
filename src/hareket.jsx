@@ -17,10 +17,22 @@ export function cin(dogru = true) {
   } catch { /* ses yok */ }
 }
 
+/* Kart yerine oturunca çok kısık bir tık */
+export function tik() {
+  try {
+    if (localStorage.getItem("nahiv:ses") === "0") return;
+    ses = ses || new (window.AudioContext || window.webkitAudioContext)();
+    const t = ses.currentTime, o = ses.createOscillator(), g = ses.createGain();
+    o.type = "sine"; o.frequency.setValueAtTime(1500, t); o.frequency.exponentialRampToValueAtTime(700, t + 0.04);
+    g.gain.setValueAtTime(0.0001, t); g.gain.exponentialRampToValueAtTime(0.03, t + 0.004); g.gain.exponentialRampToValueAtTime(0.0001, t + 0.06);
+    o.connect(g); g.connect(ses.destination); o.start(t); o.stop(t + 0.07);
+  } catch { /* ses yok */ }
+}
+
 /* Son dokunulan noktadan üst çubuktaki puan halkasına uçan damlalar */
 export function puanUcur(n) {
   if (azHareket() || typeof document === "undefined") return;
-  const hedef = document.getElementById("nv-puan-hedef"); if (!hedef) return;
+  const hedef = [document.getElementById("nv-puan-hedef-akis"), document.getElementById("nv-puan-hedef")].find((e) => e && e.getBoundingClientRect().width > 0); if (!hedef) return;
   const h = hedef.getBoundingClientRect(), hx = h.left + 22, hy = h.top + h.height / 2;
   const b = sonNokta && Date.now() - sonNokta.t < 2500 ? sonNokta : { x: window.innerWidth / 2, y: window.innerHeight * .6 };
   const adet = Math.max(3, Math.min(9, Math.round(n / 2)));
